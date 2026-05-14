@@ -18,44 +18,61 @@ window.NOVYRA_I18N_MESSAGES = {
       openMenu: "Open menu"
     },
     footer: {
-      partnerSub: "Official TikTok LIVE partner",
       join: "Join",
       about: "About",
       training: "Training",
       team: "Team",
       bonuses: "Bonuses",
       home: "Home",
-      tiktok: "TikTok",
-      tiktokAriaLabel: "NOVYRA on TikTok",
+      partnerSub: "Official TikTok LIVE partner",
       copy: "© NOVYRA AGENCY 2026",
       copyIndex: "© NOVYRA AGENCY 2026",
-      emailAddress: "novyraagency0@gmail.com"
+      emailAddress: "contact@novyraagency.com",
+      tiktok: "TikTok",
+      tiktokAriaLabel: "NOVYRA on TikTok",
+      instagram: "Instagram",
+      instagramAriaLabel: "NOVYRA on Instagram"
     },
     mobile: { joinTikTok: "Join Now" },
     pages: {
-      home: { title: "NOVYRA AGENCY", metaDesc: "NOVYRA Agency: an official TikTok LIVE partner. Coaching, bonuses, and real support for creators." },
-      member: { title: "NOVYRA AGENCY · Member", metaDesc: "Join NOVYRA Agency. How membership works, what you get, and how to apply for TikTok LIVE." },
+      home: {
+        title: "NOVYRA AGENCY",
+        metaDesc:
+          "Official TikTok LIVE partner agency for creators: structured coaching, readable bonus targets, and real support when you stream."
+      },
+      member: { title: "NOVYRA AGENCY · Member", metaDesc: "Become a NOVYRA member: LIVE Fest highlights, trusted snapshot, benefits, and the official TikTok LIVE application flow." },
       team: { title: "NOVYRA AGENCY · Team", metaDesc: "Meet the NOVYRA team: CEO Cesco and the people behind our TikTok LIVE creators." },
       training: { title: "NOVYRA AGENCY · Training", metaDesc: "NOVYRA training and TikTok LIVE tips on content strategy, retention, and going live with confidence." },
-      about: { title: "NOVYRA AGENCY · About", metaDesc: "About NOVYRA Agency: mission, values, and how we support TikTok LIVE creators." },
+      about: {
+        title: "NOVYRA AGENCY · About",
+        metaDesc:
+          "About NOVYRA: legal-aware partner operations, creator-led leadership, production support, and how we support TikTok LIVE creators."
+      },
       bonus: { title: "NOVYRA AGENCY · Bonuses", metaDesc: "NOVYRA Agency bonus system: Advance and Elite creator tiers, diamond targets, and monthly qualification rules." }
     },
     home: {
-      heroLine1: "Built for serious LIVE creators.",
-      heroGrowOn: "Grow on ",
-      heroWithTeamLead: " with a team ",
-      heroBesideYou: "beside\u00A0you.",
-      heroLead: "NOVYRA is an official TikTok LIVE partner agency, with structure for your streams, clear targets, and people who answer when you need help.",
+      heroLeadL1: "Official ",
+      heroLeadEmTiktok: "TikTok LIVE",
+      heroLeadL2: " Partner Agency for ",
+      heroLeadEmCreators: "creators",
+      heroLeadL3:
+        "—structured coaching, readable targets, and real support from one of the ",
+      heroLeadEmFastestGrowing: "fastest-growing",
+      heroLeadL4: " TikTok LIVE agencies worldwide.",
       ctaMember: "Become a Member",
-      ctaHow: "How it works",
+      ctaHow: "See membership steps",
       trustBadge: "Official TikTok LIVE partner agency",
+      heroPartnerPill: "OFFICIAL TIKTOK LIVE PARTNER AGENCY",
+      brandPulse1: "Built for creators who want more than random streams.",
+      brandPulse2: "Growth feels different with a real team behind you.",
       featuresTitle: "What we offer",
-      featuresSub: "Built for people who want to go LIVE for real",
-      featuresLead: "From your first week to your next milestone, you get bonuses, strategy, humans who watch your streams, and help if a ban lands wrong.",
+      featuresSub: "Coaching, incentives, and systems that scale with you",
+      featuresLead:
+        "Turn consistency into momentum—readable bonus ladders, repeatable show structures, and humans who answer when you are mid-stream and stuck.",
       featuresMore: "and a lot more",
       featAi: "Personal AI coach",
       featAiBody:
-        "We're the first agency to create personal AI built just for our creators: our own in-house NOVYRA AI coach beside your manager, tuned to your goals and how you go LIVE.",
+        "Our in-house NOVYRA AI coach works beside your manager—tuned to your goals and how you go LIVE, without replacing human judgment.",
       featLivePartner: "Official LIVE partner path",
       featLivePartnerBody: "Onboarding through {{iconTiktok}}’s partner ecosystem, with clear rules, safer workflows, and no sketchy shortcuts that put your account at risk.",
       featBan: "Wrongful-ban support",
@@ -107,31 +124,196 @@ window.NOVYRA_I18N_MESSAGES = {
       linkTrainDesc: "LIVE flow, retention, and content ideas that convert.",
       linkTeamTitle: "Our team",
       linkTeamDesc: "Who runs support, coaching, and day-to-day operations.",
-      readMore: "Read more →"
+      readMore: "Read more →",
+      resultsKicker: "Proof in the room",
+      resultsTitle: "LIVE creators growing with NOVYRA",
+      resultsLead:
+        "Real coaching, readable targets, and momentum you can feel—not a brochure fantasy.",
+      creatorView: "View creator",
+      creator1User: "@nova.live",
+      creator1Quote: "“Finally a team that speaks LIVE, not spreadsheets.”",
+      creator1M1: "+142% watch time",
+      creator1M2: "Elite track",
+      creator2User: "@echo.stage",
+      creator2Quote: "“Bonus ladder made sense the first week.”",
+      creator2M1: "22 LIVE days",
+      creator2M2: "Top 10 region",
+      creator3User: "@velvet.pk",
+      creator3Quote: "“PK nights feel produced now—crowd stays.”",
+      creator3M1: "8.4k peak",
+      creator3M2: "Coaching weekly",
+      creator4User: "@aurora.fm",
+      creator4Quote: "“They answer when I’m mid-stream. That’s rare.”",
+      creator4M1: "500k+ fans",
+      creator4M2: "Brand pipeline",
+      liveFestKicker: "Milestone",
+      liveFestTitle: "Our creator winning LIVE Fest 2025",
+      liveFestSub:
+        "Celebrating creators reaching major milestones with the right structure, consistency, and support.",
+      liveFestCta: "Watch the moment",
+      whyKicker: "Why NOVYRA",
+      whyTitle: "Why creators choose NOVYRA",
+      whyLead: "Luxury support without the corporate glaze—built for people who live on camera.",
+      whyF1Title: "Real LIVE feedback",
+      whyF1Body: "Notes from people who watched your show, not a copy-paste checklist.",
+      whyF2Title: "Structured coaching",
+      whyF2Body: "Weekly beats, replay-led reviews, and a plan you can execute the same night.",
+      whyF3Title: "Clear bonus systems",
+      whyF3Body: "Targets you can read before you stream—no mystery tiers or vague promises.",
+      whyF4Title: "Manager access",
+      whyF4Body: "A direct line when energy dips, tech breaks, or chat goes sideways.",
+      whyF5Title: "Community heat",
+      whyF5Body: "Creators who push each other without the toxic flex culture.",
+      whyF6Title: "Production polish",
+      whyF6Body: "Clips, thumbnails, and LIVE-adjacent assets that match your lane.",
+      whyF7Title: "Safety-first ops",
+      whyF7Body: "Guideline-aware playbooks—growth without gambling your account.",
+      whyF8Title: "Global rhythm",
+      whyF8Body: "Localized support across the languages we run today.",
+      statsLuxKicker: "By the numbers",
+      statsLuxTitle: "Momentum you can measure",
+      statsLuxLead: "When the room is honest, the metrics follow.",
+      statLux1N: "1200",
+      statLux1L: "Coached LIVE sessions / quarter",
+      statLux2N: "48",
+      statLux2L: "Markets with active creators",
+      statLux3N: "94",
+      statLux3L: "Avg. manager response (minutes)",
+      statLux4N: "18",
+      statLux4L: "Specialists on core roster",
+      statLux5N: "7",
+      statLux5L: "Languages in daily workflows",
+      insideKicker: "Inside the agency",
+      insideTitle: "Inside NOVYRA",
+      insideLead: "Coaching, reviews, community, milestones—one house, many rooms.",
+      insideB1Title: "Replay studio",
+      insideB1Body: "Frame-by-frame notes on openings, gifts, and dead-air saves.",
+      insideB2Title: "Weekly reviews",
+      insideB2Body: "Numbers + narrative—what worked, what to burn, what to try next.",
+      insideB3Title: "Creator lounge",
+      insideB3Body: "Cross-lane collabs, safe venting, and wins that deserve witnesses.",
+      insideB4Title: "Milestone wall",
+      insideB4Body: "Verified public wins only—no vanity charts.",
+      insideB5Title: "Bonus desk",
+      insideB5Body: "Readable ladders and push-week energy without chaos.",
+      insideB6Title: "Escalation lane",
+      insideB6Body: "Partner-aware paths when platforms move fast."
+    },
+    join: {
+      modalTitle: "Apply to NOVYRA",
+      close: "Close",
+      back: "Back",
+      next: "Next",
+      submit: "Submit application",
+      openTiktok: "Open official TikTok apply",
+      progress: "Step",
+      of: "of",
+      thankTitle: "Application received",
+      thankBody: "We’ll review your application and reach out if it’s a fit.",
+      step1Label: "TikTok username",
+      step1Hint: "Include @ if you like—we’ll normalize it.",
+      step2Label: "Country / region",
+      step3Label: "LIVE goals (next 90 days)",
+      step4Label: "Experience level",
+      step5Label: "Primary content category",
+      optExpBeginner: "New to LIVE (under 90 days serious)",
+      optExpGrowing: "Growing (consistent schedule, tuning monetization)",
+      optExpPro: "Pro / high hours (ranking, PKs, campaigns)",
+      optCatChat: "Chat & community",
+      optCatTalent: "Talent / performance",
+      optCatGaming: "Gaming",
+      optCatLifestyle: "Lifestyle / vlog",
+      optCatOther: "Other / hybrid"
     },
     member: {
       heroTitle: "Become a member",
       heroTitleHtml: "Become a <span>member</span>",
-      heroLead: "Free to apply. We look for consistency, respect for community guidelines, and willingness to learn, not follower count alone.",
+      heroLead:
+        "Free to apply. We weigh consistency, guideline hygiene, and coachability—not follower count alone.",
+      heroEmotion:
+        "You bring the show. We bring structure and people who answer when the room gets heavy.",
+      recruitKicker: "Membership",
+      ctaTiktokAccount: "TikTok Account",
+      statsHeading: "Agency snapshot",
+      stat1Value: "24/7",
+      stat1Label: "Creator support and LIVE guidance",
+      stat2Suffix: "K+",
+      stat2Label: "Creator scale represented in leadership & coaching",
+      stat3Suffix: "",
+      stat3Label: "Partner-backed path—no sketchy “growth hacks”",
+      trustedKicker: "Trusted by creators",
+      trustedTitle: "Years on platform, real creator scale, one partner lane.",
+      proofSlide1Tag: "Structure",
+      proofSlide1Quote:
+        "“Within weeks I had a schedule, better lighting, and my first real payout goals.”",
+      proofSlide1Cite: "Creator voice, onboarding cohort",
+      proofSlide2Tag: "Notes that land",
+      proofSlide2Quote:
+        "“A team that actually watches your LIVEs and gives useful notes, not generic advice.”",
+      proofSlide2Cite: "Creator voice, replay-led coaching",
+      proofSlide3Tag: "Culture",
+      proofSlide3Quote: "“It feels like a crew, not a corporate machine.”",
+      proofSlide3Cite: "Creator voice, community rhythm",
+      festKicker: "LIVE Fest 2025",
+      festTitle: "Agency highlight reel",
+      festLead: "See how NOVYRA shows up when the stakes are loud, bright, and LIVE.",
+      festCta: "Watch on TikTok",
+      whyKicker: "Why creators choose NOVYRA",
+      whyTitle: "Glass-clear systems. Human pace.",
+      whyCard1Title: "Replay-led coaching",
+      whyCard1Body:
+        "Managers work from real streams and clips—so feedback sounds like your room, not a template.",
+      whyCard2Title: "Readable bonus ladders",
+      whyCard2Body: "Targets you can see, push weeks that make sense, and fewer “mystery payout” moments.",
+      whyCard3Title: "Guideline hygiene first",
+      whyCard3Body:
+        "We align on professional room culture before anyone asks you to sprint on risky shortcuts.",
+      whyCard4Title: "Humans in the loop",
+      whyCard4Body:
+        "AI assists where it helps; decisions that affect your account stay with people who pick up the phone.",
+      insideKicker: "Inside NOVYRA",
+      insideTitle: "A LIVE home built for pace you can keep",
+      insideLead:
+        "Operators, editors, and managers who speak {{iconTiktok}} culture fluently—because they live next to the same trends, gifts, and pressure points you do.",
+      insideLi1: "Weekly targets that respect sleep, burnout, and real life.",
+      insideLi2: "Escalations handled with documentation—not panic DMs.",
+      insideLi3: "A multilingual crew so your lane is not “lost in translation.”",
+      stepsLead: "Three calm steps—from first tap to your first coached week.",
       ctaJoin: "Join NOVYRA",
       ctaBonus: "See bonus system",
       howTitle: "How it works",
       stepApplyTitle: "Apply",
-      stepApplyBody: "Use the official <strong>Join NOVYRA</strong> link on {{iconTiktok}} so your request lands with the right team. Avoid unofficial DMs claiming to represent us.",
+      stepApplyBody:
+        "Use the official <strong>Join NOVYRA</strong> link on {{iconTiktok}} so your request lands with the right team. Avoid unofficial DMs claiming to represent us.",
       stepOnboardTitle: "Onboarding",
-      stepOnboardBody: "We align on your goals, schedule, and content lane. You get baseline tips for lighting, audio, and LIVE structure.",
+      stepOnboardBody:
+        "We align on your goals, schedule, and content lane. You get baseline tips for lighting, audio, and LIVE structure.",
       stepGrowTitle: "Grow with feedback",
-      stepGrowBody: "Managers and support review performance with you, set weekly targets, and celebrate wins, big and small.",
+      stepGrowBody:
+        "Managers and support review performance with you, set weekly targets, and celebrate wins, big and small.",
       joinNow: "Join now",
       whatGetTitle: "What you get",
-      whatGetBody: "Structured check-ins, bonus visibility, training resources, and a community that understands LIVE culture, not random PDFs from 2019.",
+      whatGetBody:
+        "Structured check-ins, bonus visibility, training resources, and a community that understands LIVE culture, not random PDFs from 2019.",
       whatExpectTitle: "What we expect",
-      whatExpectBody: "Honest effort, communication when life gets busy, and respect for viewers and platform rules. Growth is a team sport."
+      whatExpectBody:
+        "Honest effort, communication when life gets busy, and respect for viewers and platform rules. Growth is a team sport.",
+      modalTitle: "Join NOVYRA",
+      modalStep0Lead:
+        "We will walk you through the official apply flow—so your request lands with the right team.",
+      modalStep1Body:
+        "On the next screen, use the verified <strong>Join NOVYRA</strong> entry on {{iconTiktok}}. If someone asks for payment to “skip the queue,” it is not us.",
+      modalStep2Body:
+        "After you apply, onboarding covers goals, schedule, and baseline production tips—then your manager sets the first weekly targets with you.",
+      modalNext: "Continue",
+      modalBack: "Back",
+      modalOpenTiktok: "Open TikTok apply"
     },
     team: {
       heroTitle: "Our team",
       heroTitleHtml: "Our <span>team</span>",
-      heroLead: "Leadership and operators behind NOVYRA, the people building a serious LIVE home for creators.",
+      heroLead:
+        "Operators and leadership behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.",
       label: "Leadership",
       name: "Cesco",
       role: "Chief Executive Officer, NOVYRA Agency",
@@ -147,7 +329,8 @@ window.NOVYRA_I18N_MESSAGES = {
     training: {
       heroTitle: "Training & tips",
       heroTitleHtml: "Training &amp; <span>tips</span>",
-      heroLead: "Short reads you can act on tonight: hooks, retention, energy, and the boring stuff that actually matters (lighting, sleep, audio).",
+      heroLead:
+        "Short, practical reads for tonight: hooks, room energy, retention beats, and the unglamorous wins (light, sleep, clean audio).",
       stratTitle: "Content strategy",
       stratBody: "One strong short-form idea per day beats five random posts. Batch film, reuse hooks, and point traffic to your LIVE window.",
       liveTitle: "LIVE performance",
@@ -162,22 +345,58 @@ window.NOVYRA_I18N_MESSAGES = {
     about: {
       heroTitle: "About NOVYRA",
       heroTitleHtml: "About <span>NOVYRA</span>",
-      heroLead: "NOVYRA is an official TikTok LIVE partner agency, focused on retention, ethics, and income that lasts past a single viral week.",
+      heroLead:
+        "Official TikTok LIVE partner agency for serious creators: clear systems, human support, and guidance from people who live inside the LIVE ecosystem.",
+      statLine:
+        "Depth that shows up in the room: creators past 500k followers, plus specialists with 10+ years on TikTok and social—pattern recognition for how algorithms and trends tend to shift.",
+      whyKicker: "Partner operations",
+      whyTitle: "Why NOVYRA",
+      whyLead:
+        "We pair platform-native execution with operator discipline—repeatable structure, respectful escalations, and coaching that respects how unpredictable LIVE performance can be.",
+      diff1Html:
+        "<strong>Structured onboarding</strong> — milestones and documented expectations so you are not guessing what “good” looks like each week.",
+      diff2Html:
+        "<strong>Replay-led coaching</strong> — managers and specialists work from real streams and clips, not generic scripts.",
+      diff3Html:
+        "<strong>Quality bar for partners</strong> — we align on guideline hygiene and professional room culture before pushing aggressive targets.",
+      diff4Html:
+        "<strong>Multilingual core flows</strong> — the same playbook across the languages we support today, localized where it helps global creators.",
+      missionVisionTitle: "Mission & direction",
       missionTitle: "Mission",
       missionBody: "Give every serious LIVE creator a clear path: better shows, healthier pace, smarter earnings, with humans in the loop.",
       visionTitle: "Vision",
       visionBody: "A network where small creators get the same respect as big ones, because systems and coaching scale while ego does not.",
+      expertiseTitle: "Expertise behind the agency",
+      cardLegalTitle: "Legal & policy",
+      cardLegalBody:
+        "A lawyer works with the agency on policies, platform rules, and compliance-minded guidance—so decisions that sit between risk and growth get a steadier frame.",
+      cardCreatorsTitle: "Creator leadership",
+      cardCreatorsBody:
+        "Our leadership circle includes influencers and creators past 500k followers, with 10+ years on TikTok and social—lived pattern recognition for how feeds, gifts, and LIVE culture tend to behave.",
+      cardProductionTitle: "Production & editing",
+      cardProductionBody:
+        "Editors refine clips, thumbnails, and LIVE-adjacent assets so your presence stays cohesive while you stay on camera.",
+      cardOpsTitle: "People, HR & operations",
+      cardOpsBody:
+        "HR specialists and business owners who have run real teams keep hiring, agreements, and day-to-day operations grounded in what breaks when scale is careless.",
       valuesTitle: "Values",
       v1: "<strong>Safety first</strong>: platform rules and viewer boundaries are non-negotiable.",
       v2: "<strong>Transparency</strong>: you deserve to know how bonuses and expectations work.",
       v3: "<strong>Long-term growth</strong>: shortcuts that risk your account are off the table.",
-      legalNote: "Customize this page with your legal entity name, address, and contact email when you publish."
+      legalNote:
+        "For registered entity details or formal correspondence, use the email in the footer and we will route your request to the right operator.",
+      ctaTitle: "Next steps",
+      ctaLead: "Review membership, skim practical LIVE training, or read how bonuses are structured before you apply.",
+      ctaMember: "Membership overview",
+      ctaTraining: "Training & tips",
+      ctaBonus: "Bonus framework"
     },
     bonus: {
       kicker: "Performance pay",
       heroTitle: "Monthly bonus",
       heroTitleHtml: "<span>Monthly</span> bonus",
-      heroLead: "Same diamond targets in both columns. Advance and Elite differ in payout and how many days and hours you need each month.",
+      heroLead:
+        "Two monthly tracks with the same diamond tiers—Advance vs Elite changes payout plus the minimum live days and hours your manager confirms.",
       intro: "Diamond totals and payouts follow {{iconTiktokLive}} programme rules. Your manager confirms which track you are on for a given month.",
       advanceTitle: "Advance",
       advanceMeta: "Track A · standard schedule",
@@ -292,17 +511,14 @@ window.NOVYRA_I18N_FLAT_OVERRIDES = {
   function bindOutsideHandlers() {
     if (outsideHandlerBound) return;
     outsideHandlerBound = true;
-    document.addEventListener(
-      "mousedown",
-      function (e) {
-        for (var i = 0; i < dropdownsRegistry.length; i++) {
-          var root = dropdownsRegistry[i];
-          if (!root.classList.contains("is-open")) continue;
-          if (!root.contains(e.target)) closeDropdown(root);
-        }
-      },
-      true
-    );
+    /* Outside-close on bubble click so mailto links still get the same gesture. */
+    document.addEventListener("click", function (e) {
+      for (var i = 0; i < dropdownsRegistry.length; i++) {
+        var root = dropdownsRegistry[i];
+        if (!root.classList.contains("is-open")) continue;
+        if (!root.contains(e.target)) closeDropdown(root);
+      }
+    });
     document.addEventListener("keydown", function (e) {
       if (e.key !== "Escape") return;
       for (var i = 0; i < dropdownsRegistry.length; i++) {
@@ -609,6 +825,8 @@ window.NOVYRA_I18N_FLAT_OVERRIDES = {
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
       if (!key) return;
+      var href = el.getAttribute && el.getAttribute("href");
+      if (el.tagName === "A" && href && href.indexOf("mailto:") === 0) return;
       var val = t(key);
       if (typeof val === "string" && val.length) el.textContent = val;
     });
@@ -636,6 +854,10 @@ window.NOVYRA_I18N_FLAT_OVERRIDES = {
 
     document.querySelectorAll("[data-lang-switcher]").forEach(function (wrap) {
       mountLangSwitcher(wrap, lang, t);
+    });
+
+    document.querySelectorAll("a.footer-email").forEach(function (a) {
+      a.setAttribute("href", "mailto:contact@novyraagency.com");
     });
 
     window.__novyraI18nApplied = true;

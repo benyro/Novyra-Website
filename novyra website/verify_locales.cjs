@@ -1,5 +1,5 @@
 /**
- * Verify every data-i18n* key used across *.html exists in each locale's merged flat map.
+ * Verify every data-i18n* key used across HTML entry files exists in each locale's merged flat map.
  * From this folder: node verify_locales.cjs
  * Exits 1 if any locale has missing keys vs the HTML reference set R.
  */
@@ -9,7 +9,14 @@ const path = require("path");
 const vm = require("vm");
 
 const SITE = __dirname;
-const HTML_FILES = ["index.html", "member.html", "team.html", "bonus.html", "training.html", "about.html"];
+const HTML_FILES = [
+  "index.html",
+  "member/index.html",
+  "team/index.html",
+  "bonus/index.html",
+  "training/index.html",
+  "about/index.html"
+];
 const LANGS = ["en", "sv", "no", "fi", "is", "da", "ar", "fa"];
 
 function extractHtmlKeys() {

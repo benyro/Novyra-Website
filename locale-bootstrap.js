@@ -1,0 +1,877 @@
+/* Nordic + Arabic/Farsi locale flat maps + bootstrap — load after i18n.js; Arabic/Farsi patches in locale-ar-fa-patches.js (before this file). Danish: locale-da-full.js; Finnish: locale-fi-full.js (before this file). */
+var NOVYRA_LOCALE_FLATS = {
+  sv: {
+    "a11y.chooseLanguage": "Välj språk",
+    "brand.tiktok": "TikTok",
+    "brand.tiktokLive": "TikTok LIVE",
+    "nav.home": "Hem",
+    "nav.member": "Bli medlem",
+    "nav.team": "Vårt team",
+    "nav.bonus": "Bonussystem",
+    "nav.training": "Träning",
+    "nav.about": "Om oss",
+    "nav.joinNow": "Gå med nu",
+    "nav.logoSub": "OFFICIELL TIKTOK LIVE-PARTNER",
+    "nav.openMenu": "Öppna meny",
+    "footer.join": "Gå med",
+    "footer.about": "Om",
+    "footer.training": "Träning",
+    "footer.team": "Team",
+    "footer.bonuses": "Bonusar",
+    "footer.home": "Hem",
+    "footer.copy": "© NOVYRA AGENCY 2026",
+    "footer.copyIndex": "© NOVYRA AGENCY 2026",
+    "footer.emailAddress": "contact@novyraagency.com",
+    "footer.partnerSub": "Officiell TikTok LIVE-partner",
+    "mobile.joinTikTok": "Gå med på TikTok",
+    "pages.home.title": "NOVYRA AGENCY",
+    "pages.home.metaDesc":
+      "Officiell TikTok LIVE-partnerbyrå för kreatörer: strukturerad coaching, läsbara bonusmål och riktigt stöd när du sänder.",
+    "pages.member.title": "NOVYRA AGENCY — Medlem",
+    "pages.member.metaDesc": "Gå med i NOVYRA Agency — så funkar medlemskap, vad du får och hur du söker till TikTok LIVE.",
+    "pages.team.title": "NOVYRA AGENCY — Team",
+    "pages.team.metaDesc": "Träffa NOVYRA-teamet — VD Cesco och människorna bakom våra TikTok LIVE-kreatörer.",
+    "pages.training.title": "NOVYRA AGENCY — Träning",
+    "pages.training.metaDesc": "NOVYRA-träning och TikTok LIVE-tips — innehållsstrategi, retention och att gå live med trygghet.",
+    "pages.about.title": "NOVYRA AGENCY — Om oss",
+    "pages.about.metaDesc":
+      "Om NOVYRA — juridiskt medveten partnerdrift, skaparlett ledarskap, produktionsstöd och hur vi stöttar TikTok LIVE-kreatörer.",
+    "pages.bonus.title": "NOVYRA AGENCY — Bonusar",
+    "pages.bonus.metaDesc": "NOVYRA Agencies bonussystem — Advance- och Elite-nivåer, diamantmål och månadsregler.",
+    "home.heroLeadL1": "Officiell ",
+    "home.heroLeadEmTiktok": "TikTok LIVE",
+    "home.heroLeadL2": "-partnerbyrå för ",
+    "home.heroLeadEmCreators": "kreatörer",
+    "home.heroLeadL3":
+      "—strukturerad coaching, tydliga mål och riktigt stöd från en av de ",
+    "home.heroLeadEmFastestGrowing": "snabbast växande",
+    "home.heroLeadL4": " TikTok LIVE-byråerna i världen.",
+    "home.ctaMember": "Bli medlem",
+    "home.ctaHow": "Se medlemsstegen",
+    "home.trustBadge": "Officiell TikTok LIVE-partnerbyrå",
+    "home.heroPartnerPill": "OFFICIELL TIKTOK LIVE PARTNERBYRÅ",
+    "home.featuresTitle": "Vad vi erbjuder",
+    "home.featuresSub": "Coaching, incitament och system som växer med dig",
+    "home.featuresLead":
+      "Från onboarding till nästa nivå: läsbara bonusstegar, återanvändbara showstrukturer och människor som svarar när du sitter mitt i en stream och kör fast.",
+    "home.featAi": "Personlig AI-coach",
+    "home.featAiBody":
+      "Vår interna NOVYRA AI-coach jobbar bredvid din manager — trimmad efter dina mål och hur du går live, utan att ersätta mänsklig bedömning.",
+    "home.featLivePartner": "Officiell LIVE-partnerväg",
+    "home.featLivePartnerBody": "Onboarding genom TikToks officiella partnerprogram — tydliga regler, säkrare arbetsflöden och inga skumma genvägar som riskerar ditt konto.",
+    "home.featBan": "Stöd vid felaktig bannlysning",
+    "home.featBanBody": "Om du bannlysts av misstag hjälper vi dig överklaga med rätt underlag och följer {{iconTiktok}}s officiella granskning — partnerkoordinering, realistiska tidslinjer, inga löften om \"omedelbar avbannlysning\".",
+    "home.featBonus": "Bonusprogram & kampanjer",
+    "home.featBonusBody": "Strukturerade incitament, pushveckor och mål du kan se — så du vet vad du siktar på bortom slumpmässiga gåvor.",
+    "home.featBonusHint": "Så funkar bonusar →",
+    "home.featStrategy": "LIVE-strategisessioner",
+    "home.featStrategyBody": "Öppningar som stoppar scroll, körschema, PK-kvällar och retention — planerat som en show, inte kaos.",
+    "home.featFunnel": "Kortformat → LIVE-tratt",
+    "home.featFunnelBody": "Klippidéer, hooks och publiceringstakt som värmer kall trafik — så rummet fylls innan du trycker \"Go LIVE\".",
+    "home.featRoadmap": "Intäktsroadmap",
+    "home.featRoadmapBody": "Gåvo-psykologi, rummets mål och veckosiffror som går att förstå — så \"tjäna mer\" blir en checklista, inte en känsla.",
+    "home.featManager": "Manager i din hörna",
+    "home.featManagerBody": "Direktlinje till någon som kan din nisch — repriser, tuffa streams och \"vad gör jag ikväll?\" besvaras konkret.",
+    "home.featManagerHint": "Möt vårt team →",
+    "home.featPayout": "Snabba, tydliga utbetalningar",
+    "home.featPayoutBody": "Tidslinjer och steg i klartext — färre \"var är mina pengar?\"-lägen, mer förtroende för processen.",
+    "home.featBrand": "Varumärke & samarbespipeline",
+    "home.featBrandBody": "När din nisch och siffror matchar hjälper vi dig se pitch-klar ut — mediakit-tänk, inte slumpmässiga DM:ar.",
+    "home.featProd": "1:1-möten",
+    "home.featProdBody":
+      "Privat coachning och check-in-möten med din manager eller support när du behöver tydliga nästa steg och riktiga svar — inte en generisk sändning.",
+    "home.featVisualEdits": "Bildredigering för profil och PK",
+    "home.featVisualEditsBody": "Vi finjusterar eller omarbetar profilbilder och gör matchklar grafik till PK-matcher, så du ser skarp ut där det syns.",
+    "home.featuresMore": "och mycket mer",
+    "home.statsLine1": "Vi är en officiell {{iconTiktokLive}}-partnerbyrå.",
+    "home.statsProgramme": "TikTok-partnerprogram",
+    "home.statsNote": "Vi lägger bara till offentliga milstolpar när de är verifierade och till nytta. I vardagen handlar det om coaching, tydliga mål och stöd medan du är live.",
+    "home.testiKicker": "Kreatörer säger",
+    "home.testiTitle": "Byggt på förtroende och kontinuitet",
+    "home.testi1": "“Tydlig kommunikation och ett team som faktiskt tittar på dina LIVEs och ger användbara anteckningar — inte generiska råd.”",
+    "home.testi2": "“Jag kom in utan struktur. Inom några veckor hade jag schema, bättre ljus och mina första riktiga utbetalningsmål.”",
+    "home.testi3": "“De pushar på rätt sätt. Det känns som ett gäng, inte en corporate-maskin.”",
+    "home.testiCite": "— NOVYRA-kreatör",
+    "home.testi1CiteHandle": "@ladyjofficial0",
+    "home.testi1CiteAvatarAlt": "Profilbild för LadyJ (@ladyjofficial0) på TikTok",
+    "home.testi2CiteHandle": "@mikaeil.sweden",
+    "home.testi2CiteAvatarAlt": "Profilbild för Mikaeil (@mikaeil.sweden) på TikTok",
+    "home.testiCiteHandle": "@beellaaa90",
+    "home.testiCiteAvatarAlt": "Profilbild för Bella (@beellaaa90) på TikTok",
+    "home.exploreKicker": "Utforska",
+    "home.exploreTitle": "Gräv djupare",
+    "home.linkMemberTitle": "Bli medlem",
+    "home.linkMemberDesc": "Steg, krav och vad som händer efter ansökan.",
+    "home.linkBonusTitle": "Bonussystem",
+    "home.linkBonusDesc": "Hur belöningar skalar med din insats och kontinuitet.",
+    "home.linkTrainTitle": "Träning & tips",
+    "home.linkTrainDesc": "LIVE-flöde, retention och innehållsidéer som konverterar.",
+    "home.linkTeamTitle": "Vårt team",
+    "home.linkTeamDesc": "Vem som driver support, coaching och vardagsdrift.",
+    "home.readMore": "Läs mer →",
+    "member.heroTitle": "Bli medlem",
+    "member.heroTitleHtml": "Bli <span>medlem</span>",
+    "member.heroLead":
+      "Gratis att söka. Vi värderar kontinuitet, tydlighet mot riktlinjer och coachbarhet — inte bara följarantal.",
+    "member.ctaJoin": "Gå med i NOVYRA",
+    "member.ctaBonus": "Se bonussystemet",
+    "member.ctaTiktokAccount": "TikTok-konto",
+    "member.howTitle": "Så funkar det",
+    "member.stepApplyTitle": "Ansök",
+    "member.stepApplyBody": "Använd den officiella <strong>Join NOVYRA</strong>-länken på {{iconTiktok}} så att din förfrågan hamnar hos rätt team. Undvik inofficiella DM som påstår sig företräda oss.",
+    "member.stepOnboardTitle": "Onboarding",
+    "member.stepOnboardBody": "Vi synkar mål, schema och innehållsspår. Du får grundtips om ljus, ljud och LIVE-struktur.",
+    "member.stepGrowTitle": "Väx med feedback",
+    "member.stepGrowBody": "Managers och support går igenom resultat med dig, sätter veckomål och firar vinster — stora som små.",
+    "member.joinNow": "Gå med nu",
+    "member.whatGetTitle": "Vad du får",
+    "member.whatGetBody": "Strukturerade avstämningar, bonusinsyn, träningsmaterial och ett community som förstår LIVE-kultur — och mycket mer!",
+    "member.whatExpectTitle": "Vad vi förväntar oss",
+    "member.whatExpectBody": "Ärlig insats, kommunikation när livet blir stressigt, och respekt för tittare och plattformsregler. Tillväxt är lagidrott.",
+    "member.recruitKicker": "Medlemskap",
+    "member.heroEmotion": "Du bär showen. Vi bär strukturen och människor som svarar när rummet blir tungt.",
+    "member.statsHeading": "Byrå i korthet",
+    "member.stat1Suffix": "+",
+    "member.stat1Label": "År på TikTok LIVE i ledning och coachning",
+    "member.stat2Suffix": "K+",
+    "member.stat2Label": "Skaparskala i ledning och coachning",
+    "member.stat3Value": "24/7",
+    "member.stat3Label": "Skaparstöd och LIVE-vägledning",
+    "member.trustedKicker": "Betrodd av skapare",
+    "member.trustedTitle": "År på plattformen, verklig skala, en partnerklar bana.",
+    "member.festKicker": "LIVE Fest 2025",
+    "member.festTitle": "Byråns höjdpunktsrulle",
+    "member.festLead": "Se hur NOVYRA visar sig när insatserna är höga, ljusa och LIVE.",
+    "member.festCta": "Titta på TikTok",
+    "member.whyKicker": "Varför skapare väljer NOVYRA",
+    "member.whyTitle": "Glasklara system. Mänskligt tempo.",
+    "member.whyCard1Title": "Replay-ledd coaching",
+    "member.whyCard1Body": "Managers utgår från riktiga streams och klipp — så feedback låter som ditt rum, inte en mall.",
+    "member.whyCard2Title": "Läsbara bonusstegar",
+    "member.whyCard2Body": "Mål du kan se, push-veckor som är begripliga och färre \"mystiska utbetalnings\"-ögonblick.",
+    "member.whyCard3Title": "Riktlinjehygien först",
+    "member.whyCard3Body": "Vi synkar kring professionell rumskultur innan någon ber dig satsa på riskabla genvägar.",
+    "member.whyCard4Title": "Människor i loopen",
+    "member.whyCard4Body": "AI hjälper där det gör nytta; beslut som rör ditt konto stannar hos folk som svarar i telefon.",
+    "member.insideKicker": "Inuti NOVYRA",
+    "member.insideTitle": "Ett LIVE-hem byggt för ett tempo du kan hålla",
+    "member.insideLead": "Operatörer, klippare och managers som talar {{iconTiktok}}-kultur flytande — för att de lever nära samma trender, gåvor och tryckpunkter som du.",
+    "member.insideLi1": "Veckomål som respekterar sömn, utbrändhet och riktigt liv.",
+    "member.insideLi2": "Eskaleringar hanteras med dokumentation — inte panik-DM:ar.",
+    "member.insideLi3": "En flerspråkig besättning så din lane inte \"förloras i översättningen\".",
+    "member.stepsLead": "Tre lugna steg — från första tryck till din första coachade vecka.",
+    "team.heroTitle": "Vårt team",
+    "team.heroTitleHtml": "Vårt <span>team</span>",
+    "team.heroLead": "Operatörer och ledning bakom NOVYRA — teamet som bygger ett seriöst LIVE-hem för kreatörer, inte en flyer-fabrik.",
+    "team.label": "Ledning",
+    "team.name": "Cesco",
+    "team.role": "Verkställande direktör, NOVYRA Agency",
+    "team.bio": "Sätter riktning för partnerskap, kreatörsupplevelse och hur byrån skalar med {{iconTiktok}} LIVE — med samma energi du ser i rummet med kreatörer.",
+    "team.joinHint": "Vill du gå med <strong>under Cesco</strong> på NOVYRA? Använd hans {{iconTiktok}}-ansökningslänk nedan — den dirigerar din förfrågan till hans linje (inte den generella byråansökan).",
+    "team.ctaTiktok": "TikTok @cesco.novyra",
+    "team.ctaUnder": "Gå med under Cesco",
+    "team.managersTitle": "Managers",
+    "team.managersBody": "Sätter veckoprioriteringar, går igenom klipp och LIVE-repriser med dig och hjälper dig hålla fokus utan att brinna ut.",
+    "team.supportTitle": "Support & moderation",
+    "team.supportBody": "Hanterar vardagsfrågor, onboarding och eskaleringar så managers kan fokusera på strategi.",
+    "team.trustHeading": "Tydlighet, partnerlinje, mänskligt stöd",
+    "team.trustLead": "Ledning med verklig LIVE-vardag — i linje med den officiella TikTok LIVE-partnervägen, med människor i loopen när rummet blir tungt.",
+    "team.trustLi1": "Erfarna operatörer som skalar med kreatörer, inte hypen",
+    "team.trustLi2": "Riktlinje-först-kultur på TikTok LIVE:s officiella partnerbana",
+    "team.trustLi3": "Mänskligt lett stöd och moderation så managers kan vara strategiska",
+    "team.partnerCtaTitle": "Managers & partnerskap",
+    "team.partnerCtaLead": "Utforskar du talang eller samarbeten med NOVYRA? Nå oss på TikTok eller mejl — vi läser varje seriös förfrågan.",
+    "team.partnerCtaEmail": "Mejla oss",
+    "team.partnerCtaTiktok": "Byrån på TikTok",
+    "team.opsSrHeading": "Hur vi kör vardagen",
+    "training.heroTitle": "Träning & tips",
+    "training.heroTitleHtml": "Träning &amp; <span>tips</span>",
+    "training.heroLead": "Korta, praktiska texter för ikväll: hooks, rumsenergi, retention-takter och de tråkiga vinsterna (ljus, sömn, rent ljud).",
+    "training.stratTitle": "Innehållsstrategi",
+    "training.stratBody": "En stark kortformsidé per dag slår fem slumpmässiga inlägg. Batcha inspelning, återanvänd hooks och peka trafik mot ditt LIVE-fönster.",
+    "training.liveTitle": "LIVE-prestanda",
+    "training.liveBody": "Öppna med ett löfte (\"Ikväll rankar vi / vi lär oss / vi firar X\"). Tacka gåvor vid namn. Avsluta med tydlig återkomsttid.",
+    "training.checklistTitle": "Start-checklista",
+    "training.li1": "Nyckelljus framifrån, mjuk fill, inte bara takljus",
+    "training.li2": "Telefon i höjd med ögon — ögonlinje bygger förtroende",
+    "training.li3": "Stabilt användarnamn och pinnade chattregler",
+    "training.li4": "Två reservsamtalsämnen om chatten blir tyst",
+    "training.ctaMember": "Bli medlem",
+    "training.pathsKicker": "Läroplan",
+    "training.pathsTitle": "Inlärningsvägar",
+    "training.pathsLead":
+      "Tre spår du kan röra dig i i egen takt—byggda för LIVE-rum, inte för läroböcker.",
+    "training.path1Title": "LIVE-grund",
+    "training.path1Body":
+      "Ljus, ramning, ljudhygien och öppningar som svarar «varför stanna?» under första minuten.",
+    "training.path2Title": "Konsekvens & trygghet",
+    "training.path2Body":
+      "Hållbara scheman, riktlinjemedvetna playbooks och lugn återhämtning när teknik eller chatten strular.",
+    "training.path3Title": "Tillväxt & mål",
+    "training.path3Body":
+      "Läsliga stegar, push-veckorytm och språk som gör vagt «grinda mer» till en veckoplan.",
+    "training.deliverKicker": "Så landar det",
+    "training.deliverTitle": "Hur coachning levereras",
+    "training.deliverLi1":
+      "Anteckningar från repriser kring öppningar, gåvor och dead-air-räddningar—förankrade i din riktiga show.",
+    "training.deliverLi2":
+      "Korta live-genomgångar när tid finns, med ett–två fokus till nästa stream.",
+    "training.deliverLi3":
+      "Kontorsliknande timmar för snabba frågor—utan att ersätta managerstrategin.",
+    "training.deliverLi4":
+      "Delade referenser (klipp, showtakter) så feedback blir konkret, inte bara pepp.",
+    "training.outcomesKicker": "Det som lyfts först",
+    "training.outcomesTitle": "Resultat skapare bryr sig om",
+    "training.outcomesLead":
+      "Vi beskriver framsteg i sådant du kan se i rummet—inga cherrypickade vanity-siffror eller påhittad följartrend.",
+    "training.outcome1Title": "Tydligare sifferläskunnighet",
+    "training.outcome1Body":
+      "Du ser vilka tal som förklarar momentum i din nisch så beslut känns mindre som gissning.",
+    "training.outcome2Title": "Riktlinjehygien",
+    "training.outcome2Body":
+      "Rumskultur och plattformsregler som del av hantverket—skyddar kontot du bygger långsiktigt.",
+    "training.outcome3Title": "Tydlighet kring utbetalning & bonus",
+    "training.outcome3Body":
+      "Färre «vad räknas den här månaden?»-trådar—förväntningar kopplade till dokumenterad programmekanik som managern kan gå igenom.",
+    "training.rhythmKicker": "Veckorytm",
+    "training.rhythmTitle": "Resurser & vad du kan förvänta dig",
+    "training.rhythmLi1":
+      "Praktiska texter och checklistor i linje med riktiga LIVE-flöden—inte abstrakta teorideck.",
+    "training.rhythmLi2":
+      "Utrymme för snabba vinster (ljud, ljus, showstruktur) tillsammans med längre mål.",
+    "training.rhythmLi3":
+      "Kontaktpunkter som respekterar ditt stream-schema; coachning ska passa kalendern, inte bråka med den.",
+    "training.rhythmLi4":
+      "Eskalationsvägar när plattformen ändras snabbt—så du inte sitter ensam med partnerfrågor klockan 02.",
+    "training.faqKicker": "Frågor",
+    "training.faqTitle": "FAQ",
+    "training.faq1Q": "Är träning bara för stora skapare?",
+    "training.faq1A":
+      "Nej. Samma grunder spelar roll i alla storlekar—ramning, berättartakter och hållbar takt. Rummets storlek förändras; disciplinen förblir.",
+    "training.faq2Q": "Tvingas jag till riskfylld content för tillväxt?",
+    "training.faq2A":
+      "Tillväxt kräver insats, inte hänsynslösa genvägar. Vi synkar rumskultur och programregler innan aggressiva mål ens diskuteras.",
+    "training.faq3Q": "Lovar ni specifika intäkter?",
+    "training.faq3A":
+      "Vi garanterar inte utfall. LIVE-prestanda varierar. Vi fokuserar på läsliga system, coachningsspecificitet och klarhet kring incitament—så planen förblir ärlig.",
+    "training.faq4Q": "Hur snabbt kan jag räkna med svar?",
+    "training.faq4A":
+      "Tempot beror på kanal och brådska. Seriösa eskaleringar dirigeras med partnermedveten kontext; vardagsfrågor batches så managern behåller strategisk tid.",
+    "training.faq5Q": "Är det här samma sak som att söka medlemskap?",
+    "training.faq5A":
+      "Den här sidan beskriver hur vi tänker kring träning. Medlemskap har egna steg, krav och granskning—börja där om du vill gå med i roster.",
+    "about.heroTitle": "Om NOVYRA",
+    "about.heroTitleHtml": "Om <span>NOVYRA</span>",
+    "about.heroLead":
+      "Officiell TikTok LIVE-partnerbyrå för seriösa kreatörer: tydliga system, mänskligt stöd och vägledning från folk som jobbar nära TikTok LIVE varje dag.",
+    "about.statLine":
+      "Djup som syns i rummet: kreatörer förbi 500k följare, plus specialister med 10+ år på TikTok och socialt — mönsterigenkänning för hur algoritmer och trender tenderar att röra sig.",
+    "about.whyKicker": "Partnerdrift",
+    "about.whyTitle": "Varför NOVYRA",
+    "about.whyLead":
+      "Vi kombinerar plattformsnära utförande med operatörsdisciplin — upprepningsbar struktur, respektfulla eskaleringar och coachning som tar LIVE-prestandas oförutsägbarhet på allvar.",
+    "about.diff1Html":
+      "<strong>Strukturerad onboarding</strong> — milstolpar och dokumenterade förväntningar så du inte gissar vad «bra» betyder varje vecka.",
+    "about.diff2Html":
+      "<strong>Replay-ledd coachning</strong> — managers och specialister utgår från riktiga streams och klipp, inte generiska manus.",
+    "about.diff3Html":
+      "<strong>Kvalitetsribba för partners</strong> — vi synkar riktlinjehygien och professionell rumskultur innan vi pressar aggressiva mål.",
+    "about.diff4Html":
+      "<strong>Flerspråkiga kärnflöden</strong> — samma spelplan på de språk vi stödjer i dag, lokalt anpassat där det hjälper globala kreatörer.",
+    "about.missionVisionTitle": "Uppdrag & riktning",
+    "about.missionTitle": "Uppdrag",
+    "about.missionBody": "Ge varje seriös LIVE-kreatör en tydlig väg: bättre shower, hälsosammare tempo, smartare intäkter — med människor i loopen.",
+    "about.visionTitle": "Vision",
+    "about.visionBody": "Ett nätverk där små kreatörer får samma respekt som stora — för att system och coaching skalar, ego gör det inte.",
+    "about.expertiseTitle": "Expertis bakom byrån",
+    "about.cardLegalTitle": "Juridik & policy",
+    "about.cardLegalBody":
+      "En jurist arbetar med byrån kring policys, plattformsregler och efterlevnadsinriktad vägledning — så beslut mellan risk och tillväxt får stadigare ramar.",
+    "about.cardCreatorsTitle": "Skaparlett ledarskap",
+    "about.cardCreatorsBody":
+      "Vår ledningskrets inkluderar influencers och kreatörer förbi 500k följare, med 10+ år på TikTok och socialt — mönsterigenkänning i praktiken för flöden, gåvor och LIVE-kultur.",
+    "about.cardProductionTitle": "Produktion & redigering",
+    "about.cardProductionBody":
+      "Redaktörer finputsar klipp, miniatyrer och LIVE-nära tillgångar så din närvaro håller ihop medan du står framför kameran.",
+    "about.cardOpsTitle": "Personal, HR & drift",
+    "about.cardOpsBody":
+      "HR-specialister och företagare som drivit riktiga team håller rekrytering, avtal och vardagsdrift förankrade i vad som går sönder när skala sköts slarvigt.",
+    "about.valuesTitle": "Värderingar",
+    "about.v1": "<strong>Säkerhet först</strong> — plattformsregler och tittargränser är inte förhandlingsbara.",
+    "about.v2": "<strong>Transparens</strong> — du ska veta hur bonusar och förväntningar fungerar.",
+    "about.v3": "<strong>Långsiktig tillväxt</strong> — genvägar som riskerar ditt konto är borta från bordet.",
+    "about.legalNote":
+      "För formella företagsuppgifter eller korrespondens: använd mejlen i sidfoten så dirigerar vi din förfrågan rätt.",
+    "about.ctaTitle": "Nästa steg",
+    "about.ctaLead": "Läs medlemskapet, skumma praktisk LIVE-träning eller se hur bonusar är uppbyggda innan du söker.",
+    "about.ctaMember": "Översikt medlemskap",
+    "about.ctaTraining": "Träning & tips",
+    "about.ctaBonus": "Bonusrampen",
+    "bonus.kicker": "Prestationsbaserad ersättning",
+    "bonus.heroTitle": "Månadsbonus",
+    "bonus.heroTitleHtml": "<span>Månads</span>bonus",
+    "bonus.heroLead": "Två månadsspår med samma diamantsteg — Advance vs Elite ändrar utbetalning plus minsta antal live-dagar och -timmar som din manager bekräftar.",
+    "bonus.advanceLadderAria": "Advance-steg · lista",
+    "bonus.eliteLadderAria": "Elite-steg · lista",
+    "bonus.intro": "Diamanttotaler och utbetalningar följer {{iconTiktokLive}}-programregler. Din manager bekräftar vilket spår du ligger på en given månad.",
+    "bonus.advanceTitle": "Advance",
+    "bonus.advanceMeta": "Spår A · ordinarie schema",
+    "bonus.advanceLede": "Nå diamantnivån för ett steg för att låsa upp den månadens tillägg.",
+    "bonus.eliteTitle": "Elite",
+    "bonus.eliteMeta": "Spår B · högre utbetalning, strängare minimum",
+    "bonus.eliteLede": "Samma diamantsteg som Advance — större bonusbelopp och fler dagar och timmar krävs.",
+    "bonus.qualTitle": "Kvalificering",
+    "bonus.advQ1": "Minst <strong>18</strong> dagar / månad",
+    "bonus.advQ2": "Minst <strong>60</strong> timmar / månad",
+    "bonus.eliQ1": "Minst <strong>22</strong> dagar / månad",
+    "bonus.eliQ2": "Minst <strong>80</strong> timmar / månad",
+    "bonus.pushLabel": "1M+ push",
+    "bonus.pushMint": "Över 1M poäng → extra <strong>3%</strong>.",
+    "bonus.pushViolet": "Över 1M poäng → extra <strong>5%</strong>.",
+    "bonus.tierGems100k": "100 000 diamanter",
+    "bonus.tierGems200k": "200 000 diamanter",
+    "bonus.tierGems300k": "300 000 diamanter",
+    "bonus.tierGems500k": "500 000 diamanter",
+    "bonus.tierGems750k": "750 000 diamanter",
+    "bonus.tierGems1m": "1 000 000 diamanter",
+    "bonus.tierGems165m": "1 650 000 diamanter",
+    "bonus.advAmt1": "+1 300",
+    "bonus.advAmt2": "+2 150",
+    "bonus.advAmt3": "+4 888",
+    "bonus.advAmt4": "+17 000",
+    "bonus.advAmt5": "+21 000",
+    "bonus.advAmt6": "+30 000",
+    "bonus.advAmt7": "+40 000",
+    "bonus.eliAmt1": "+2 150",
+    "bonus.eliAmt2": "+5 000",
+    "bonus.eliAmt3": "+10 000",
+    "bonus.eliAmt4": "+25 000",
+    "bonus.eliAmt5": "+34 000",
+    "bonus.eliAmt6": "+45 000",
+    "bonus.eliAmt7": "+55 000",
+    "bonus.recruitTitle": "Rekrytera & tjäna",
+    "bonus.recruitLead":
+      "Hjälp seriösa skapare gå med i NOVYRA och tjäna bonusar när de du tipsar blir aktiva medlemmar i byrån.",
+    "bonus.recruitCard1Title": "Värva — belöning",
+    "bonus.recruitCard1Body": "Tjäna bonusar när skapare du tipsat kvalificerar sig och förblir aktiva.",
+    "bonus.recruitCard2Title": "Öppet för communityt",
+    "bonus.recruitCard2Body":
+      "Alla kan delta i att värva — tipsa om skapare i alla storlekar; du behöver inte själv vara en stor skapare.",
+    "bonus.recruitCard3Title": "Byggt för långsiktig tillväxt",
+    "bonus.recruitCard3Body": "Starka skapare bygger starkare skapargemenskaper.",
+    "bonus.ctaBack": "Tillbaka till startsidan",
+    "bonus.ctaJoin": "Gå med i NOVYRA"
+  },
+  no: {
+    "a11y.chooseLanguage": "Velg språk",
+    "brand.tiktok": "TikTok",
+    "brand.tiktokLive": "TikTok LIVE",
+    "nav.home": "Hjem",
+    "nav.member": "Bli medlem",
+    "nav.team": "Vårt team",
+    "nav.bonus": "Bonussystem",
+    "nav.training": "Opplæring",
+    "nav.about": "Om oss",
+    "nav.joinNow": "Bli med nå",
+    "nav.logoSub": "OFFISIELL TIKTOK LIVE-PARTNER",
+    "nav.openMenu": "Åpne meny",
+    "footer.join": "Bli med",
+    "footer.about": "Om",
+    "footer.training": "Opplæring",
+    "footer.team": "Team",
+    "footer.bonuses": "Bonuser",
+    "footer.home": "Hjem",
+    "footer.copy": "© NOVYRA AGENCY 2026",
+    "footer.copyIndex": "© NOVYRA AGENCY 2026",
+    "footer.emailAddress": "contact@novyraagency.com",
+    "footer.partnerSub": "Offisiell TikTok LIVE-partner",
+    "footer.tiktok": "TikTok",
+    "footer.tiktokAriaLabel": "NOVYRA på TikTok",
+    "mobile.joinTikTok": "Bli med på TikTok",
+    "pages.home.title": "NOVYRA AGENCY",
+    "pages.home.metaDesc":
+      "Offisielt TikTok LIVE-partnerbyrå for skapere: strukturert coaching, lesbare bonusmål og ekte støtte mens du streamer.",
+    "pages.member.title": "NOVYRA AGENCY — Medlem",
+    "pages.member.metaDesc": "Bli med i NOVYRA Agency — hvordan medlemskap fungerer, hva du får og hvordan du søker TikTok LIVE.",
+    "pages.team.title": "NOVYRA AGENCY — Team",
+    "pages.team.metaDesc": "Møt NOVYRA-teamet — CEO Cesco og folkene bak våre TikTok LIVE-skapere.",
+    "pages.training.title": "NOVYRA AGENCY — Opplæring",
+    "pages.training.metaDesc": "NOVYRA-opplæring og TikTok LIVE-tips — innholdsstrategi, retention og å gå live med trygghet.",
+    "pages.about.title": "NOVYRA AGENCY — Om oss",
+    "pages.about.metaDesc":
+      "Om NOVYRA — juridisk bevisst partnerdrift, skaperstyrt lederskap, produksjonsstøtte og hvordan vi støtter TikTok LIVE-skapere.",
+    "pages.bonus.title": "NOVYRA AGENCY — Bonuser",
+    "pages.bonus.metaDesc": "NOVYRA Agencies bonussystem — Advance- og Elite-nivåer, diamantmål og månedlige kvalifikasjonsregler.",
+    "home.heroLeadL1": "Offisiell ",
+    "home.heroLeadEmTiktok": "TikTok LIVE",
+    "home.heroLeadL2": "-partnerbyrå for ",
+    "home.heroLeadEmCreators": "skapere",
+    "home.heroLeadL3":
+      "—strukturert coaching, lesbare mål og ekte støtte fra en av de ",
+    "home.heroLeadEmFastestGrowing": "raskest voksende",
+    "home.heroLeadL4": " TikTok LIVE-byråene i verden.",
+    "home.heroLine1": "Bygget for seriøse LIVE-skapere.",
+    "home.heroGrowOn": "Voks på ",
+    "home.heroWithTeamLead": " med et team ",
+    "home.heroBesideYou": "ved siden av deg.",
+    "home.heroLead":
+      "NOVYRA er et offisielt TikTok LIVE-partnerbyrå — struktur for streamene dine, tydelige mål og folk som svarer når du trenger hjelp.",
+    "home.ctaMember": "Bli medlem",
+    "home.ctaHow": "Se medlemsstegene",
+    "home.trustBadge": "Offisielt TikTok LIVE-partnerbyrå",
+    "home.heroPartnerPill": "OFFISIELL TIKTOK LIVE PARTNERBYRÅ",
+    "home.featuresTitle": "Hva vi tilbyr",
+    "home.featuresSub": "Coaching, insentiver og systemer som vokser med deg",
+    "home.featuresLead":
+      "Fra onboarding til neste nivå: lesbare bonusstiger, gjentakbare showstrukturer og folk som svarer når du sitter midt i en stream og kjører fast.",
+    "home.featAi": "Personlig KI-coach",
+    "home.featAiBody":
+      "Vår interne NOVYRA KI-coach jobber ved siden av manageren din — tilpasset målene dine og hvordan du går LIVE, uten å erstatte menneskelig skjønn.",
+    "home.featLivePartner": "Offisiell LIVE-partnerrute",
+    "home.featLivePartnerBody": "Onboarding gjennom {{iconTiktok}}s offisielle partnerprogram — tydelige regler, tryggere arbeidsflyt og ingen shady snarveier som utsetter kontoen din.",
+    "home.featBan": "Støtte ved feilaktig utestengelse",
+    "home.featBanBody": "Hvis du ble utestengt ved en feil, hjelper vi deg å anke med riktig dokumentasjon og følger {{iconTiktok}}s offisielle gjennomgang — partnerkoordinering, realistiske tidslinjer, ingen «øyeblikkelig oppheving»-løfter.",
+    "home.featBonus": "Bonusprogram og kampanjer",
+    "home.featBonusBody": "Strukturerte insentiver, push-uker og mål du kan se — så du vet hva du sikter mot utover tilfeldige gaver.",
+    "home.featBonusHint": "Se hvordan bonuser fungerer →",
+    "home.featStrategy": "LIVE-strategimøter",
+    "home.featStrategyBody": "Åpninger som stopper scrolling, show-run, PK-kvelder og retention — planlagt som et show, ikke improvisert kaos.",
+    "home.featFunnel": "Kortformat → LIVE-trakt",
+    "home.featFunnelBody": "Klippideer, kroker og rytme som varmer kald trafikk — slik at rommet fylles før du trykker «Go LIVE».",
+    "home.featRoadmap": "Inntektsplan",
+    "home.featRoadmapBody": "Gavepsykologi, rommål og ukesummer som gir mening — slik at «tjene mer» blir en sjekkliste, ikke en vibe.",
+    "home.featManager": "Manager i din krok",
+    "home.featManagerBody": "Direktelinje til noen som kjenner din nisje — repriser, tunge streamer og «hva gjør jeg i kveld?» besvares konkret.",
+    "home.featManagerHint": "Møt teamet vårt →",
+    "home.featPayout": "Raske, tydelige utbetalinger",
+    "home.featPayoutBody": "Tidslinjer og steg i klartekst — færre «hvor er pengene mine?»-øyeblikk, mer tillit til prosessen.",
+    "home.featBrand": "Merkevare og samarbeidspipeline",
+    "home.featBrandBody": "Når nisjen og tallene passer, hjelper vi deg å se pitch-klar ut — mediakit-tankegang, ikke tilfeldige DM-er.",
+    "home.featProd": "Én-til-én-møter",
+    "home.featProdBody":
+      "Privat coaching og oppfølgingsmøter med manager eller support når du trenger tydelige neste steg og ekte svar — ikke en generisk sending.",
+    "home.featVisualEdits": "Profil- og PK-bilderedigering",
+    "home.featVisualEditsBody": "Vi retusjerer eller lager om profilbilder og kampklar grafikk til PK-er, slik at du ser knivskarp ut der det gjelder.",
+    "home.featuresMore": "og mye mer",
+    "home.statsLine1": "Vi er et offisielt {{iconTiktokLive}}-partnerbyrå.",
+    "home.statsProgramme": "TikTok-partnerprogram",
+    "home.statsNote": "Vi legger bare til offentlige milepæler når de er verifisert og nyttige. Til daglig handler det om coaching, tydelige mål og støtte mens du er live.",
+    "home.testiKicker": "Skapere sier",
+    "home.testiTitle": "Bygget på tillit og kontinuitet",
+    "home.testi1": "“Tydelig kommunikasjon og et team som faktisk ser LIVE-ene dine og gir nyttige notater — ikke generiske råd.”",
+    "home.testi2": "“Jeg kom inn uten struktur. Innen noen uker hadde jeg timeplan, bedre lys og mine første reelle utbetalingsmål.”",
+    "home.testi3": "“De pusher på en god måte. Det føles som en gjeng, ikke en corporate-maskin.”",
+    "home.testiCite": "— NOVYRA-skaper",
+    "home.testi1CiteHandle": "@ladyjofficial0",
+    "home.testi1CiteAvatarAlt": "Profilbilde for LadyJ (@ladyjofficial0) på TikTok",
+    "home.testi2CiteHandle": "@mikaeil.sweden",
+    "home.testi2CiteAvatarAlt": "Profilbilde for Mikaeil (@mikaeil.sweden) på TikTok",
+    "home.testiCiteHandle": "@beellaaa90",
+    "home.testiCiteAvatarAlt": "Profilbilde for Bella (@beellaaa90) på TikTok",
+    "home.exploreKicker": "Utforsk",
+    "home.exploreTitle": "Gå dypere",
+    "home.linkMemberTitle": "Bli medlem",
+    "home.linkMemberDesc": "Steg, krav og hva som skjer etter søknad.",
+    "home.linkBonusTitle": "Bonussystem",
+    "home.linkBonusDesc": "Hvordan belønninger skalerer med innsats og kontinuitet.",
+    "home.linkTrainTitle": "Opplæring og tips",
+    "home.linkTrainDesc": "LIVE-flyt, retention og innholdsideer som konverterer.",
+    "home.linkTeamTitle": "Vårt team",
+    "home.linkTeamDesc": "Hvem som driver support, coaching og daglig drift.",
+    "home.readMore": "Les mer →",
+    "member.heroTitle": "Bli medlem",
+    "member.heroTitleHtml": "Bli <span>medlem</span>",
+    "member.heroLead":
+      "Gratis å søke. Vi vektlegger kontinuitet, retningslinjehygiene og læreevne — ikke bare følgerantall.",
+    "member.ctaJoin": "Bli med i NOVYRA",
+    "member.ctaBonus": "Se bonussystemet",
+    "member.ctaTiktokAccount": "TikTok-konto",
+    "member.howTitle": "Slik fungerer det",
+    "member.stepApplyTitle": "Søk",
+    "member.stepApplyBody": "Bruk den offisielle <strong>Join NOVYRA</strong>-lenken på {{iconTiktok}} slik at forespørselen din treffer riktig team. Unngå uoffisielle DM som hevder å representere oss.",
+    "member.stepOnboardTitle": "Onboarding",
+    "member.stepOnboardBody": "Vi avstemmer mål, timeplan og innholdsspor. Du får grunntips om lys, lyd og LIVE-struktur.",
+    "member.stepGrowTitle": "Voks med tilbakemelding",
+    "member.stepGrowBody": "Manager og support går gjennom resultater med deg, setter ukemål og feirer seire — store og små.",
+    "member.joinNow": "Bli med nå",
+    "member.whatGetTitle": "Hva du får",
+    "member.whatGetBody": "Strukturerte sjekk-inn, bonusinnsyn, opplæringsressurser og et miljø som forstår LIVE-kultur — og mye mer!",
+    "member.whatExpectTitle": "Hva vi forventer",
+    "member.whatExpectBody": "Ærlig innsats, kommunikasjon når livet blir hektisk, og respekt for seere og plattformsregler. Vekst er et lagspill.",
+    "member.recruitKicker": "Medlemskap",
+    "member.heroEmotion": "Du leverer showen. Vi leverer struktur og folk som svarer når rommet blir tungt.",
+    "member.statsHeading": "Byrå i korthet",
+    "member.stat1Suffix": "+",
+    "member.stat1Label": "År på TikTok LIVE på tvers av ledelse og coaching",
+    "member.stat2Suffix": "K+",
+    "member.stat2Label": "Skaperskala i ledelse og coaching",
+    "member.stat3Value": "24/7",
+    "member.stat3Label": "Skaperstøtte og LIVE-veiledning",
+    "member.trustedKicker": "Skapere stoler på oss",
+    "member.trustedTitle": "År på plattformen, ekte skala, én partnersti.",
+    "member.festKicker": "LIVE Fest 2025",
+    "member.festTitle": "Byråets høydepunktrull",
+    "member.festLead": "Se hvordan NOVYRA viser seg når innsatsen er høy, lys og LIVE.",
+    "member.festCta": "Se på TikTok",
+    "member.whyKicker": "Hvorfor skapere velger NOVYRA",
+    "member.whyTitle": "Glasne systemer. Menneskelig tempo.",
+    "member.whyCard1Title": "Replay-drevet coaching",
+    "member.whyCard1Body": "Managers jobber fra ekte streams og klipp — så tilbakemeldingen høres ut som rommet ditt, ikke en mal.",
+    "member.whyCard2Title": "Lesbare bonusstiger",
+    "member.whyCard2Body": "Mål du kan se, push-uker som gir mening, og færre «mystiske utbetaling»-øyeblikk.",
+    "member.whyCard3Title": "Retningslinjehygiene først",
+    "member.whyCard3Body": "Vi avstemmer profesjonell romkultur før noen ber deg sats på risikable snarveier.",
+    "member.whyCard4Title": "Mennesker i loopen",
+    "member.whyCard4Body": "KI hjelper der det hjelper; beslutninger som påvirker kontoen din blir hos folk som tar telefonen.",
+    "member.insideKicker": "Inne i NOVYRA",
+    "member.insideTitle": "Et LIVE-hjem bygget for et tempo du kan holde",
+    "member.insideLead": "Operatører, klippere og managere som snakker {{iconTiktok}}-kultur flytende — fordi de lever ved siden av de samme trendene, gavene og presspunktene som du.",
+    "member.insideLi1": "Ukentlige mål som respekterer søvn, utbrenthet og vanlig liv.",
+    "member.insideLi2": "Eskaleringer håndteres med dokumentasjon — ikke panikk-DM-er.",
+    "member.insideLi3": "Et flerspråklig crew så banen din ikke «går tapt i oversettelsen».",
+    "member.stepsLead": "Tre rolige steg — fra første trykk til din første coach-uke.",
+    "team.heroTitle": "Vårt team",
+    "team.heroTitleHtml": "Vårt <span>team</span>",
+    "team.heroLead": "Operatører og ledelse bak NOVYRA — teamet som bygger et seriøst LIVE-hjem for skapere, ikke en flyer-fabrikk.",
+    "team.label": "Ledelse",
+    "team.name": "Cesco",
+    "team.role": "Administrerende direktør, NOVYRA Agency",
+    "team.bio": "Setter retning for partnerskap, skaperopplevelse og hvordan byrået skalerer med {{iconTiktok}} LIVE — med samme energi du ser i rommet med skapere.",
+    "team.joinHint": "Vil du bli med <strong>under Cesco</strong> hos NOVYRA? Bruk hans {{iconTiktok}}-søknadslenke under — den sender forespørselen til hans linje (ikke den generelle byråsøknaden).",
+    "team.ctaTiktok": "TikTok @cesco.novyra",
+    "team.ctaUnder": "Bli med under Cesco",
+    "team.managersTitle": "Managere",
+    "team.managersBody": "Setter ukentlige prioriteringer, ser klipp og LIVE-repriser med deg og hjelper deg holde fokus uten å brenne ut.",
+    "team.supportTitle": "Support og moderering",
+    "team.supportBody": "Håndterer daglige spørsmål, onboarding og eskaleringer slik at managere kan fokusere på strategi.",
+    "team.trustHeading": "Klarhet, partnerlinje, menneskelig støtte",
+    "team.trustLead": "Ledelse med ekte LIVE-hverdag — på linje med den offisielle TikTok LIVE-partnerbanen, med folk i loopen når rommet blir tungt.",
+    "team.trustLi1": "Erfarne operatører som skalerer med skapere, ikke hype",
+    "team.trustLi2": "Retningslinje-først-kultur på {{iconTiktok}}s offisielle LIVE-partnerbane",
+    "team.trustLi3": "Menneskelig støtte og moderasjon slik at managere forblir strategiske",
+    "team.partnerCtaTitle": "Managere og partnerskap",
+    "team.partnerCtaLead": "Utforsker du talent eller samarbeid med NOVYRA? Ta kontakt på TikTok eller e-post — vi leser hver seriøse henvendelse.",
+    "team.partnerCtaEmail": "Send e-post",
+    "team.partnerCtaTiktok": "Byrået på TikTok",
+    "team.opsSrHeading": "Slik kjører vi hverdagen",
+    "training.heroTitle": "Opplæring og tips",
+    "training.heroTitleHtml": "Opplæring og <span>tips</span>",
+    "training.heroLead":
+      "Korte, praktiske tekster til i kveld: kroker, rom-energi, retention-takter og de «kjedelige» gevinstene (lys, søvn, ren lyd).",
+    "training.stratTitle": "Innholdsstrategi",
+    "training.stratBody": "Én sterk kortformsidee per dag slår fem tilfeldige innlegg. Batch-innspilling, gjenbruk av kroker og pek trafikk mot LIVE-vinduet ditt.",
+    "training.liveTitle": "LIVE-ytelse",
+    "training.liveBody": "Start med et løfte («I kveld ranker vi / vi lærer / vi feirer X»). Takk for gaver ved navn. Avslutt med tydelig retur-tid.",
+    "training.checklistTitle": "Start-sjekkliste",
+    "training.li1": "Nøkkellys foran, myk fill, ikke bare taklys",
+    "training.li2": "Telefon i øyehøyde — øyelinje bygger tillit",
+    "training.li3": "Stabilt brukernavn og pinned chat-regler",
+    "training.li4": "To reserve-samtaletemaer hvis chatten blir stille",
+    "training.ctaMember": "Bli medlem",
+    "training.pathsKicker": "Læringsplan",
+    "training.pathsTitle": "Læringsløyper",
+    "training.pathsLead":
+      "Tre spor du kan bevege deg i i eget tempo—bygd for LIVE-rom, ikke lærebokteori.",
+    "training.path1Title": "LIVE-grunnlag",
+    "training.path1Body":
+      "Lys, innramming, lydhygiene og åpninger som svarer «hvorfor bli?» i første minutt.",
+    "training.path2Title": "Konsistens og trygghet",
+    "training.path2Body":
+      "Bærekraftige planer, retningslinjebevisst playbook og rolig gjenhenting når teknikk eller chat sklir ut.",
+    "training.path3Title": "Vekst og mål",
+    "training.path3Body":
+      "Lesbare stiger, push-uke-rytme og språk som gjør vagt «grind mer» om til en ukeplan.",
+    "training.deliverKicker": "Slik treffer det",
+    "training.deliverTitle": "Slik leveres coaching",
+    "training.deliverLi1":
+      "Notater fra repriser om åpninger, gaver og stillhets-redninger—forankret i din faktiske show.",
+    "training.deliverLi2":
+      "Korte live-gjennomganger når tiden tillater det, med ett–to fokus til neste stream.",
+    "training.deliverLi3":
+      "Kontorliknende timer for raske spørsmål—uten å erstatte managerens strategiske spor.",
+    "training.deliverLi4":
+      "Delte referanser (klipp, show-takter) så tilbakemeldinger blir konkrete, ikke bare motivasjonsstøy.",
+    "training.outcomesKicker": "Det som løftes først",
+    "training.outcomesTitle": "Utfall skapere bryr seg om",
+    "training.outcomesLead":
+      "Vi beskriver fremgang i det du kan se i rommet—ingen håndplukkede vanity-tall eller oppdiktet følger-matematikk.",
+    "training.outcome1Title": "Tydeligere tallforståelse",
+    "training.outcome1Body":
+      "Du lærer hvilke tall som forklarer momentum i din nisje, så valg føles mindre som gjetting i blinde.",
+    "training.outcome2Title": "Retningslinjehygiene",
+    "training.outcome2Body":
+      "Romkultur og plattformsregler som del av håndverket—beskytter kontoen du bygger langsiktig.",
+    "training.outcome3Title": "Utbetaling og bonus-klarhet",
+    "training.outcome3Body":
+      "Færre «hva teller denne måneden?»-tråder—forventninger knyttet til dokumentert programmekanikk som manageren kan gå gjennom.",
+    "training.rhythmKicker": "Ukerytme",
+    "training.rhythmTitle": "Ressurser og hva du kan forvente",
+    "training.rhythmLi1":
+      "Praktiske tekster og sjekklister tilpasset ekte LIVE-arbeidsflyt—ikke abstrakte teori-dekk.",
+    "training.rhythmLi2":
+      "Rom for raske gevinster (lyd, lys, show-struktur) sammen med mål som strekker seg over tid.",
+    "training.rhythmLi3":
+      "Berøringspunkter som respekterer stream-kalenderen; coaching skal passe inn, ikke kjempe mot den.",
+    "training.rhythmLi4":
+      "Eskaleringsveier når plattformen endrer seg raskt, så du ikke sitter alene med partner-spørsmål klokka to.",
+    "training.faqKicker": "Spørsmål",
+    "training.faqTitle": "FAQ",
+    "training.faq1Q": "Er opplæring bare for store skapere?",
+    "training.faq1A":
+      "Nei. De samme grunnprinsippene gjelder i alle størrelser—ramming, fortellertakter og bærekraftig tempo. Rommet endrer seg; disiplinen består.",
+    "training.faq2Q": "Blir jeg presset til risikofylt innhold for vekst?",
+    "training.faq2A":
+      "Vekst krever innsats, ikke hensynsløse snarveier. Vi avstemmer romkultur og programregler før noen presser aggressive mål.",
+    "training.faq3Q": "Lover dere spesifikke inntekter?",
+    "training.faq3A":
+      "Vi garanterer ikke utfall. LIVE-ytelse varierer. Vi fokuserer på lesbare systemer, konkret coaching og klarhet rundt insentiver—så planen forblir ærlig.",
+    "training.faq4Q": "Hvor raskt kan jeg forvente svar?",
+    "training.faq4A":
+      "Tempo avhenger av kanal og hastegrad. Alvorlige eskaleringer routes med partnerbevisst kontekst; hverdagsspørsmål samles slik at managere beholder strategisk tid.",
+    "training.faq5Q": "Er dette det samme som å søke medlemskap?",
+    "training.faq5A":
+      "Denne siden forklarer hvordan vi tenker om opplæring. Medlemskap har egne steg, krav og vurdering—start der om du vil inn på roster.",
+    "about.heroTitle": "Om NOVYRA",
+    "about.heroTitleHtml": "Om <span>NOVYRA</span>",
+    "about.heroLead":
+      "Offisielt TikTok LIVE-partnerbyrå for seriøse skapere: tydelige systemer, menneskelig støtte og veiledning fra folk som jobber tett på TikTok LIVE hver dag.",
+    "about.statLine":
+      "Dybde som vises i rommet: skapere forbi 500k følgere, pluss spesialister med 10+ år på TikTok og sosiale medier — mønstergjenkjenning for hvordan algoritmer og trender pleier å bevege seg.",
+    "about.whyKicker": "Partnerdrift",
+    "about.whyTitle": "Hvorfor NOVYRA",
+    "about.whyLead":
+      "Vi kombinerer plattformnær utførelse med operatørdisiplin — gjentakbar struktur, respektfulle eskaleringer og coaching som tar LIVE-ytelsens uforutsigbarhet på alvor.",
+    "about.diff1Html":
+      "<strong>Strukturert onboarding</strong> — milepæler og dokumenterte forventninger slik at du ikke gjetter hva «bra» betyr hver uke.",
+    "about.diff2Html":
+      "<strong>Replay-drevet coaching</strong> — managere og spesialister jobber ut fra ekte streams og klipp, ikke generiske manus.",
+    "about.diff3Html":
+      "<strong>Kvalitetskrav for partnere</strong> — vi avstemmer retningslinjehygiene og profesjonell romkultur før vi presser aggressive mål.",
+    "about.diff4Html":
+      "<strong>Flerspråklige kjernestrømmer</strong> — samme spillbok på språkene vi støtter i dag, lokalisert der det hjelper globale skapere.",
+    "about.missionVisionTitle": "Misjon & retning",
+    "about.missionTitle": "Misjon",
+    "about.missionBody": "Gi hver seriøs LIVE-skaper en tydelig vei: bedre show, sunnere tempo, smartere inntekt — med mennesker i loopen.",
+    "about.visionTitle": "Visjon",
+    "about.visionBody": "Et nettverk der små skapere får samme respekt som store — fordi systemer og coaching skalerer, ego gjør det ikke.",
+    "about.expertiseTitle": "Ekspertise bak byrået",
+    "about.cardLegalTitle": "Juridikk & policy",
+    "about.cardLegalBody":
+      "En advokat jobber med byrået på retningslinjer, plattformsregler og compliance-orientert veiledning — slik at beslutninger mellom risiko og vekst får tryggere rammer.",
+    "about.cardCreatorsTitle": "Skaperstyrt lederskap",
+    "about.cardCreatorsBody":
+      "Vår ledelseskrets inkluderer influencere og skapere forbi 500k følgere, med 10+ år på TikTok og sosiale medier — erfaringsbasert mønstergjenkjenning for feeds, gaver og LIVE-kultur.",
+    "about.cardProductionTitle": "Produksjon & redigering",
+    "about.cardProductionBody":
+      "Redaktører finpusser klipp, miniatyrbilder og LIVE-nære ressurser slik at tilstedeværelsen din henger sammen mens du er foran kamera.",
+    "about.cardOpsTitle": "Folk, HR & drift",
+    "about.cardOpsBody":
+      "HR-spesialister og forretningseiere som har drevet ekte team holder ansettelse, avtaler og daglig drift forankret i hva som knekker når skala håndteres uaktsomt.",
+    "about.valuesTitle": "Verdier",
+    "about.v1": "<strong>Sikkerhet først</strong> — plattformsregler og seergrenser er ikke forhandlingsbare.",
+    "about.v2": "<strong>Åpenhet</strong> — du fortjener å vite hvordan bonuser og forventninger fungerer.",
+    "about.v3": "<strong>Langsiktig vekst</strong> — snarveier som risikerer kontoen din er uaktuelt.",
+    "about.legalNote":
+      "For registrerte enhetsopplysninger eller formell korrespondanse: bruk e-posten i bunnteksten, så sender vi forespørselen til riktig kontaktperson.",
+    "about.ctaTitle": "Neste steg",
+    "about.ctaLead": "Se gjennom medlemskap, skumm praktisk LIVE-opplæring eller les hvordan bonusene er bygget før du søker.",
+    "about.ctaMember": "Oversikt over medlemskap",
+    "about.ctaTraining": "Opplæring og tips",
+    "about.ctaBonus": "Bonusrammeverket",
+    "bonus.kicker": "Resultatlønn",
+    "bonus.heroTitle": "Månedlig bonus",
+    "bonus.heroTitleHtml": "<span>Månedlig</span> bonus",
+    "bonus.heroLead":
+      "To månedlige spor med samme diamantnivåer — Advance vs Elite endrer utbetaling pluss minimum live-dager og -timer som manageren din bekrefter.",
+    "bonus.advanceLadderAria": "Advance-trinn · liste",
+    "bonus.eliteLadderAria": "Elite-trinn · liste",
+    "bonus.intro": "Diamantsummer og utbetalinger følger {{iconTiktokLive}}-programregler. Din manager bekrefter hvilket spor du er på en gitt måned.",
+    "bonus.advanceTitle": "Advance",
+    "bonus.advanceMeta": "Spor A · ordinær plan",
+    "bonus.advanceLede": "Nå diamantnivået for et trinn for å låse opp den månedens tillegg.",
+    "bonus.eliteTitle": "Elite",
+    "bonus.eliteMeta": "Spor B · høyere utbetaling, strengere minimum",
+    "bonus.eliteLede": "Samme diamantsteg som Advance — større beløp og flere dager og timer kreves.",
+    "bonus.qualTitle": "Kvalifikasjon",
+    "bonus.advQ1": "Minimum <strong>18</strong> dager / måned",
+    "bonus.advQ2": "Minimum <strong>60</strong> timer / måned",
+    "bonus.eliQ1": "Minimum <strong>22</strong> dager / måned",
+    "bonus.eliQ2": "Minimum <strong>80</strong> timer / måned",
+    "bonus.pushLabel": "1M+ push",
+    "bonus.pushMint": "Over 1M poeng → ekstra <strong>3%</strong>.",
+    "bonus.pushViolet": "Over 1M poeng → ekstra <strong>5%</strong>.",
+    "bonus.tierGems100k": "100 000 diamanter",
+    "bonus.tierGems200k": "200 000 diamanter",
+    "bonus.tierGems300k": "300 000 diamanter",
+    "bonus.tierGems500k": "500 000 diamanter",
+    "bonus.tierGems750k": "750 000 diamanter",
+    "bonus.tierGems1m": "1 000 000 diamanter",
+    "bonus.tierGems165m": "1 650 000 diamanter",
+    "bonus.advAmt1": "+1 300",
+    "bonus.advAmt2": "+2 150",
+    "bonus.advAmt3": "+4 888",
+    "bonus.advAmt4": "+17 000",
+    "bonus.advAmt5": "+21 000",
+    "bonus.advAmt6": "+30 000",
+    "bonus.advAmt7": "+40 000",
+    "bonus.eliAmt1": "+2 150",
+    "bonus.eliAmt2": "+5 000",
+    "bonus.eliAmt3": "+10 000",
+    "bonus.eliAmt4": "+25 000",
+    "bonus.eliAmt5": "+34 000",
+    "bonus.eliAmt6": "+45 000",
+    "bonus.eliAmt7": "+55 000",
+    "bonus.recruitTitle": "Rekrutter og tjen",
+    "bonus.recruitLead":
+      "Hjelp seriøse skapere bli med i NOVYRA og tjen bonuser når vervede skapere blir aktive medlemmer i byrået.",
+    "bonus.recruitCard1Title": "Vervebonuser",
+    "bonus.recruitCard1Body": "Tjen bonuser når skapere du verver, kvalifiserer seg og forblir aktive.",
+    "bonus.recruitCard2Title": "Åpent for miljøet",
+    "bonus.recruitCard2Body":
+      "Alle kan delta i å verve — henvis skapere i alle størrelser; du trenger ikke selv å være en stor skaper.",
+    "bonus.recruitCard3Title": "Bygget for langsiktig vekst",
+    "bonus.recruitCard3Body": "Sterke skapere bygger sterkere skaperfellesskap.",
+    "bonus.ctaBack": "Tilbake til forsiden",
+    "bonus.ctaJoin": "Bli med i NOVYRA"
+  },
+  fi: {},
+  is: {},
+  da: {}
+};
+
+/* Finnish full patch: locale-fi-full.js (window.NOVYRA_LOCALE_PATCH_FI) — load before this file. */
+
+var NOVYRA_LOCALE_PATCH_IS = {
+  "a11y.chooseLanguage": "Veldu tungumál",
+  "nav.home": "Heim",
+  "nav.member": "Gerast meðlimur",
+  "nav.team": "Teymið okkar",
+  "nav.bonus": "Bónuskerfi",
+  "nav.training": "Þjálfun",
+  "nav.about": "Um okkur",
+  "nav.joinNow": "Skráðu þig núna",
+  "nav.logoSub": "OPINBER TIKTOK LIVE SAMSTARFSAÐI",
+  "nav.openMenu": "Opna valmynd",
+  "footer.join": "Skráðu þig",
+  "footer.home": "Heim",
+  "footer.partnerSub": "Opinnber TikTok LIVE samstarfsaðili",
+  "mobile.joinTikTok": "Skráðu þig á TikTok",
+  "home.heroLeadL1": "Opinbert ",
+  "home.heroLeadEmTiktok": "TikTok LIVE",
+  "home.heroLeadL2": "-samstarfsumboð fyrir ",
+  "home.heroLeadEmCreators": "skapendur",
+  "home.heroLeadL3":
+    "—skipulagða þjálfun, skýr markmið og raunverulega aðstoð frá einu af ",
+  "home.heroLeadEmFastestGrowing": "hraðast vaxandi",
+  "home.heroLeadL4": " TikTok LIVE-samstarfsumboðunum í heiminum.",
+  "member.heroTitle": "Gerast meðlimur",
+  "team.heroTitle": "Teymið okkar",
+  "training.heroTitle": "Þjálfun og ráð",
+  "about.heroTitle": "Um NOVYRA",
+  "bonus.ctaBack": "Til baka á forsíðu",
+  "bonus.ctaJoin": "Skráðu þig hjá NOVYRA",
+  "bonus.recruitTitle": "Ráða inn og vinna",
+  "bonus.recruitLead":
+    "Hjálpaðu alvarlegum skapendum að ganga til liðs við NOVYRA og fáðu bónusa þegar viðmældir skapendur verða virkir meðlimir í umboðinu.",
+  "bonus.recruitCard1Title": "Tilvísunarbónusar",
+  "bonus.recruitCard1Body": "Fáðu bónusa þegar skapendur sem þú vísaðir til uppfylla skilyrði og halda sér virkum.",
+  "bonus.recruitCard2Title": "Opið samfélaginu",
+  "bonus.recruitCard2Body":
+    "Allir geta tekið þátt í að benda á skapendur — vísaðu á skapendur á öllum stigum; þú þarft ekki að vera stór skapari sjálfur.",
+  "bonus.recruitCard3Title": "Hannað fyrir langtíma vöxt",
+  "bonus.recruitCard3Body": "Sterkir skapendur hjálpa til við að byggja sterkari skapendasamfélög.",
+  "home.testi1CiteHandle": "@ladyjofficial0",
+  "home.testi1CiteAvatarAlt": "Prófílmynd fyrir LadyJ (@ladyjofficial0) á TikTok",
+  "home.testi2CiteHandle": "@mikaeil.sweden",
+  "home.testi2CiteAvatarAlt": "Prófílmynd fyrir Mikaeil (@mikaeil.sweden) á TikTok"
+};
+
+(function novyraAssignFiIsDa() {
+  var F = NOVYRA_LOCALE_FLATS;
+  if (!F || !F.sv || !F.no) return;
+  function assignPatch(base, patch) {
+    var o = {};
+    for (var k in base) o[k] = base[k];
+    for (var k2 in patch) o[k2] = patch[k2];
+    return o;
+  }
+  F.is = assignPatch(F.no, NOVYRA_LOCALE_PATCH_IS);
+  var P_AR = typeof NOVYRA_LOCALE_PATCH_AR !== "undefined" ? NOVYRA_LOCALE_PATCH_AR : {};
+  var P_FA = typeof NOVYRA_LOCALE_PATCH_FA !== "undefined" ? NOVYRA_LOCALE_PATCH_FA : {};
+  var P_DA = typeof NOVYRA_LOCALE_PATCH_DA !== "undefined" ? NOVYRA_LOCALE_PATCH_DA : {};
+  var P_FI = typeof NOVYRA_LOCALE_PATCH_FI !== "undefined" ? NOVYRA_LOCALE_PATCH_FI : {};
+  /* Danish / Finnish: full patch on Norwegian key set (same keys as no/sv). */
+  F.da = assignPatch(F.no, P_DA);
+  F.fi = assignPatch(F.no, P_FI);
+  F.ar = assignPatch({}, P_AR);
+  F.fa = assignPatch({}, P_FA);
+})();
+
+(function novyraBootstrapLocales() {
+  var M = window.NOVYRA_I18N_MESSAGES;
+  if (!M || !M.en) return;
+  function clone(o) {
+    return JSON.parse(JSON.stringify(o));
+  }
+  function applyFlat(base, flat) {
+    var o = clone(base);
+    for (var path in flat) {
+      if (!Object.prototype.hasOwnProperty.call(flat, path)) continue;
+      var parts = path.split(".");
+      if (!parts.length) continue;
+      var cur = o;
+      for (var i = 0; i < parts.length - 1; i++) {
+        var segment = parts[i];
+        var next = cur[segment];
+        if (next == null) {
+          next = {};
+          cur[segment] = next;
+        } else if (typeof next !== "object") {
+          cur = null;
+          break;
+        }
+        cur = next;
+      }
+      if (cur != null) cur[parts[parts.length - 1]] = flat[path];
+    }
+    return o;
+  }
+  ["sv", "no", "fi", "is", "da", "ar", "fa"].forEach(function (code) {
+    var flat = (NOVYRA_LOCALE_FLATS[code] && NOVYRA_LOCALE_FLATS[code]) || {};
+    M[code] = applyFlat(M.en, flat);
+  });
+})();
+
+/* applyI18n's t() reads NOVYRA_I18N_FLAT_OVERRIDES[lang] before nested NOVYRA_I18N_MESSAGES — mirror merged flats so sv/no/da/… strings actually apply (nested merge alone was not consulted first). */
+(function novyraMirrorFlatsToFlatOverrides() {
+  var F = typeof NOVYRA_LOCALE_FLATS !== "undefined" ? NOVYRA_LOCALE_FLATS : null;
+  if (!F) return;
+  window.NOVYRA_I18N_FLAT_OVERRIDES = window.NOVYRA_I18N_FLAT_OVERRIDES || {};
+  ["sv", "no", "fi", "is", "da", "ar", "fa"].forEach(function (code) {
+    var src = F[code];
+    if (!src || typeof src !== "object") return;
+    var base = window.NOVYRA_I18N_FLAT_OVERRIDES[code] || {};
+    var merged = {};
+    var k;
+    for (k in base) {
+      if (Object.prototype.hasOwnProperty.call(base, k)) merged[k] = base[k];
+    }
+    for (k in src) {
+      if (Object.prototype.hasOwnProperty.call(src, k) && src[k]) merged[k] = src[k];
+    }
+    window.NOVYRA_I18N_FLAT_OVERRIDES[code] = merged;
+  });
+})();
+
+(function novyraReapplyI18nAfterLocales() {
+  /* First site-wide apply: i18n.js defers until merged locale dicts exist on NOVYRA_I18N_MESSAGES. */
+  if (window.NovyraI18n && typeof window.NovyraI18n.apply === "function") {
+    window.NovyraI18n.apply(window.NovyraI18n.getLang());
+  }
+  if (window.NovyraI18n) {
+    window.NovyraI18n.getFlatKeyCountForTest = function (code) {
+      var F = typeof NOVYRA_LOCALE_FLATS !== "undefined" ? NOVYRA_LOCALE_FLATS[code] : null;
+      return F && typeof F === "object" ? Object.keys(F).length : 0;
+    };
+  }
+})();

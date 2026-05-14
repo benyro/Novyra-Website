@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "NOVYRA: preview (no cache)",
+      "type": "shell",
+      "command": "npx --yes http-server . -p 8766 -c-1 -o",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

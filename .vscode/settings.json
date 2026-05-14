@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.root": ".",
+  "liveServer.settings.port": 8766,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.wait": 250,
+  "liveServer.settings.useWebExt": false
+}

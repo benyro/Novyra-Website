@@ -1,0 +1,94 @@
+NOVYRA site — Cursor vs VS Code (make them match)
+
+Cursor and VS Code only show the same site when both are editing **this same folder on disk**: the **`novyra-website`** directory inside your repo clone (not another path, not an old copy, and not the wrong workspace root).
+
+**Do this in VS Code, in order:**
+
+1. From the repo on your machine (for example on the Desktop), **double-click `OPEN-NOVYRA-IN-VSCODE.cmd`** in the repo root. That opens **`NOVYRA-WEBSITE.code-workspace`** so VS Code’s folder root is exactly what this project expects.
+
+2. In VS Code, run **Developer: Reload Window** so extensions (especially Live Server) reload the workspace settings.
+
+3. Open **`novyra-website/index.html`**, then **right-click in the editor → “Open with Live Server”** (or click **Go Live** in the status bar).
+
+4. In the browser, use **`http://127.0.0.1:8766/`** only — that is the port set in this workspace. **Close any `:5500` tabs and remove old bookmarks**; that port is Live Server’s generic default and will not match this workspace.
+
+Two URLs usually means two servers or two different folders. Trust **`http://127.0.0.1:8766/`** for this project after the steps above. If text or scripts still look old, hard-refresh (Ctrl+Shift+R) or bump the `?v=` query strings on JS/CSS in the HTML.
+
+---
+
+Live Server is aligned to port **8766** (Cursor / team preview default) in NOVYRA-WEBSITE.code-workspace, repo .vscode/settings.json, and novyra-website/.vscode/settings.json so "Go Live" matches **http://127.0.0.1:8766/** when those settings drive the session.
+
+
+
+If Live Server stays stale or you need a no-cache static server: Terminal → Run Task → NOVYRA: preview (no cache). That runs npx http-server with **-p 8766** and **-c-1** (no cache). Stop Live Server first if port **8766** is already in use (or stop the http-server process before using Go Live again).
+
+
+
+If the address bar shows a different port, Stop Live Server on ALL VS Code windows, Reload Window, open the workspace you intend (NOVYRA-WEBSITE.code-workspace from the repo root, or the repo folder), Go Live again, and confirm the URL matches liveServer.settings.port (**8766**). Use View Page Source on the home page to confirm the novyra-live-build / VSCode-disk-check comments in <head> (see "Wrong folder / wrong port" below).
+
+
+
+If Cursor or another tool also opens **:8766**, that must be the **same** novyra-website root you are editing — if two different tools bind the same port, only one wins; stop the other first.
+
+
+
+1. Open NOVYRA-WEBSITE.code-workspace from the repo root so the folder root is novyra-website (not the whole monorepo unless you mean to).
+
+
+
+2. Start Live Server from that workspace root (Go Live) so the URL serves this folder's index.html.
+
+
+
+3. In the browser, use View Page Source (not the Elements panel). You must see the HTML comments novyra-live-build and VSCode-disk-check near the top of <head>.
+
+
+
+4. If those comments are missing or the copy looks old, you are on the wrong folder, wrong workspace, or another Live Server instance on a different port is still running.
+
+
+
+5. Stop every Live Server / "Go Live" session, close extra browser tabs on old ports, then start Go Live once from the correct workspace.
+
+
+
+6. Hard refresh the tab (Ctrl+Shift+R) or disable cache in DevTools while testing so CSS/JS query strings do not hide stale assets.
+
+
+
+7. The repo also has a root index.html that only redirects to novyra-website/ — if you opened the parent folder in Live Server, you might get that redirect or a different tree than you expect.
+
+
+
+8. When in doubt, compare the file path in VS Code's tab title with novyra-website\index.html and match the VSCode-disk-check path in source.
+
+
+
+After pulling changes, stop Live Server completely (no stray "Go Live" sessions on old ports).
+
+Confirm liveServer.settings.port is **8766** in the workspace or folder settings you actually use (NOVYRA-WEBSITE.code-workspace, repo .vscode, or novyra-website/.vscode).
+
+Go Live again and open **http://127.0.0.1:8766/** (or the exact port Live Server prints if it overrides 8766 because the port is busy).
+
+Use View Page Source: the novyra-live-build and VSCode-disk-check comments must match what you see on disk in novyra-website; if not, you are serving the wrong folder or an old instance.
+
+
+Quick preview options (pick one)
+
+Option A — Go Live: use Live Server after Developer: Reload Window so the extension picks up the workspace folder and port **8766**; then open **http://127.0.0.1:8766/** and hard-refresh if assets look stale.
+
+Option B — No-cache static server: in a VS Code terminal, cd to the novyra-website folder, then run:
+powershell -ExecutionPolicy Bypass -File scripts\serve-preview.ps1
+(Default port **8766**; override example: `-Port 8080`.)
+From the repo root, the script path is:
+C:\Users\BenYT\Desktop\its-kerhet-benyaminzoughdar-moghadam-netizen\novyra-website\scripts\serve-preview.ps1
+That stops Node listeners on the chosen port (best effort), runs npx http-server with -c-1 from novyra-website, and prints the Preview URL — stop Live Server in VS Code first if that port is busy
+
+
+Go Live checklist (short)
+
+- After pulling: **Developer: Reload Window** so Live Server picks up workspace settings.
+- Open **NOVYRA-WEBSITE.code-workspace** from the repo root (recommended single-folder root = novyra-website).
+- Open **novyra-website/index.html** in the editor.
+- **Right-click the editor → "Open with Live Server"** (or use the status bar **Go Live**).
+- Confirm the browser URL is **http://127.0.0.1:8766/** and close old **:5500** bookmarks or tabs so you are not comparing two servers.

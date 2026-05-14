@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="icon" href="/favicon.png?v=3" type="image/png" sizes="32x32">
+<link rel="shortcut icon" href="/favicon.png?v=3" type="image/png">
+<link rel="apple-touch-icon" href="/favicon.png?v=3" type="image/png">
+<meta name="description" data-i18n-desc="pages.training.metaDesc" content="NOVYRA training and TikTok LIVE tips on content strategy, retention, and going live with confidence.">
+<title>NOVYRA AGENCY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=143">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body class="page-training" data-i18n-title="pages.training.title">
+
+<nav class="navbar">
+  <a href="/" class="logo">
+    <div class="logo-text">
+      <span class="main">NOVYRA AGENCY</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="/" data-i18n="nav.home">Home</a>
+    <a href="/member/" data-i18n="nav.member">Become a Member</a>
+    <a href="/team/" data-i18n="nav.team">Our Team</a>
+    <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
+  <a href="/training/" class="active" data-i18n="nav.training">Training</a>
+    <a href="/about/" data-i18n="nav.about">About</a>
+  </div>
+  <div class="nav-right">
+    <div class="lang-switcher" data-lang-switcher></div>
+    <button type="button" class="nav-btn" data-join-open data-i18n="nav.joinNow">Join Now</button>
+    <button type="button" class="menu-btn" data-i18n-attr="aria-label|nav.openMenu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button type="button" class="mobile-join" data-join-open><span data-i18n="mobile.joinTikTok">Join Now</span></button>
+  <a href="/" data-i18n="nav.home">Home</a>
+  <a href="/member/" data-i18n="nav.member">Become a Member</a>
+  <a href="/team/" data-i18n="nav.team">Our Team</a>
+  <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
+    <a href="/training/" class="active" data-i18n="nav.training">Training</a>
+  <a href="/about/" data-i18n="nav.about">About</a>
+  <div class="mobile-lang" data-lang-switcher></div>
+</div>
+<div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+<section class="hero hero--compact" data-hero-accent>
+  <h1 data-i18n-html="training.heroTitleHtml">Training &amp; <span>tips</span></h1>
+  <p class="hero-lead" data-i18n="training.heroLead">Short, practical reads for tonight: hooks, room energy, retention beats, and the unglamorous wins (light, sleep, clean audio).</p>
+</section>
+
+<section class="section">
+  <div class="two-col">
+    <div class="card-block">
+      <h3 data-i18n="training.stratTitle">Content strategy</h3>
+      <p data-i18n="training.stratBody">One strong short-form idea per day beats five random posts. Batch film, reuse hooks, and point traffic to your LIVE window.</p>
+    </div>
+    <div class="card-block">
+      <h3 data-i18n="training.liveTitle">LIVE performance</h3>
+      <p data-i18n="training.liveBody">Open with a promise (“Tonight we rank / we learn / we celebrate X”). Thank gifts by name. End with a clear comeback time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:rgba(0,0,0,0.25);">
+  <div class="inner">
+    <h2 data-i18n="training.checklistTitle">Starter checklist</h2>
+    <ul>
+      <li data-i18n="training.li1">Key light in front, soft fill, no ceiling-only lighting</li>
+      <li data-i18n="training.li2">Phone elevated at eye line, because eye line sells trust</li>
+      <li data-i18n="training.li3">Stable username and pinned rules for chat</li>
+      <li data-i18n="training.li4">Two backup talking points if chat goes quiet</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="cta-row">
+    <a href="/member/" class="cta-btn" data-i18n="training.ctaMember">Become a member</a>
+  </div>
+</section>
+
+<footer class="site-footer site-footer--lux">
+  <div class="footer-glow-line" aria-hidden="true"></div>
+  <div class="footer-inner footer-inner--lux">
+    <div class="footer-lux-top">
+      <a href="/" class="footer-brand" data-i18n-attr="aria-label|footer.home" aria-label="Home">
+        <div class="main">NOVYRA AGENCY</div>
+        <div class="sub"><span data-i18n="footer.partnerSub">Official TikTok LIVE partner</span></div>
+      </a>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/" data-i18n="footer.home">Home</a>
+      <a href="/member/" data-i18n="footer.join">Join</a>
+      <a href="/about/" data-i18n="footer.about">About</a>
+      <a href="/training/" data-i18n="footer.training">Training</a>
+      <a href="/team/" data-i18n="footer.team">Team</a>
+      <a href="/bonus/" data-i18n="footer.bonuses">Bonuses</a>
+    </nav>
+    <p class="footer-email-row"><a href="mailto:contact@novyraagency.com" class="footer-email"><svg class="footer-email__icon" xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 18 13" fill="none" aria-hidden="true" focusable="false"><rect x="1.25" y="4" width="15.5" height="7.25" rx="1.5" stroke="currentColor" stroke-width="1.1"/><path d="M1.25 4.25L9 9.4L16.75 4.25" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="footer.emailAddress">contact@novyraagency.com</span></a></p>
+    <p class="footer-copy" data-i18n="footer.copy">© NOVYRA AGENCY 2026</p>
+  </div>
+</footer>
+
+<script src="/i18n.js"></script>
+<script src="/locale-ar-fa-patches.js"></script>
+<script src="/locale-da-full.js"></script>
+<script src="/locale-fi-full.js"></script>
+<script src="/locale-bootstrap.js"></script>
+<script src="/script.js?v=137"></script>
+</body>
+</html>
