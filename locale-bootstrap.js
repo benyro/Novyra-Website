@@ -19,6 +19,8 @@ var NOVYRA_LOCALE_FLATS = {
     "footer.team": "Team",
     "footer.bonuses": "Bonusar",
     "footer.home": "Hem",
+    "footer.tiktok": "TikTok",
+    "footer.tiktokAriaLabel": "NOVYRA på TikTok",
     "footer.copy": "© NOVYRA AGENCY 2026",
     "footer.copyIndex": "© NOVYRA AGENCY 2026",
     "footer.emailAddress": "contact@novyraagency.com",

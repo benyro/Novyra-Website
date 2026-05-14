@@ -1337,6 +1337,105 @@ body.page-home section.hero.hero--home-cosmos .hero-brand-video-fo-inner {
   color: inherit;
 }
 
+/* iOS / iPadOS WebKit: SVG <foreignObject> + masked video is unreliable; JS adds --plain-fallback. */
+.hero-brand-inline-video {
+  display: none;
+  width: min(100%, 26rem);
+  max-width: 100%;
+  margin-top: 0.75rem;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+    0 18px 48px rgba(5, 5, 12, 0.55),
+    0 0 40px rgba(124, 108, 255, 0.12);
+  background: #07060f;
+}
+
+.hero-brand-inline-video__el {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: 50% 42%;
+  pointer-events: none;
+}
+
+.hero-brand-lockup--plain-fallback .hero-brand-svg-host {
+  display: none !important;
+}
+
+.hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
+  display: block;
+}
+
+.hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.34em;
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1.06;
+}
+
+.hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
+  display: block;
+  font-size: 1.12em;
+  color: #fffdf8;
+  -webkit-text-fill-color: #fffdf8;
+  text-shadow:
+    0 0 28px rgba(124, 108, 255, 0.45),
+    0 2px 18px rgba(5, 5, 12, 0.65);
+}
+
+.hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2] {
+  display: block;
+  margin-top: 0.14em;
+  font-size: 0.67em;
+  font-weight: 700;
+  letter-spacing: 0.44em;
+  padding-inline-end: 0.44em;
+  text-transform: uppercase;
+  line-height: 1.12;
+  color: #d8f7ff;
+  -webkit-text-fill-color: #d8f7ff;
+  text-shadow:
+    0 0 22px rgba(45, 212, 191, 0.35),
+    0 2px 14px rgba(5, 5, 12, 0.55);
+}
+
+body.page-home section.hero.hero--home-cosmos .hero-actions {
+  /* Lead glass card uses z-index: 2; keep CTAs above its paint (shadow/backdrop), tappable on phones. */
+  position: relative;
+  z-index: 3;
+}
+
+body.page-home section.hero.hero--home-cosmos .hero-actions .cta-btn:not(.cta-btn--ghost) {
+  color: #050508;
+  -webkit-text-fill-color: #050508;
+  position: relative;
+  z-index: 2;
+}
+
+body.page-home section.hero.hero--home-cosmos .hero-actions .cta-btn--ghost {
+  position: relative;
+  z-index: 1;
+}
+
 .hero-brand-lockup--stroke-fallback .hero-brand-masked-stack,
 .hero-brand-lockup--stroke-fallback .hero-brand-glass-veil {
   opacity: 0 !important;
@@ -3695,6 +3794,64 @@ a.footer-brand:focus-visible {
   line-height: 1.6;
   color: var(--text-muted);
   margin-bottom: 20px;
+}
+
+.member-fest__preview {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 18px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #07060f;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+}
+
+.member-fest__preview:focus-visible {
+  outline: 2px solid rgba(45, 212, 191, 0.85);
+  outline-offset: 3px;
+}
+
+.member-fest__preview-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.member-fest__preview-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 40%, rgba(3, 3, 10, 0.55) 100%);
+  pointer-events: none;
+}
+
+.member-fest__preview-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  border-radius: 999px;
+  background: rgba(6, 5, 12, 0.55);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.member-fest__preview-play::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -10px 0 0 -7px;
+  border-style: solid;
+  border-width: 10px 0 10px 16px;
+  border-color: transparent transparent transparent rgba(255, 253, 248, 0.95);
 }
 
 .member-why {
