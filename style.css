@@ -868,7 +868,7 @@ body.page-home section.hero.hero--home-cosmos {
   width: 100%;
   overflow-x: clip;
   /* body.page-home has no padding-top — first paint is hero; offset clears fixed nav (≤900px overrides --novyra-nav-h). */
-  padding-top: calc(var(--novyra-nav-h) + clamp(14px, 1.75vw, 28px));
+  padding-top: calc(var(--novyra-nav-h) + clamp(10px, 1.35vw, 22px));
   padding-bottom: 64px;
   padding-left: clamp(18px, 4vw, 36px);
   padding-right: clamp(18px, 4vw, 36px);
@@ -1375,12 +1375,12 @@ body.page-home section.hero.hero--home-cosmos .hero-brand-video-fo-inner {
 }
 
 body.page-home .hero-brand-lockup--plain-fallback .hero-brand-measure {
-  font-family: "Syne", var(--font-body), system-ui, sans-serif;
+  font-family: var(--font-display);
 }
 
 /* Home + iOS plain fallback: lift wordmark slightly; luxe glass plate (masked video not reliable on phones). */
 body.page-home .hero-brand-lockup--plain-fallback {
-  margin-top: clamp(-0.75rem, -3.2vw, -0.28rem);
+  margin-top: clamp(-1rem, -3.8vw, -0.32rem);
   padding: clamp(0.75rem, 3vw, 1.05rem) clamp(0.92rem, 4vw, 1.28rem);
   border-radius: clamp(18px, 4.8vw, 26px);
   background:
@@ -1438,45 +1438,48 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.34em;
+  gap: 0.28em;
   text-align: center;
-  font-family: "Syne", var(--font-body), system-ui, sans-serif;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 600;
   letter-spacing: 0.02em;
-  line-height: 1.06;
+  line-height: 1.04;
 }
 
 .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
   display: block;
   font-size: 1.12em;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: #fffdf8;
   -webkit-text-fill-color: #fffdf8;
   text-shadow:
-    0 0 1px rgba(255, 253, 248, 0.35),
-    0 0 42px rgba(124, 108, 255, 0.42),
-    0 0 72px rgba(45, 212, 191, 0.12),
-    0 3px 22px rgba(5, 5, 12, 0.75);
-  filter: drop-shadow(0 1px 0 rgba(212, 184, 122, 0.22));
+    0 0 1px rgba(255, 253, 248, 0.45),
+    0 0 48px rgba(124, 108, 255, 0.38),
+    0 0 88px rgba(45, 212, 191, 0.1),
+    0 4px 26px rgba(5, 5, 12, 0.78);
+  filter: drop-shadow(0 2px 0 rgba(212, 184, 122, 0.18));
 }
 
 .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2] {
   display: block;
-  margin-top: 0.14em;
-  font-size: 0.67em;
-  font-weight: 700;
+  margin-top: 0.08em;
+  font-size: 0.62em;
+  font-weight: 600;
+  font-style: italic;
   letter-spacing: 0.44em;
   padding-inline-end: 0.44em;
   text-transform: uppercase;
-  line-height: 1.12;
-  color: #e6fbff;
-  -webkit-text-fill-color: #e6fbff;
+  line-height: 1.15;
+  color: #f0f6ff;
+  -webkit-text-fill-color: #f0f6ff;
   text-shadow:
-    0 0 1px rgba(200, 245, 255, 0.4),
-    0 0 26px rgba(45, 212, 191, 0.45),
-    0 0 48px rgba(124, 108, 255, 0.2),
-    0 2px 16px rgba(5, 5, 12, 0.65);
+    0 0 1px rgba(220, 235, 255, 0.45),
+    0 0 32px rgba(45, 212, 191, 0.42),
+    0 0 56px rgba(124, 108, 255, 0.22),
+    0 3px 18px rgba(5, 5, 12, 0.68);
 }
 
 /* Home + iOS plain fallback: match masked hero tracking — base l2 uses 0.44em, which reads as spaced caps on narrow phones. */
@@ -1487,8 +1490,8 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
   }
 
   body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
-    font-size: clamp(1.02em, 0.98em + 1.1vw, 1.14em);
-    letter-spacing: 0.055em;
+    font-size: clamp(1.02em, 0.96em + 1.2vw, 1.16em);
+    letter-spacing: clamp(0.06em, 0.08em + 0.2vw, 0.12em);
   }
 
   body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2],
@@ -2134,10 +2137,10 @@ body.page-home section.hero.hero--home-cosmos .hero-lead--home-glass .hero-lead-
   }
 }
 
-/* Home hero: partner pill sits under the masked lockup, above the gradient hairline */
+/* Home hero: partner pill leads the stack (directly under nav), then the brand lockup */
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-  margin-top: clamp(-34px, -4.1vw, -1px);
-  margin-bottom: clamp(4px, 0.75vw, 10px);
+  margin-top: 0;
+  margin-bottom: clamp(10px, 1.8vw, 22px);
 }
 
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__plate {
@@ -4941,7 +4944,7 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
 
   /* Home: body.page-home has no padding-top — offset lockup with nav height (same as desktop). */
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: calc(var(--novyra-nav-h) + clamp(8px, 2.2vw, 18px));
+    padding-top: calc(var(--novyra-nav-h) + clamp(5px, 1.2vw, 14px));
     padding-bottom: clamp(26px, 5vw, 52px);
     padding-left: clamp(10px, 3.2vw, 22px);
     padding-right: clamp(10px, 3.2vw, 22px);
@@ -4963,8 +4966,9 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
 
   body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
     font-size: clamp(4.45rem, 13.8vw, 8.25rem);
-    padding-top: 0.02em;
+    padding-top: 0;
     padding-bottom: 0;
+    margin-top: clamp(-0.3rem, -1vw, 0rem);
     letter-spacing: 0.018em;
   }
 
