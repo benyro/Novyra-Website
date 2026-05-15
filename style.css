@@ -1180,6 +1180,17 @@ body.page-home .hero-brand-measure__l2 {
   margin-top: 0.04em;
 }
 
+@media (min-width: 901px) {
+  body.page-home .hero-brand-measure__l2 {
+    margin-top: 0.07em;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-video-montage__layer--single,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-video-montage__layer--single {
+    transform: scale(0.96);
+  }
+}
+
 .hero-brand-svg-host {
   position: absolute;
   left: 0;
@@ -5567,5 +5578,252 @@ html.novyra-motion .fade {
   html.novyra-hero-accent-motion [data-hero-accent] h1::after {
     animation: none !important;
     transform: scaleX(1);
+  }
+}
+
+/* =============================================================================
+   Mobile home hero — luxury rhythm (≤900px, body.page-home only).
+   Tightens nav→lockup gap, title + montage hierarchy, plain-fallback video bleed,
+   and optional motion. Desktop ≥901px unchanged.
+   ============================================================================= */
+
+@keyframes heroMobileHomeStackReveal {
+  from {
+    opacity: 0;
+    filter: blur(7px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes heroMobileHomeStackFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -2.5px, 0);
+  }
+}
+
+@keyframes heroMobileHomeSvgLuxPulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 10px 26px rgba(3, 2, 12, 0.52)) drop-shadow(0 0 32px rgba(124, 92, 200, 0.14))
+      drop-shadow(0 0 48px rgba(212, 184, 122, 0.07));
+  }
+
+  50% {
+    filter: drop-shadow(0 13px 32px rgba(3, 2, 12, 0.56)) drop-shadow(0 0 44px rgba(124, 92, 200, 0.22))
+      drop-shadow(0 0 58px rgba(212, 184, 122, 0.11));
+  }
+}
+
+@media (max-width: 900px) {
+  body.page-home section.hero.hero--home-cosmos {
+    padding-top: calc(var(--novyra-nav-h) + clamp(0px, 0.35vw, 5px));
+    padding-bottom: clamp(22px, 4.8vw, 50px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
+    margin-top: clamp(-4px, -0.35vw, 0px);
+    margin-bottom: clamp(2px, 0.9vw, 10px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero__stack {
+    max-width: min(100%, 1180px);
+    width: 100%;
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
+    font-size: clamp(4.85rem, 15.2vw, 9.1rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.012em;
+    margin-top: clamp(-0.62rem, -2.4vw, -0.12rem);
+    padding-top: 0;
+    padding-bottom: 0;
+    text-shadow: 0 0 42px rgba(124, 108, 255, 0.12), 0 0 72px rgba(45, 212, 191, 0.06), 0 18px 40px rgba(5, 5, 12, 0.45);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-brand-lockup {
+    width: 100%;
+    max-width: min(36rem, 100%);
+  }
+
+  body.page-home .hero-brand-measure {
+    gap: 0.06em;
+  }
+
+  body.page-home .hero-brand-measure__l1 {
+    font-size: 1.18em;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  body.page-home .hero-brand-measure__l2 {
+    margin-top: 0.02em;
+    font-weight: 800;
+    letter-spacing: 0.26em;
+    padding-inline-end: 0.26em;
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-brand-stroke-layer text[data-hero-brand-stroke-l1] {
+    stroke-width: 2.15;
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-brand-stroke-layer text[data-hero-brand-stroke-l2] {
+    stroke-width: 1.55;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-video-montage__layer--single,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-video-montage__layer--single {
+    transform: scale(0.94);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-home-divider {
+    width: min(42%, 380px);
+    min-width: min(10rem, 86vw);
+    margin-top: clamp(8px, 1.8vw, 14px);
+    margin-bottom: clamp(14px, 2.8vw, 24px);
+    transform: translateY(clamp(-6px, -0.85vw, -2px));
+    box-shadow:
+      0 0 20px color-mix(in srgb, var(--accent) 24%, transparent),
+      0 0 32px color-mix(in srgb, var(--accent-2) 18%, transparent);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-lead-pro {
+    max-width: min(31rem, 94vw);
+    margin-top: clamp(2px, 0.6vw, 6px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-lead.hero-lead--home-glass {
+    padding: clamp(12px, 2.4vw, 16px) clamp(14px, 3.2vw, 18px);
+    font-size: clamp(13.5px, 3.35vw, 15.5px);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    border-radius: var(--radius-md);
+    opacity: 0.94;
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-actions {
+    margin-top: clamp(16px, 3.2vw, 22px);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-shadow:
+      0 0 1px rgba(255, 253, 248, 0.55),
+      0 0 52px rgba(124, 108, 255, 0.45),
+      0 0 96px rgba(45, 212, 191, 0.12),
+      0 5px 28px rgba(5, 5, 12, 0.82);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2] {
+    font-weight: 800;
+    letter-spacing: 0.28em;
+    padding-inline-end: 0.28em;
+    text-shadow:
+      0 0 1px rgba(220, 235, 255, 0.5),
+      0 0 38px rgba(45, 212, 191, 0.38),
+      0 0 62px rgba(124, 108, 255, 0.26),
+      0 4px 20px rgba(5, 5, 12, 0.72);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top: clamp(0.12rem, 0.55vw, 0.38rem);
+    border-radius: clamp(20px, 4.5vw, 26px);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+      0 22px 56px rgba(5, 5, 12, 0.58),
+      0 0 48px rgba(124, 108, 255, 0.16),
+      0 0 72px rgba(212, 184, 122, 0.08);
+  }
+}
+
+@media (max-width: 540px) {
+  body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
+    font-size: clamp(5.05rem, 17.2vw, 8.4rem);
+    letter-spacing: -0.018em;
+  }
+
+  body.page-home .hero-brand-measure__l2 {
+    letter-spacing: 0.22em;
+    padding-inline-end: 0.22em;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-video-montage__layer--single,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-video-montage__layer--single {
+    transform: scale(0.97);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2] {
+    letter-spacing: 0.2em;
+    padding-inline-end: 0.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  body.page-home section.hero.hero--home-cosmos {
+    padding-top: calc(var(--novyra-nav-h) + clamp(0px, 0.25vw, 4px));
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-home-divider {
+    margin-top: clamp(6px, 1.6vw, 12px);
+    margin-bottom: clamp(12px, 2.6vw, 20px);
+  }
+}
+
+@media (max-width: 900px) and (prefers-reduced-motion: no-preference) {
+  body.page-home section.hero.hero--home-cosmos .hero__stack {
+    animation: heroMobileHomeStackReveal 0.78s cubic-bezier(0.22, 1, 0.36, 1) both,
+      heroMobileHomeStackFloat 10s ease-in-out 0.78s infinite;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-svg-host .hero-brand-svg,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-svg-host .hero-brand-svg {
+    animation: heroMobileHomeSvgLuxPulse 7.2s ease-in-out infinite;
+  }
+}
+
+@media (max-width: 900px) and (prefers-reduced-motion: reduce) {
+  body.page-home section.hero.hero--home-cosmos .hero__stack {
+    animation: none !important;
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-svg-host .hero-brand-svg,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-svg-host .hero-brand-svg {
+    animation: none !important;
+  }
+}
+
+/* Member (Become a Member): mobile — tuck compact hero under fixed nav without changing global compact heroes. */
+@media (max-width: 900px) {
+  body.page-member section.hero.hero--compact.member-hero-premium {
+    padding-top: clamp(4px, 1.25vw, 10px);
+  }
+}
+
+@media (max-width: 540px) {
+  body.page-member section.hero.hero--compact.member-hero-premium {
+    padding-top: clamp(3px, 1.05vw, 8px);
+  }
+}
+
+@media (max-width: 480px) {
+  body.page-member section.hero.hero--compact.member-hero-premium {
+    padding-top: clamp(3px, 0.95vw, 7px);
   }
 }
