@@ -895,6 +895,8 @@ body.page-home section.hero.hero--home-cosmos .hero__stack {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0;
+  row-gap: 0;
 }
 
 .hero-cosmos {
@@ -988,7 +990,7 @@ body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0 auto;
-  padding: 0.06em 0 0;
+  padding: 0;
   max-width: 100%;
   position: relative;
   text-wrap: balance;
@@ -1405,7 +1407,7 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-measure {
 
 /* Home + iOS plain fallback: no glass “card” — float wordmark + video over the hero bleed like desktop. */
 body.page-home .hero-brand-lockup--plain-fallback {
-  margin-top: clamp(-0.45rem, -1.8vw, 0rem);
+  margin-top: clamp(-0.68rem, -2.75vw, -0.1rem);
   padding: 0;
   border: none;
   border-radius: 0;
@@ -2176,7 +2178,7 @@ body.page-home section.hero.hero--home-cosmos .hero-lead--home-glass .hero-lead-
 /* Home hero: partner pill leads the stack (directly under nav), then the brand lockup */
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
   margin-top: 0;
-  margin-bottom: clamp(2px, 0.75vw, 12px);
+  margin-bottom: clamp(0px, 0.35vw, 5px);
 }
 
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__plate {
@@ -5004,7 +5006,7 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
     font-size: clamp(4.45rem, 13.8vw, 8.25rem);
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: clamp(-0.3rem, -1vw, 0rem);
+    margin-top: clamp(-0.52rem, -2.1vw, -0.06rem);
     letter-spacing: 0.018em;
   }
 
@@ -5217,10 +5219,15 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
     padding-right: clamp(8px, 2.8vw, 16px);
   }
 
+  body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
+    margin-bottom: 0;
+  }
+
   body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
     font-size: clamp(4.75rem, 17.5vw, 7.75rem);
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: clamp(-0.58rem, -2.65vw, -0.1rem);
     letter-spacing: 0.016em;
   }
 
