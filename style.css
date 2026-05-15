@@ -96,6 +96,11 @@ body.page-home {
       rgba(6, 5, 10, 0.52) 100%
     );
   }
+
+  body.page-home section.hero.hero--home-cosmos {
+    padding-top: 108px;
+    padding-bottom: 72px;
+  }
 }
 
 /* ========================= */
@@ -181,8 +186,6 @@ body.page-home {
   background: rgba(6, 5, 10, 0.78);
   backdrop-filter: blur(16px) saturate(140%);
   border-bottom: none;
-  /* Kill 1px “ink” seam: flat body/hero base under the bar vs compositing gaps. */
-  box-shadow: 0 1px 0 var(--ink);
 }
 
 /* Soft gradient edge under nav (matches .section-divider treatment) */
@@ -903,9 +906,8 @@ body.page-home section.hero.hero--home-cosmos .hero__stack {
   position: absolute;
   inset: -12%;
   background:
-    radial-gradient(ellipse 92% 52% at 50% -8%, rgba(124, 108, 255, 0.22), transparent 58%),
-    radial-gradient(ellipse 55% 45% at 22% 22%, rgba(124, 108, 255, 0.34), transparent 58%),
-    radial-gradient(ellipse 50% 42% at 78% 18%, rgba(45, 212, 191, 0.22), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 22% 28%, rgba(124, 108, 255, 0.34), transparent 58%),
+    radial-gradient(ellipse 50% 42% at 78% 22%, rgba(45, 212, 191, 0.22), transparent 55%),
     radial-gradient(ellipse 70% 55% at 50% 88%, rgba(201, 162, 39, 0.08), transparent 52%),
     radial-gradient(circle at 50% 50%, rgba(18, 17, 26, 0.14), transparent 70%),
     #050508;
@@ -1181,17 +1183,6 @@ body.page-home .hero-brand-measure {
 
 body.page-home .hero-brand-measure__l2 {
   margin-top: 0.04em;
-}
-
-@media (min-width: 901px) {
-  body.page-home .hero-brand-measure__l2 {
-    margin-top: 0.07em;
-  }
-
-  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-video-montage__layer--single,
-  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-video-montage__layer--single {
-    transform: scale(0.96);
-  }
 }
 
 .hero-brand-svg-host {
@@ -5828,5 +5819,16 @@ html.novyra-motion .fade {
 @media (max-width: 480px) {
   body.page-member section.hero.hero--compact.member-hero-premium {
     padding-top: clamp(3px, 0.95vw, 7px);
+  }
+}
+
+@media (min-width: 901px) {
+  body.page-home .hero-brand-measure__l2 {
+    margin-top: 0.04em;
+  }
+
+  body.page-home .hero-brand-lockup--ready.hero-brand-lockup--mask-active .hero-brand-video-montage__layer--single,
+  body.page-home .hero-brand-lockup--stroke-fallback .hero-brand-video-montage__layer--single {
+    transform: scale(0.96);
   }
 }
