@@ -5652,20 +5652,20 @@ html.novyra-motion .fade {
 
   body.page-home section.hero.hero--home-cosmos .hero-cosmos {
     background:
-      radial-gradient(ellipse 58% 50% at 22% 11%, rgba(124, 108, 255, 0.36), transparent 58%),
-      radial-gradient(ellipse 54% 46% at 78% 8%, rgba(45, 212, 191, 0.24), transparent 55%),
-      radial-gradient(ellipse 72% 56% at 50% 82%, rgba(201, 162, 39, 0.08), transparent 52%),
-      radial-gradient(circle at 50% 28%, rgba(18, 17, 26, 0.14), transparent 70%),
+      radial-gradient(ellipse 58% 50% at 22% 8%, rgba(124, 108, 255, 0.36), transparent 58%),
+      radial-gradient(ellipse 54% 46% at 78% 5%, rgba(45, 212, 191, 0.24), transparent 55%),
+      radial-gradient(ellipse 72% 56% at 50% 78%, rgba(201, 162, 39, 0.08), transparent 52%),
+      radial-gradient(circle at 50% 24%, rgba(18, 17, 26, 0.14), transparent 70%),
       #050508;
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-cosmos::before {
-    background-position: 0 -7%, 0 -5%, 0 -6%, 0 -4%, 0 -5%, 0 -4%, 0 -5%, 0 -4%;
+    background-position: 0 -10%, 0 -8%, 0 -9%, 0 -7%, 0 -8%, 0 -7%, 0 -8%, 0 -7%;
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-aurora {
     background: conic-gradient(
-      from 210deg at 50% 32%,
+      from 210deg at 50% 28%,
       rgba(124, 108, 255, 0) 0deg,
       rgba(45, 212, 191, 0.22) 55deg,
       rgba(240, 215, 140, 0.14) 110deg,
@@ -5686,8 +5686,8 @@ html.novyra-motion .fade {
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-top: clamp(-10px, -0.9vw, -5px);
-    margin-bottom: clamp(-3px, -0.25vw, 1px);
+    margin-top: clamp(6px, 1.2vw, 12px);
+    margin-bottom: clamp(4px, 0.85vw, 10px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack {
@@ -5695,7 +5695,10 @@ html.novyra-motion .fade {
     width: 100%;
     gap: 0;
     row-gap: 0;
-    transform: translateY(-1.35rem);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero__stack > :not(.trust-badge--hero-ribbon) {
+    transform: translateY(-1.45rem);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
@@ -5703,7 +5706,7 @@ html.novyra-motion .fade {
     font-weight: 800;
     line-height: 1.02;
     letter-spacing: -0.012em;
-    margin-top: clamp(-1.45rem, -4.8vw, -0.72rem);
+    margin-top: clamp(-1.85rem, -5.6vw, -1.05rem);
     padding-top: 0;
     padding-bottom: 0;
     text-shadow: 0 0 42px rgba(124, 108, 255, 0.12), 0 0 72px rgba(45, 212, 191, 0.06), 0 18px 40px rgba(5, 5, 12, 0.45);
@@ -5772,7 +5775,7 @@ html.novyra-motion .fade {
     min-width: min(10rem, 86vw);
     margin-top: clamp(3px, 0.9vw, 7px);
     margin-bottom: clamp(8px, 1.75vw, 15px);
-    transform: translateY(clamp(-8px, -1.1vw, -4px));
+    transform: translateY(calc(-1.45rem + clamp(-8px, -1.1vw, -4px)));
     box-shadow:
       0 0 20px color-mix(in srgb, var(--accent) 24%, transparent),
       0 0 32px color-mix(in srgb, var(--accent-2) 18%, transparent);
@@ -5872,12 +5875,16 @@ html.novyra-motion .fade {
     padding-top: var(--novyra-nav-h);
   }
 
-  body.page-home section.hero.hero--home-cosmos .hero__stack {
-    transform: translateY(-1.15rem);
+  body.page-home section.hero.hero--home-cosmos .hero__stack > :not(.trust-badge--hero-ribbon) {
+    transform: translateY(-1.25rem);
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-bottom: clamp(-2px, -0.2vw, 1px);
+    margin-bottom: clamp(4px, 0.75vw, 9px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-home-divider {
+    transform: translateY(calc(-1.25rem + clamp(-8px, -1.1vw, -4px)));
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-home-divider {
