@@ -1367,8 +1367,51 @@ body.page-home section.hero.hero--home-cosmos .hero-brand-video-fo-inner {
   display: none !important;
 }
 
+/* Home + iOS plain fallback: lift wordmark slightly; luxe glass plate (masked video not reliable on phones). */
+body.page-home .hero-brand-lockup--plain-fallback {
+  margin-top: clamp(-0.75rem, -3.2vw, -0.28rem);
+  padding: clamp(0.75rem, 3vw, 1.05rem) clamp(0.92rem, 4vw, 1.28rem);
+  border-radius: clamp(18px, 4.8vw, 26px);
+  background:
+    linear-gradient(158deg, rgba(255, 251, 242, 0.09) 0%, rgba(124, 108, 255, 0.075) 44%, rgba(10, 9, 18, 0.55) 100%),
+    rgba(6, 5, 12, 0.32);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  box-shadow:
+    0 0 0 1px rgba(212, 184, 122, 0.15) inset,
+    0 16px 44px rgba(3, 2, 10, 0.52),
+    0 0 52px rgba(124, 108, 255, 0.13),
+    0 0 76px rgba(45, 212, 191, 0.055);
+  backdrop-filter: blur(18px) saturate(1.15);
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+}
+
+body.page-home .hero-brand-lockup--plain-fallback::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    radial-gradient(ellipse 78% 58% at 50% 6%, rgba(212, 184, 122, 0.12), transparent 56%),
+    radial-gradient(ellipse 85% 52% at 50% 100%, rgba(124, 108, 255, 0.11), transparent 58%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden,
+body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
+  position: relative;
+  z-index: 1;
+}
+
 .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
   display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.page-home .hero-brand-lockup--plain-fallback {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }
 
 .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden {
@@ -1416,6 +1459,20 @@ body.page-home section.hero.hero--home-cosmos .hero-brand-video-fo-inner {
   text-shadow:
     0 0 22px rgba(45, 212, 191, 0.35),
     0 2px 14px rgba(5, 5, 12, 0.55);
+}
+
+/* Home + iOS plain fallback: match masked hero tracking — base l2 uses 0.44em, which reads as spaced caps on narrow phones. */
+@media (max-width: 540px) {
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden {
+    letter-spacing: clamp(0.012em, 0.018em + 0.04vw, 0.02em);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2],
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-measure__l2 {
+    letter-spacing: clamp(0.07em, 0.09em + 0.35vw, 0.14em);
+    padding-inline-end: clamp(0.07em, 0.09em + 0.35vw, 0.14em);
+    font-size: clamp(0.58em, 0.62em + 0.2vw, 0.64em);
+  }
 }
 
 body.page-home section.hero.hero--home-cosmos .hero-actions {
