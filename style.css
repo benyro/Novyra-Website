@@ -5939,3 +5939,20 @@ html.novyra-motion .fade {
     transform: scale(0.96);
   }
 }
+
+/* =============================================================================
+   Member (Become a Member) — mobile hero gradient seam (≤900px, body.page-member only).
+   The __ambient layer is a full-height positioned box; with isolation it reads as a
+   rectangular band under the nav. Rely on the fixed body gradient instead.
+   ============================================================================= */
+@media (max-width: 900px) {
+  body.page-member section.hero.hero--compact.member-hero-premium {
+    isolation: auto;
+    background: transparent;
+    overflow: visible;
+  }
+
+  body.page-member .member-hero-premium__ambient {
+    display: none;
+  }
+}
