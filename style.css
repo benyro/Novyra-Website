@@ -1345,26 +1345,37 @@ body.page-home section.hero.hero--home-cosmos .hero-brand-video-fo-inner {
   margin-top: 0.75rem;
   border-radius: 18px;
   overflow: hidden;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background:
+    radial-gradient(ellipse 90% 85% at 50% 45%, #12101e 0%, #050408 62%, #020204 100%);
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.1) inset,
     0 18px 48px rgba(5, 5, 12, 0.55),
     0 0 40px rgba(124, 108, 255, 0.12);
-  background: #07060f;
 }
 
 .hero-brand-inline-video__el {
   display: block;
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
-  aspect-ratio: 16 / 9;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 118%;
+  height: 118%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
   object-fit: cover;
-  object-position: 50% 42%;
+  object-position: 50% 40%;
   pointer-events: none;
 }
 
 .hero-brand-lockup--plain-fallback .hero-brand-svg-host {
   display: none !important;
+}
+
+body.page-home .hero-brand-lockup--plain-fallback .hero-brand-measure {
+  font-family: "Syne", var(--font-body), system-ui, sans-serif;
 }
 
 /* Home + iOS plain fallback: lift wordmark slightly; luxe glass plate (masked video not reliable on phones). */
@@ -1429,7 +1440,7 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
   align-items: center;
   gap: 0.34em;
   text-align: center;
-  font-family: var(--font-display);
+  font-family: "Syne", var(--font-body), system-ui, sans-serif;
   font-weight: 800;
   letter-spacing: 0.02em;
   line-height: 1.06;
@@ -1438,11 +1449,16 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
 .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
   display: block;
   font-size: 1.12em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
   color: #fffdf8;
   -webkit-text-fill-color: #fffdf8;
   text-shadow:
-    0 0 28px rgba(124, 108, 255, 0.45),
-    0 2px 18px rgba(5, 5, 12, 0.65);
+    0 0 1px rgba(255, 253, 248, 0.35),
+    0 0 42px rgba(124, 108, 255, 0.42),
+    0 0 72px rgba(45, 212, 191, 0.12),
+    0 3px 22px rgba(5, 5, 12, 0.75);
+  filter: drop-shadow(0 1px 0 rgba(212, 184, 122, 0.22));
 }
 
 .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2] {
@@ -1454,17 +1470,25 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
   padding-inline-end: 0.44em;
   text-transform: uppercase;
   line-height: 1.12;
-  color: #d8f7ff;
-  -webkit-text-fill-color: #d8f7ff;
+  color: #e6fbff;
+  -webkit-text-fill-color: #e6fbff;
   text-shadow:
-    0 0 22px rgba(45, 212, 191, 0.35),
-    0 2px 14px rgba(5, 5, 12, 0.55);
+    0 0 1px rgba(200, 245, 255, 0.4),
+    0 0 26px rgba(45, 212, 191, 0.45),
+    0 0 48px rgba(124, 108, 255, 0.2),
+    0 2px 16px rgba(5, 5, 12, 0.65);
 }
 
 /* Home + iOS plain fallback: match masked hero tracking — base l2 uses 0.44em, which reads as spaced caps on narrow phones. */
 @media (max-width: 540px) {
   body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden {
     letter-spacing: clamp(0.012em, 0.018em + 0.04vw, 0.02em);
+    gap: 0.28em;
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
+    font-size: clamp(1.02em, 0.98em + 1.1vw, 1.14em);
+    letter-spacing: 0.055em;
   }
 
   body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l2],
@@ -1472,6 +1496,17 @@ body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([
     letter-spacing: clamp(0.07em, 0.09em + 0.35vw, 0.14em);
     padding-inline-end: clamp(0.07em, 0.09em + 0.35vw, 0.14em);
     font-size: clamp(0.58em, 0.62em + 0.2vw, 0.64em);
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
+    margin-top: 0.55rem;
+    border-radius: 16px;
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video__el {
+    width: 122%;
+    height: 122%;
+    object-position: 50% 36%;
   }
 }
 
@@ -2115,6 +2150,7 @@ body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-b
   );
   border: 1px solid rgba(186, 170, 255, 0.38);
   box-shadow:
+    0 0 0 0.5px rgba(255, 252, 245, 0.14),
     inset 0 1px 0 rgba(255, 255, 255, 0.12),
     inset 0 -10px 26px rgba(0, 0, 0, 0.42),
     0 10px 28px rgba(0, 0, 0, 0.38),
@@ -2123,6 +2159,7 @@ body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-b
 
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__label {
   font-size: 9.5px;
+  font-weight: 700;
   letter-spacing: 0.2em;
   color: rgba(252, 250, 255, 0.96);
   text-shadow:
@@ -2132,12 +2169,22 @@ body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-b
 
 @media (max-width: 480px) {
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__plate {
-    padding: 9px 14px;
+    padding: 8px 16px;
+    border-color: rgba(210, 198, 255, 0.42);
+    box-shadow:
+      0 0 0 0.5px rgba(255, 252, 245, 0.16),
+      0 0 0 1px rgba(124, 108, 255, 0.28),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 -8px 20px rgba(0, 0, 0, 0.38),
+      0 8px 22px rgba(0, 0, 0, 0.34),
+      0 0 26px rgba(124, 92, 200, 0.2);
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__label {
-    font-size: 8.5px;
-    letter-spacing: 0.14em;
+    font-size: 8.25px;
+    font-weight: 700;
+    letter-spacing: 0.17em;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
