@@ -585,6 +585,109 @@ if (!reduceMotion) {
   ScrollTrigger.refresh();
 }
 
+function isHomeMobileNoVideo() {
+  if (!document.body || !document.body.classList.contains("page-home")) return false;
+  try {
+    return typeof matchMedia !== "undefined" && matchMedia("(max-width: 900px)").matches;
+  } catch (eHomeMob) {
+    return false;
+  }
+}
+
+function isForeignObjectHeroVideoFragile() {
+  try {
+    var u = String(navigator.userAgent || "");
+    if (/iP(hone|ad|od)/i.test(u)) return true;
+    if (typeof navigator.maxTouchPoints === "number" && navigator.maxTouchPoints > 1 && /Macintosh/i.test(u)) {
+      return true;
+    }
+    return false;
+  } catch (eFrag) {
+    return false;
+  }
+}
+
+function disableHomeHeroVideoEl(video) {
+  if (!video) return;
+  try {
+    video.pause();
+    video.removeAttribute("src");
+    var sources = video.querySelectorAll("source");
+    for (var si = 0; si < sources.length; si++) {
+      sources[si].removeAttribute("src");
+    }
+    video.load();
+    video.setAttribute("preload", "none");
+    video.setAttribute("hidden", "");
+    video.setAttribute("aria-hidden", "true");
+    video.setAttribute("tabindex", "-1");
+    video.style.pointerEvents = "none";
+  } catch (eVidOff) {
+    /* noop */
+  }
+}
+
+function disableAllHomeHeroVideos(root) {
+  if (!root) return;
+  var all = root.querySelectorAll(
+    "video[data-hero-brand-video], video[data-hero-brand-inline-video-el], [data-hero-brand-video-montage] video"
+  );
+  for (var vi = 0; vi < all.length; vi++) {
+    disableHomeHeroVideoEl(all[vi]);
+  }
+  var ivWrap = root.querySelector("[data-hero-brand-inline-video]");
+  if (ivWrap) {
+    try {
+      ivWrap.setAttribute("hidden", "");
+      ivWrap.setAttribute("aria-hidden", "true");
+    } catch (eIvWrap) {
+      /* noop */
+    }
+  }
+}
+
+function scrubHomeMobileVideoHash() {
+  if (!isHomeMobileNoVideo()) return;
+  try {
+    var h = (window.location.hash || "").toLowerCase();
+    if (!h) return;
+    var id = h.slice(1);
+    if (!id || /video|hero-video|hero-brand-video/.test(id)) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  } catch (eHash) {
+    /* noop */
+  }
+}
+
+function initHomeMobileHeroNoVideo(root) {
+  root._novyraHbVideosBound = true;
+  root.classList.add("hero-brand-lockup--mobile-no-video");
+  disableAllHomeHeroVideos(root);
+  root.classList.remove("hero-brand-lockup--mask-active");
+  root.classList.remove("hero-brand-lockup--ready");
+  root.classList.add("hero-brand-lockup--stroke-fallback");
+  if (isForeignObjectHeroVideoFragile()) {
+    root.classList.add("hero-brand-lockup--plain-fallback");
+  }
+  scrubHomeMobileVideoHash();
+}
+
+function bindHomeMobileNoVideoGuards() {
+  if (!document.body || !document.body.classList.contains("page-home")) return;
+  scrubHomeMobileVideoHash();
+  window.addEventListener("hashchange", scrubHomeMobileVideoHash, { passive: true });
+  window.addEventListener(
+    "pageshow",
+    function () {
+      if (!isHomeMobileNoVideo()) return;
+      var root = document.querySelector("[data-hero-brand-lockup]");
+      if (root) disableAllHomeHeroVideos(root);
+    },
+    { passive: true }
+  );
+}
+
 function initHomeHeroBrandLockup() {
   var root = document.querySelector("[data-hero-brand-lockup]");
   if (!root) return;
@@ -770,6 +873,13 @@ function initHomeHeroBrandLockup() {
 
   scheduleLayout();
 
+  if (isHomeMobileNoVideo()) {
+    if (!root._novyraHbVideosBound) {
+      initHomeMobileHeroNoVideo(root);
+    }
+    return;
+  }
+
   if (root._novyraHbVideosBound) {
     return;
   }
@@ -826,19 +936,6 @@ function initHomeHeroBrandLockup() {
 
   for (var pi = 0; pi < videos.length; pi++) {
     applyVideoAttrs(videos[pi]);
-  }
-
-  function isForeignObjectHeroVideoFragile() {
-    try {
-      var u = String(navigator.userAgent || "");
-      if (/iP(hone|ad|od)/i.test(u)) return true;
-      if (typeof navigator.maxTouchPoints === "number" && navigator.maxTouchPoints > 1 && /Macintosh/i.test(u)) {
-        return true;
-      }
-      return false;
-    } catch (eFrag) {
-      return false;
-    }
   }
 
   if (isForeignObjectHeroVideoFragile()) {
@@ -1195,8 +1292,12 @@ function initHomeHeroBrandLockup() {
 }
 
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", initHomeHeroBrandLockup);
+  document.addEventListener("DOMContentLoaded", function () {
+    bindHomeMobileNoVideoGuards();
+    initHomeHeroBrandLockup();
+  });
 } else {
+  bindHomeMobileNoVideoGuards();
   initHomeHeroBrandLockup();
 }
 

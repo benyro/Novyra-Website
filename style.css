@@ -5746,7 +5746,9 @@ html.novyra-motion .fade {
   /* Mobile home: no hero video (masked montage, foreignObject, or iOS inline clip). */
   body.page-home .hero-brand-masked-stack,
   body.page-home .hero-brand-glass-veil,
+  body.page-home [data-hero-brand-fo],
   body.page-home .hero-brand-video-fo,
+  body.page-home .hero-brand-video-fo-inner,
   body.page-home .hero-brand-video-montage,
   body.page-home .hero-brand-video-montage__layer,
   body.page-home .hero-brand-video-montage__layer--single,
@@ -5756,6 +5758,31 @@ html.novyra-motion .fade {
   body.page-home video[data-hero-brand-inline-video-el] {
     display: none !important;
     visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    max-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0) !important;
+    clip-path: inset(50%) !important;
+  }
+
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video,
+  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]),
+  body.page-home .hero-brand-lockup--mobile-no-video .hero-brand-inline-video,
+  body.page-home .hero-brand-lockup--mobile-no-video .hero-brand-inline-video:not([hidden]) {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
     opacity: 0 !important;
     pointer-events: none !important;
   }
@@ -5840,17 +5867,6 @@ html.novyra-motion .fade {
     filter: drop-shadow(0 1px 0 rgba(45, 212, 191, 0.2)) drop-shadow(0 6px 18px rgba(5, 5, 12, 0.65));
   }
 
-  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video,
-  body.page-home .hero-brand-lockup--plain-fallback .hero-brand-inline-video:not([hidden]) {
-    display: none !important;
-    visibility: hidden !important;
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0 !important;
-    overflow: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-  }
 }
 
 @media (max-width: 540px) {
