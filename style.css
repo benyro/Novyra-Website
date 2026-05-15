@@ -895,8 +895,6 @@ body.page-home section.hero.hero--home-cosmos .hero__stack {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0;
-  row-gap: 0;
 }
 
 .hero-cosmos {
@@ -990,7 +988,8 @@ body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0 auto;
-  padding: 0;
+  margin-top: clamp(-0.3rem, -1vw, 0rem);
+  padding: 0.06em 0 0;
   max-width: 100%;
   position: relative;
   text-wrap: balance;
@@ -1763,10 +1762,6 @@ body.page-home section.hero.hero--home-cosmos .hero-lead-pro {
 }
 
 @media (min-width: 901px) {
-  body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
-    padding-bottom: 0;
-  }
-
   body.page-home section.hero.hero--home-cosmos .hero-home-divider {
     width: min(34%, 340px);
     margin-top: clamp(12px, 1.8vw, 20px);
@@ -2178,7 +2173,7 @@ body.page-home section.hero.hero--home-cosmos .hero-lead--home-glass .hero-lead-
 /* Home hero: partner pill leads the stack (directly under nav), then the brand lockup */
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
   margin-top: 0;
-  margin-bottom: clamp(0px, 0.35vw, 5px);
+  margin-bottom: clamp(2px, 0.75vw, 12px);
 }
 
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__plate {
@@ -4991,6 +4986,12 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
   body.page-home section.hero.hero--home-cosmos .hero__stack {
     max-width: min(100%, 1180px);
     width: 100%;
+    gap: 0;
+    row-gap: 0;
+  }
+
+  body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
+    margin-bottom: clamp(0px, 0.35vw, 5px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-cosmos {
