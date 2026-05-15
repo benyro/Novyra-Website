@@ -5646,18 +5646,20 @@ html.novyra-motion .fade {
 
 @media (max-width: 900px) {
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: calc(var(--novyra-nav-h) + clamp(0px, 0.35vw, 5px));
+    padding-top: var(--novyra-nav-h);
     padding-bottom: clamp(22px, 4.8vw, 50px);
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-top: clamp(-4px, -0.35vw, 0px);
-    margin-bottom: clamp(2px, 0.9vw, 10px);
+    margin-top: clamp(-6px, -0.55vw, -2px);
+    margin-bottom: clamp(0px, 0.35vw, 4px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack {
     max-width: min(100%, 1180px);
     width: 100%;
+    gap: 0;
+    row-gap: 0;
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
@@ -5665,7 +5667,7 @@ html.novyra-motion .fade {
     font-weight: 800;
     line-height: 1.02;
     letter-spacing: -0.012em;
-    margin-top: clamp(-0.62rem, -2.4vw, -0.12rem);
+    margin-top: clamp(-0.88rem, -3.1vw, -0.38rem);
     padding-top: 0;
     padding-bottom: 0;
     text-shadow: 0 0 42px rgba(124, 108, 255, 0.12), 0 0 72px rgba(45, 212, 191, 0.06), 0 18px 40px rgba(5, 5, 12, 0.45);
@@ -5674,6 +5676,7 @@ html.novyra-motion .fade {
   body.page-home section.hero.hero--home-cosmos .hero-brand-lockup {
     width: 100%;
     max-width: min(36rem, 100%);
+    margin-top: clamp(-0.2rem, -0.65vw, 0px);
   }
 
   body.page-home .hero-brand-measure {
@@ -5731,9 +5734,9 @@ html.novyra-motion .fade {
   body.page-home section.hero.hero--home-cosmos .hero-home-divider {
     width: min(42%, 380px);
     min-width: min(10rem, 86vw);
-    margin-top: clamp(8px, 1.8vw, 14px);
-    margin-bottom: clamp(14px, 2.8vw, 24px);
-    transform: translateY(clamp(-6px, -0.85vw, -2px));
+    margin-top: clamp(4px, 1.1vw, 9px);
+    margin-bottom: clamp(10px, 2.1vw, 18px);
+    transform: translateY(clamp(-8px, -1.1vw, -4px));
     box-shadow:
       0 0 20px color-mix(in srgb, var(--accent) 24%, transparent),
       0 0 32px color-mix(in srgb, var(--accent-2) 18%, transparent);
@@ -5741,7 +5744,7 @@ html.novyra-motion .fade {
 
   body.page-home section.hero.hero--home-cosmos .hero-lead-pro {
     max-width: min(31rem, 94vw);
-    margin-top: clamp(2px, 0.6vw, 6px);
+    margin-top: 0;
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-lead.hero-lead--home-glass {
@@ -5754,7 +5757,7 @@ html.novyra-motion .fade {
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-actions {
-    margin-top: clamp(16px, 3.2vw, 22px);
+    margin-top: clamp(10px, 2.2vw, 16px);
   }
 
   body.page-home .hero-brand-lockup--plain-fallback .hero-brand-fallback.visually-hidden [data-hero-brand-fallback-l1] {
@@ -5830,12 +5833,20 @@ html.novyra-motion .fade {
 
 @media (max-width: 480px) {
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: calc(var(--novyra-nav-h) + clamp(0px, 0.25vw, 4px));
+    padding-top: var(--novyra-nav-h);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
+    margin-bottom: 0;
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-home-divider {
-    margin-top: clamp(6px, 1.6vw, 12px);
-    margin-bottom: clamp(12px, 2.6vw, 20px);
+    margin-top: clamp(3px, 0.95vw, 8px);
+    margin-bottom: clamp(8px, 1.85vw, 14px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .hero-actions {
+    margin-top: clamp(8px, 2vw, 14px);
   }
 }
 
