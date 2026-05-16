@@ -36,19 +36,19 @@ window.NOVYRA_I18N_MESSAGES = {
     mobile: { joinTikTok: "Join Now" },
     pages: {
       home: {
-        title: "NOVYRA AGENCY",
+        title: "NOVYRA Agency | Official TikTok LIVE Partner Agency",
         metaDesc:
-          "Official TikTok LIVE partner agency for creators: structured coaching, readable bonus targets, and real support when you stream."
+          "NOVYRA Agency is an official TikTok LIVE partner agency helping creators grow through professional support, strategy, and LIVE development."
       },
-      member: { title: "NOVYRA AGENCY · Member", metaDesc: "Become a NOVYRA member: LIVE Fest highlights, trusted snapshot, benefits, and the official TikTok LIVE application flow." },
-      team: { title: "NOVYRA AGENCY · Team", metaDesc: "Meet the NOVYRA team: CEO Cesco and the people behind our TikTok LIVE creators." },
-      training: { title: "NOVYRA AGENCY · Training", metaDesc: "NOVYRA training and TikTok LIVE tips on content strategy, retention, and going live with confidence." },
+      member: { title: "Become a Member | NOVYRA Agency", metaDesc: "Apply to join NOVYRA Agency and get TikTok LIVE creator support, onboarding guidance, coaching, and a clear path for growing as a LIVE creator." },
+      team: { title: "Our Team | NOVYRA Agency", metaDesc: "Meet the NOVYRA Agency team behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
+      training: { title: "Training & TikTok LIVE Tips | NOVYRA Agency", metaDesc: "Learn TikTok LIVE training tips from NOVYRA Agency, including content strategy, room energy, retention, safety, and creator growth guidance." },
       about: {
-        title: "NOVYRA AGENCY · About",
+        title: "About NOVYRA Agency | Official TikTok LIVE Partner Agency",
         metaDesc:
-          "About NOVYRA: legal-aware partner operations, creator-led leadership, production support, and how we support TikTok LIVE creators."
+          "Learn about NOVYRA Agency, an official TikTok LIVE partner agency built around creator support, professional operations, coaching, and LIVE growth."
       },
-      bonus: { title: "NOVYRA AGENCY · Bonuses", metaDesc: "NOVYRA Agency bonus system: Advance and Elite creator tiers, diamond targets, and monthly qualification rules." }
+      bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency bonus system for TikTok LIVE creators, including Advance and Elite tiers, diamond targets, and monthly qualification rules." }
     },
     home: {
       heroLeadL1: "Official ",
