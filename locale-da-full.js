@@ -10,6 +10,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "nav.training": "Træning",
   "nav.about": "Om os",
   "nav.joinNow": "Bliv med nu",
+  "nav.creatorPortal": "Creator Portal",
   "nav.logoSub": "OFFICIEL TIKTOK LIVE-PARTNER",
   "nav.openMenu": "Åbn menu",
   "footer.join": "Bliv med",

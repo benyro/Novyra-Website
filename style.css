@@ -667,6 +667,30 @@ body.page-home {
   outline-offset: 3px;
 }
 
+.nav-portal-link {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  background: transparent;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+
+.nav-portal-link:hover {
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-portal-link:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.95);
+  outline-offset: 3px;
+}
+
 .menu-btn {
   display: none;
   font-size: 20px;
@@ -759,9 +783,24 @@ body.page-home {
   box-shadow: 0 8px 22px var(--accent-glow);
 }
 
-.mobile-menu a:active:not(.mobile-join) {
+.mobile-menu a:active:not(.mobile-join):not(.mobile-portal-link) {
   background: rgba(45, 212, 191, 0.12);
   border-color: rgba(45, 212, 191, 0.25);
+}
+
+.mobile-menu a.mobile-portal-link {
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid var(--border);
+  margin-top: 16px;
+}
+
+.mobile-menu a.mobile-portal-link:hover {
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .mobile-menu.active {
@@ -5136,6 +5175,10 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
   }
 
   .nav-btn {
+    display: none;
+  }
+
+  .nav-portal-link {
     display: none;
   }
 

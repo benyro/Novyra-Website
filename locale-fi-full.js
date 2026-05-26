@@ -10,6 +10,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "nav.training": "Koulutus",
   "nav.about": "Tietoa",
   "nav.joinNow": "Liity nyt",
+  "nav.creatorPortal": "Creator Portal",
   "nav.logoSub": "VIRALLINEN TIKTOK LIVE -KUMPPANI",
   "nav.openMenu": "Avaa valikko",
   "footer.join": "Liity",

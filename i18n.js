@@ -14,6 +14,7 @@ window.NOVYRA_I18N_MESSAGES = {
       training: "Training",
       about: "About",
       joinNow: "Join Now",
+      creatorPortal: "Creator Portal",
       logoSub: "OFFICIAL TIKTOK LIVE PARTNER",
       openMenu: "Open menu"
     },
