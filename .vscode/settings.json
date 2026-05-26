@@ -1,4 +1,5 @@
 {
+  // Workspace folder IS novyra-website — root "." serves this folder. Open Desktop NOVYRA-WEBSITE.code-workspace, not OneDrive.
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 500,
   "liveServer.settings.host": "127.0.0.1",

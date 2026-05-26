@@ -3152,6 +3152,11 @@ cite.testi-cite a.testi-cite__link:focus-visible {
   padding-bottom: clamp(52px, 7vw, 80px);
 }
 
+.page-about .about-section--align {
+  padding-top: 0;
+  padding-bottom: clamp(52px, 7vw, 80px);
+}
+
 .page-about .about-section--expertise {
   position: relative;
   padding-top: clamp(56px, 7vw, 84px);
@@ -3634,6 +3639,43 @@ a.footer-brand:focus-visible {
   color: var(--accent);
 }
 
+.site-footer .footer-legal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  max-width: 22rem;
+  margin: 0 auto;
+  padding: 4px 12px 10px;
+  text-align: center;
+}
+
+.site-footer .footer-legal a {
+  color: #9d99ae;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(157, 153, 174, 0.72);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.site-footer .footer-legal a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 70%, transparent);
+}
+
+.site-footer .footer-legal a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 .footer-copy {
   width: 100%;
   max-width: 22rem;
@@ -3741,6 +3783,11 @@ a.footer-brand:focus-visible {
 .footer-inner--lux .footer-links {
   justify-content: center;
   width: 100%;
+}
+
+.footer-inner--lux .footer-legal {
+  max-width: 24rem;
+  padding: 2px 0 6px;
 }
 
 .footer-inner--lux .footer-email-row {
@@ -4621,6 +4668,21 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: stretch;
   gap: 20px;
+}
+
+body.page-bonus .bonus-tracks--single {
+  max-width: 620px;
+}
+
+body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__accent-bar {
+  left: 0;
+  right: auto;
+  border-radius: 0 4px 4px 0;
+}
+
+body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
+  padding-left: 6px;
+  padding-right: 0;
 }
 
 .bonus-track {

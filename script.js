@@ -132,7 +132,6 @@ function initBonusPageMotion() {
       .from(qual, { opacity: 0, y: 10, duration: 0.4, ease: "power2.out" }, "-=0.25");
   }
 
-  trackReveal(document.querySelector(".bonus-track--advance"), -64, -1.2);
   trackReveal(document.querySelector(".bonus-track--elite"), 64, 1.2);
 
   initBonusRecruitSectionMotion();

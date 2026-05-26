@@ -1,5 +1,10 @@
 NOVYRA site — Cursor vs VS Code (make them match)
 
+IMPORTANT — Open NOVYRA-WEBSITE.code-workspace from Desktop, not OneDrive folder.
+Desktop repo: C:\Users\BenYT\Desktop\its-kerhet-benyaminzoughdar-moghadam-netizen\novyra-website
+OneDrive copy (deploy/sync target only): C:\Users\BenYT\OneDrive\Skrivbord\novyra website
+If Live Server or preview is started from the OneDrive path, you will see an OLD site without footer Privacy/Terms links.
+
 Cursor and VS Code only show the same site when both are editing **this same folder on disk**: the **`novyra-website`** directory inside your repo clone (not another path, not an old copy, and not the wrong workspace root).
 
 **Do this in VS Code, in order:**
@@ -56,7 +61,7 @@ If Cursor or another tool also opens **:8766**, that must be the **same** novyra
 
 
 
-7. The repo also has a root index.html that only redirects to novyra-website/ — if you opened the parent folder in Live Server, you might get that redirect or a different tree than you expect.
+7. The Desktop repo also has a root index.html (parent of novyra-website/) that only redirects to novyra-website/ — if you opened the parent monorepo folder in Live Server instead of NOVYRA-WEBSITE.code-workspace, you get that redirect page, not the marketing site with footer-legal.
 
 
 
