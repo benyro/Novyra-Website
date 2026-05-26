@@ -51,7 +51,7 @@ window.NOVYRA_I18N_MESSAGES = {
         metaDesc:
           "Learn about NOVYRA Agency, an official TikTok LIVE partner agency built around creator support, professional operations, coaching, and LIVE growth."
       },
-      bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency Elite bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
+      bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency Monthly Bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
       privacy: {
         title: "Privacy Policy | NOVYRA Agency",
         metaDesc: "Read how NOVYRA Agency collects, uses, and protects personal information when you visit our site or apply for creator support."
@@ -145,7 +145,7 @@ window.NOVYRA_I18N_MESSAGES = {
       creator1User: "@nova.live",
       creator1Quote: "“Finally a team that speaks LIVE, not spreadsheets.”",
       creator1M1: "+142% watch time",
-      creator1M2: "Elite track",
+      creator1M2: "Monthly Bonus",
       creator2User: "@echo.stage",
       creator2Quote: "“Bonus ladder made sense the first week.”",
       creator2M1: "22 LIVE days",
@@ -571,10 +571,10 @@ window.NOVYRA_I18N_MESSAGES = {
       heroTitle: "Monthly bonus",
       heroTitleHtml: "<span>Monthly</span> bonus",
       heroLead:
-        "One Elite monthly structure with clear diamond tiers, higher payouts, and the minimum live days and hours your manager confirms.",
+        "One monthly bonus structure with clear diamond tiers, higher payouts, and the minimum live days and hours your manager confirms.",
       intro: "Diamond totals and payouts follow {{iconTiktokLive}} programme rules. Your manager confirms your monthly qualification details.",
-      eliteTitle: "Elite",
-      eliteMeta: "Elite · higher payouts, stricter minimums",
+      eliteTitle: "Monthly Bonus",
+      eliteMeta: "Monthly Bonus · higher payouts, stricter minimums",
       eliteLede: "Clear diamond steps with larger bonus amounts and more days and hours required.",
       qualTitle: "Qualification",
       eliQ1: "Minimum <strong>22</strong> days / month",
@@ -591,7 +591,7 @@ window.NOVYRA_I18N_MESSAGES = {
       recruitCard3Body: "Strong creators help build stronger creator communities.",
       pushLabel: "1M+ push",
       pushViolet: "Over 1M points → extra <strong>5%</strong>.",
-      eliteLadderAria: "Elite tier list",
+      eliteLadderAria: "Monthly Bonus tier list",
       tierGems100k: "100,000 diamonds",
       tierGems200k: "200,000 diamonds",
       tierGems300k: "300,000 diamonds",
@@ -607,7 +607,8 @@ window.NOVYRA_I18N_MESSAGES = {
       eliAmt6: "+45,000",
       eliAmt7: "+55,000",
       ctaBack: "Back to home",
-      ctaJoin: "Join NOVYRA"
+      ctaJoin: "Join NOVYRA",
+      payoutNote: "Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest."
     }
   }
 };

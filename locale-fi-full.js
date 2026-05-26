@@ -358,6 +358,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "bonus.recruitCard3Body": "Vahvat tekijät auttavat rakentamaan vahvempia tekijöiden yhteisöjä.",
   "bonus.ctaBack": "Takaisin etusivulle",
   "bonus.ctaJoin": "Liity NOVYRAan",
+  "bonus.payoutNote": "Bonukset maksaa NOVYRA Agency, ja maksut suoritetaan kunkin kuukauden 9. ja 15. päivän välillä, viimeistään.",
   "terms.heroTitleHtml": "Käyttö<span>ehdot</span>",
   "terms.heroLead": "Ehdot, jotka koskevat NOVYRA Agencyn verkkosivuston, hakemusten ja tekijätukipalveluiden käyttöä.",
   "terms.updated": "Päivitetty viimeksi: 2. kesäkuuta 2026",
