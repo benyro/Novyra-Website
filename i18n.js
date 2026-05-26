@@ -571,10 +571,10 @@ window.NOVYRA_I18N_MESSAGES = {
       heroTitle: "Monthly bonus",
       heroTitleHtml: "<span>Monthly</span> bonus",
       heroLead:
-        "One monthly bonus structure with clear diamond tiers, higher payouts, and the minimum live days and hours your manager confirms.",
+        "One monthly bonus structure with clear diamond tiers and higher payouts.",
       intro: "Diamond totals and payouts follow {{iconTiktokLive}} programme rules. Your manager confirms your monthly qualification details.",
       eliteTitle: "Monthly Bonus",
-      eliteMeta: "Monthly Bonus · higher payouts, stricter minimums",
+      eliteMeta: "Monthly Bonus · higher payouts",
       eliteLede: "Clear diamond steps with larger bonus amounts and more days and hours required.",
       qualTitle: "Qualification",
       eliQ1: "Minimum <strong>22</strong> days / month",
