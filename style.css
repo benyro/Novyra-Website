@@ -669,21 +669,24 @@ body.page-home {
 
 .nav-portal-link {
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 999px;
   font-size: 13px;
-  font-weight: 500;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  background: transparent;
-  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  transition: color 0.25s, border-color 0.25s, background 0.25s, box-shadow 0.25s;
   white-space: nowrap;
 }
 
 .nav-portal-link:hover {
-  color: var(--text);
-  border-color: rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  border-color: rgba(0, 224, 194, 0.4);
+  background: rgba(0, 224, 194, 0.08);
+  box-shadow: 0 0 12px rgba(0, 224, 194, 0.15);
 }
 
 .nav-portal-link:focus-visible {
