@@ -717,6 +717,8 @@ body.page-home {
   width: min(320px, 86vw);
   height: 100vh;
   height: 100dvh;
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(165deg, #14131c 0%, #08070c 100%);
   padding-top: var(--novyra-nav-h);
   padding-right: calc(22px + var(--novyra-safe-right));
@@ -727,6 +729,18 @@ body.page-home {
   border-left: 1px solid var(--border);
   box-shadow: -16px 0 48px rgba(0, 0, 0, 0.55);
   overscroll-behavior: contain;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-menu-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin: 0 0 6px;
+  padding-bottom: 12px;
+  background: linear-gradient(165deg, #14131c 0%, #08070c 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .mobile-menu a {
@@ -791,19 +805,53 @@ body.page-home {
   border-color: rgba(45, 212, 191, 0.25);
 }
 
+.mobile-menu-sticky .mobile-join,
+.mobile-menu-sticky button.mobile-join {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
 .mobile-menu a.mobile-portal-link {
-  color: var(--text-muted);
-  font-size: 13px;
-  font-weight: 500;
-  background: transparent;
-  border: 1px solid var(--border);
-  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 48px;
+  padding: 12px 14px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(0, 224, 194, 0.1);
+  border: 1.5px solid rgba(0, 224, 194, 0.48);
+  border-radius: var(--radius-sm);
+  box-shadow:
+    0 0 0 1px rgba(0, 224, 194, 0.12) inset,
+    0 8px 22px rgba(0, 224, 194, 0.14);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .mobile-menu a.mobile-portal-link:hover {
-  color: var(--text);
-  border-color: rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  border-color: rgba(0, 224, 194, 0.62);
+  background: rgba(0, 224, 194, 0.16);
+  box-shadow:
+    0 0 0 1px rgba(0, 224, 194, 0.18) inset,
+    0 10px 26px rgba(0, 224, 194, 0.2);
+}
+
+.mobile-menu a.mobile-portal-link:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.95);
+  outline-offset: 3px;
+}
+
+.mobile-menu a.mobile-portal-link:active {
+  filter: brightness(0.96);
+  box-shadow:
+    0 0 0 1px rgba(0, 224, 194, 0.14) inset,
+    0 6px 18px rgba(0, 224, 194, 0.12);
 }
 
 .mobile-menu.active {
@@ -5214,20 +5262,20 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
   }
 
   /* Mobile drawer: persistent “you are here” pill (desktop .nav-links is hidden) */
-  .mobile-menu a:not(.mobile-join):not(.active) {
+  .mobile-menu a:not(.mobile-join):not(.mobile-portal-link):not(.active) {
     color: rgba(232, 230, 244, 0.68);
     font-weight: 500;
     background: rgba(255, 255, 255, 0.03);
     border-color: transparent;
   }
 
-  .mobile-menu a:not(.mobile-join):not(.active):hover {
+  .mobile-menu a:not(.mobile-join):not(.mobile-portal-link):not(.active):hover {
     color: rgba(244, 243, 248, 0.92);
     background: rgba(255, 255, 255, 0.055);
     border-color: rgba(255, 255, 255, 0.08);
   }
 
-  .mobile-menu a.active:not(.mobile-join) {
+  .mobile-menu a.active:not(.mobile-join):not(.mobile-portal-link) {
     color: var(--ink);
     font-weight: 700;
     border-radius: 999px;
@@ -5239,7 +5287,7 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
       0 10px 30px rgba(45, 212, 191, 0.2);
   }
 
-  .mobile-menu a.active:not(.mobile-join):active {
+  .mobile-menu a.active:not(.mobile-join):not(.mobile-portal-link):active {
     background: linear-gradient(120deg, #26b8a3, #4fd4c4);
     box-shadow:
       0 0 0 1px rgba(45, 212, 191, 0.5),
@@ -5320,7 +5368,7 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
 }
 
 @media (max-width: 900px) and (prefers-reduced-motion: no-preference) {
-  .mobile-menu a:not(.mobile-join) {
+  .mobile-menu a:not(.mobile-join):not(.mobile-portal-link) {
     transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
 }
