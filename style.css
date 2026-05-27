@@ -2376,10 +2376,10 @@ body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-b
 
 @media (prefers-reduced-motion: no-preference) {
   .section-divider::before {
-    content: "";
-    position: absolute;
+  content: "";
+  position: absolute;
     left: 50%;
-    top: 50%;
+  top: 50%;
     transform: translate(-50%, -50%);
     width: min(92%, 820px);
     height: 22px;
@@ -2436,8 +2436,8 @@ body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-b
 
   .section-divider::after {
     box-shadow: none;
-    background: linear-gradient(
-      90deg,
+  background: linear-gradient(
+    90deg,
       transparent 0%,
       rgba(45, 212, 191, 0.35) 18%,
       rgba(124, 108, 255, 0.55) 50%,
@@ -5533,13 +5533,13 @@ html.novyra-motion .fade {
   }
 
   .cta-btn:not(.cta-btn--ghost) {
-    position: relative;
-    overflow: hidden;
-  }
+  position: relative;
+  overflow: hidden;
+}
 
   .cta-btn:not(.cta-btn--ghost)::before {
-    content: "";
-    position: absolute;
+  content: "";
+  position: absolute;
     inset: 0;
     left: -40%;
     width: 45%;
@@ -5575,12 +5575,12 @@ html.novyra-motion .fade {
     inset: 0;
     left: -35%;
     width: 40%;
-    background: linear-gradient(
+  background: linear-gradient(
       95deg,
-      transparent,
+    transparent,
       rgba(255, 255, 255, 0.35),
-      transparent
-    );
+    transparent
+  );
     transform: skewX(-16deg) translateX(-200%);
     pointer-events: none;
     border-radius: inherit;
