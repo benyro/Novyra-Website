@@ -6,7 +6,7 @@ var reduceMotion =
 var body = document.body;
 var isBonusPage = body.classList.contains("page-bonus");
 var skipGlobalFadeCss =
-  isBonusPage || body.classList.contains("page-training") || body.classList.contains("page-about");
+  isBonusPage || body.classList.contains("page-training") || body.classList.contains("page-about") || body.classList.contains("page-partnerships");
 
 function toggleMenu() {
   document.getElementById("mobileMenu").classList.toggle("active");
@@ -20,11 +20,49 @@ function closeMenu() {
   if (overlay) overlay.classList.remove("active");
 }
 
-document.querySelectorAll(".mobile-menu a").forEach(function (link) {
+document.querySelectorAll(".mobile-menu a, .mobile-menu .mobile-nav-group__panel a").forEach(function (link) {
   link.addEventListener("click", function () {
     closeMenu();
   });
 });
+
+function initNavDropdowns() {
+  document.querySelectorAll("[data-nav-dropdown]").forEach(function (dropdown) {
+    var trigger = dropdown.querySelector("[data-nav-dropdown-trigger]");
+    if (!trigger) return;
+
+    trigger.addEventListener("click", function (e) {
+      if (window.matchMedia("(min-width: 901px)").matches) return;
+      e.preventDefault();
+      var open = dropdown.classList.toggle("is-open");
+      trigger.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+
+    dropdown.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        dropdown.classList.remove("is-open");
+        trigger.setAttribute("aria-expanded", "false");
+        trigger.focus();
+      }
+    });
+  });
+
+  document.querySelectorAll("[data-mobile-nav-group]").forEach(function (group) {
+    var trigger = group.querySelector("[data-mobile-nav-trigger]");
+    if (!trigger) return;
+
+    trigger.addEventListener("click", function () {
+      var open = group.classList.toggle("is-open");
+      trigger.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initNavDropdowns);
+} else {
+  initNavDropdowns();
+}
 
 if (!reduceMotion && !skipGlobalFadeCss) {
   document.documentElement.classList.add("novyra-motion");

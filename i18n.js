@@ -13,6 +13,9 @@ window.NOVYRA_I18N_MESSAGES = {
       bonus: "Bonus System",
       training: "Training",
       about: "About",
+      aboutUs: "About Us",
+      aboutAgency: "About Novyra Agency",
+      partnerships: "Partnerships",
       joinNow: "Join Now",
       creatorPortal: "Creator Portal",
       logoSub: "OFFICIAL TIKTOK LIVE PARTNER",
@@ -48,9 +51,14 @@ window.NOVYRA_I18N_MESSAGES = {
       team: { title: "Our Team | NOVYRA Agency", metaDesc: "Meet the NOVYRA Agency team behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
       training: { title: "Training & TikTok LIVE Tips | NOVYRA Agency", metaDesc: "Learn TikTok LIVE training tips from NOVYRA Agency, including content strategy, room energy, retention, safety, and creator growth guidance." },
       about: {
-        title: "About NOVYRA Agency | Official TikTok LIVE Partner Agency",
+        title: "About Novyra Agency | Official TikTok LIVE Partner Agency",
         metaDesc:
           "Learn about NOVYRA Agency, an official TikTok LIVE partner agency built around creator support, professional operations, coaching, and LIVE growth."
+      },
+      partnerships: {
+        title: "Partnerships | NOVYRA Agency",
+        metaDesc:
+          "NOVYRA Agency is a verified TikFinity Full Partner offering exclusive Pro pricing and LIVE tooling perks for roster creators."
       },
       bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency Monthly Bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
       privacy: {
@@ -115,6 +123,28 @@ window.NOVYRA_I18N_MESSAGES = {
       statsLine1: "We are an official {{iconTiktokLive}} partner agency.",
       statsProgramme: "TikTok partner programme",
       statsNote: "We only add public milestones when they are verified and useful. Day to day, the focus is coaching, clear targets, and support while you are live.",
+      tikfinityKicker: "Creator tools partnership",
+      tikfinityTitle: "Novyra × TikFinity",
+      tikfinitySubhead: "Full Partner agency · exclusive Pro pricing for roster creators",
+      tikfinityLead:
+        "We earned TikFinity's highest partner tier so Novyra creators access pro-grade LIVE tooling — plus agency-only pricing on TikFinity Pro you won't find on the public site.",
+      tikfinityProOffer: "Exclusive TikFinity Pro discount for active Novyra roster creators",
+      tikfinityFeat1: "Gift sound alerts",
+      tikfinityFeat2: "Text-to-speech for chat & gifts",
+      tikfinityFeat3: "Spotify song requests",
+      tikfinityFeat4: "Overlays, timers & counters",
+      tikfinityFeat5: "LIVE engagement features",
+      tikfinityFeat6: "Verified Full Partner badge",
+      tikfinityCtaDiscount: "Claim your exclusive discount",
+      tikfinityCtaJoin: "Join Novyra",
+      tikfinityDisclaimer:
+        "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
+      tikfinityBadgeAlt: "TikFinity Full Partner badge for NOVYRA Agency",
+      tikfinityTeaserKicker: "Creator tools partnership",
+      tikfinityTeaserTitle: "Novyra × TikFinity",
+      tikfinityTeaserDesc:
+        "Verified Full Partner agency with exclusive TikFinity Pro pricing for active roster creators.",
+      tikfinityTeaserCta: "Explore our partnership →",
       testiKicker: "Creators say",
       testiTitle: "Built on trust and consistency",
       testi1: "“Clear communication and a team that actually watches your LIVEs and gives useful notes, not generic advice.”",
@@ -416,8 +446,8 @@ window.NOVYRA_I18N_MESSAGES = {
         "This page explains how we think about training. Membership has its own steps, requirements, and review—start there if you want to join the roster."
     },
     about: {
-      heroTitle: "About NOVYRA",
-      heroTitleHtml: "About <span>NOVYRA</span>",
+      heroTitle: "About Novyra Agency",
+      heroTitleHtml: "About <span>NovyRA</span> Agency",
       heroLead:
         "Official TikTok LIVE partner agency for serious creators: clear systems, human support, and guidance from people who know TikTok LIVE from the inside.",
       statLine:
@@ -469,6 +499,25 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaMember: "Membership overview",
       ctaTraining: "Training & tips",
       ctaBonus: "Bonus framework"
+    },
+    partnerships: {
+      kicker: "Creator tools partnership",
+      title: "Novyra × TikFinity",
+      subhead: "Full Partner agency · exclusive Pro pricing for roster creators",
+      lead:
+        "We earned TikFinity's highest partner tier so Novyra creators access pro-grade LIVE tooling — plus agency-only pricing on TikFinity Pro you won't find on the public site.",
+      proOffer: "Exclusive TikFinity Pro discount for active Novyra roster creators",
+      feat1: "Gift sound alerts",
+      feat2: "Text-to-speech for chat & gifts",
+      feat3: "Spotify song requests",
+      feat4: "Overlays, timers & counters",
+      feat5: "LIVE engagement features",
+      feat6: "Verified Full Partner badge",
+      ctaDiscount: "Claim your exclusive discount",
+      ctaJoin: "Join Novyra",
+      disclaimer:
+        "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
+      badgeAlt: "TikFinity Full Partner badge for NOVYRA Agency"
     },
     privacy: {
       heroTitleHtml: "Privacy <span>Policy</span>",
