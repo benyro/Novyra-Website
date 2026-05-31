@@ -556,9 +556,9 @@ window.NOVYRA_I18N_MESSAGES = {
       finePrint: {
         title: "The fine print",
         subtitle: "Terms, money, and your account — clear answers",
-        q1: "What am I actually agreeing to?",
+        q1: "Is there a contract?",
         a1:
-          "Novyra works on standard terms of service — the kind you read before joining, not a long-term lock-in. They set out what both sides can expect. No minimum commitment, no hidden fees buried in legalese.<br><br>When you accept, you confirm your place in the Novyra Creator Network. That lets us support you through TikTok's official partner tools. Your account stays yours, and your LIVE path stays yours to shape.",
+          "No — there is no contract. You join on our terms of service only: simple, readable, and not written to trap creators. No hidden fees, no minimum commitment.<br><br>Accepting confirms your place in the Novyra Creator Network so we can support you through TikTok's official partner tools. Your account stays fully yours.",
         q2: "Does joining cost anything?",
         a2:
           "No — membership is free. We don't charge to apply, onboard, or stay on the roster. There's no membership fee waiting in the background.<br><br>Your LIVE earnings are yours. Diamonds, gifts, and what TikTok pays you from streaming — we take no share. You keep 100%.<br><br>If anyone asks you to pay Novyra directly to get in, that isn't us. Please report it.",
