@@ -3878,6 +3878,12 @@ cite.testi-cite a.testi-cite__link:focus-visible {
   flex: 1 1 200px;
   min-height: 50px;
   max-width: 280px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .page-faqs .cta-row.cta-row--faqs-actions {
