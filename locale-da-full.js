@@ -21,6 +21,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "footer.training": "Træning",
   "footer.team": "Team",
   "footer.bonuses": "Bonusser",
+  "footer.partnerships": "Partnerskaber",
   "footer.home": "Hjem",
   "footer.copy": "© NOVYRA AGENCY 2026",
   "footer.copyIndex": "© NOVYRA AGENCY 2026",

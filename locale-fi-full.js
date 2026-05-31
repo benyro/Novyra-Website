@@ -21,6 +21,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "footer.training": "Koulutus",
   "footer.team": "Tiimi",
   "footer.bonuses": "Bonukset",
+  "footer.partnerships": "Kumppanuudet",
   "footer.home": "Etusivu",
   "footer.copy": "© NOVYRA AGENCY 2026",
   "footer.copyIndex": "© NOVYRA AGENCY 2026",

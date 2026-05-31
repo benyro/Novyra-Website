@@ -27,6 +27,7 @@ window.NOVYRA_I18N_MESSAGES = {
       training: "Training",
       team: "Team",
       bonuses: "Bonuses",
+      partnerships: "Partnerships",
       home: "Home",
       partnerSub: "Official TikTok LIVE partner",
       copy: "© NOVYRA AGENCY 2026",
