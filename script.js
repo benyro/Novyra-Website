@@ -6,7 +6,7 @@ var reduceMotion =
 var body = document.body;
 var isBonusPage = body.classList.contains("page-bonus");
 var skipGlobalFadeCss =
-  isBonusPage || body.classList.contains("page-training") || body.classList.contains("page-about") || body.classList.contains("page-partnerships");
+  isBonusPage || body.classList.contains("page-training") || body.classList.contains("page-about") || body.classList.contains("page-partnerships") || body.classList.contains("page-faqs");
 
 function toggleMenu() {
   document.getElementById("mobileMenu").classList.toggle("active");
@@ -440,6 +440,23 @@ function initTrainingPageMotion() {
   });
 }
 
+function initFaqsPageMotion() {
+  gsap.utils.toArray(".page-faqs section.section, .page-faqs .faqs-hero").forEach(function (sec, i) {
+    var fromX = i % 2 === 0 ? -48 : 48;
+    gsap.fromTo(
+      sec,
+      { opacity: 0, x: fromX },
+      {
+        opacity: 1,
+        x: 0,
+        duration: 0.72,
+        ease: "power2.out",
+        scrollTrigger: { trigger: sec, start: "top 88%", once: true }
+      }
+    );
+  });
+}
+
 function initAboutPageMotion() {
   gsap.utils.toArray(".page-about section.section").forEach(function (sec, i) {
     var fromY = i % 2 === 0 ? 36 : -36;
@@ -673,6 +690,8 @@ if (!reduceMotion) {
   } else if (body.classList.contains("page-about")) {
     initAboutPageMotion();
     initAboutDepthLeadMotion();
+  } else if (body.classList.contains("page-faqs")) {
+    initFaqsPageMotion();
   } else if (body.classList.contains("page-home")) {
     initHomeTrustBubblesMotion();
   }

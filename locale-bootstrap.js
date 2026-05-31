@@ -1258,11 +1258,19 @@ var NOVYRA_LOCALE_PATCH_IS = {
   var P_FA = typeof NOVYRA_LOCALE_PATCH_FA !== "undefined" ? NOVYRA_LOCALE_PATCH_FA : {};
   var P_DA = typeof NOVYRA_LOCALE_PATCH_DA !== "undefined" ? NOVYRA_LOCALE_PATCH_DA : {};
   var P_FI = typeof NOVYRA_LOCALE_PATCH_FI !== "undefined" ? NOVYRA_LOCALE_PATCH_FI : {};
+  var P_FAQS = typeof NOVYRA_LOCALE_PATCH_FAQS !== "undefined" ? NOVYRA_LOCALE_PATCH_FAQS : {};
+  if (P_FAQS.sv) F.sv = assignPatch(F.sv, P_FAQS.sv);
+  if (P_FAQS.no) F.no = assignPatch(F.no, P_FAQS.no);
   /* Danish / Finnish: full patch on Norwegian key set (same keys as no/sv). */
   F.da = assignPatch(F.no, P_DA);
   F.fi = assignPatch(F.no, P_FI);
+  if (P_FAQS.is) F.is = assignPatch(F.is, P_FAQS.is);
+  if (P_FAQS.da) F.da = assignPatch(F.da, P_FAQS.da);
+  if (P_FAQS.fi) F.fi = assignPatch(F.fi, P_FAQS.fi);
   F.ar = assignPatch({}, P_AR);
   F.fa = assignPatch({}, P_FA);
+  if (P_FAQS.ar) F.ar = assignPatch(F.ar, P_FAQS.ar);
+  if (P_FAQS.fa) F.fa = assignPatch(F.fa, P_FAQS.fa);
 })();
 
 (function novyraBootstrapLocales() {

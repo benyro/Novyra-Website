@@ -16,6 +16,7 @@ window.NOVYRA_I18N_MESSAGES = {
       aboutUs: "About Us",
       aboutAgency: "About Novyra Agency",
       partnerships: "Partnerships",
+      faqs: "FAQs",
       joinNow: "Join Now",
       creatorPortal: "Creator Portal",
       logoSub: "OFFICIAL TIKTOK LIVE PARTNER",
@@ -28,6 +29,7 @@ window.NOVYRA_I18N_MESSAGES = {
       team: "Team",
       bonuses: "Bonuses",
       partnerships: "Partnerships",
+      faqs: "FAQs",
       home: "Home",
       partnerSub: "Official TikTok LIVE partner",
       copy: "© NOVYRA AGENCY 2026",
@@ -60,6 +62,11 @@ window.NOVYRA_I18N_MESSAGES = {
         title: "Partnerships | NOVYRA Agency",
         metaDesc:
           "NOVYRA Agency is a verified TikFinity Full Partner offering exclusive Pro pricing and LIVE tooling perks for roster creators."
+      },
+      faqs: {
+        title: "FAQs | NOVYRA Agency",
+        metaDesc:
+          "Answers about joining NOVYRA Agency — contracts, fees, bonuses, TikFinity perks, account ownership, and how our official TikTok LIVE partner roster works."
       },
       bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency Monthly Bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
       privacy: {
@@ -539,6 +546,93 @@ window.NOVYRA_I18N_MESSAGES = {
       disclaimer:
         "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
       badgeAlt: "TikFinity Full Partner badge for NOVYRA Agency"
+    },
+    faqs: {
+      heroKicker: "Questions answered",
+      heroTitleHtml: "Creator <span>FAQs</span>",
+      heroLead:
+        "Straight answers about joining Novyra — fees, ownership, bonuses, TikFinity perks, and what life on the roster actually looks like.",
+      finePrint: {
+        title: "The fine print",
+        subtitle: "Contracts, fees, ownership",
+        q1: "Is there a contract?",
+        a1:
+          "Yes — membership runs through TikTok's official partner programme with clear terms. We keep expectations readable: what's included, what's optional, and how either side can end the relationship. Nothing buried in fine print you only see after joining.",
+        q2: "Do I have to pay to join?",
+        a2:
+          "No. Joining Novyra is free. We don't charge upfront fees, membership dues, or processing costs to apply or onboard. If someone asks you to pay Novyra directly to get in, it isn't us — report it.",
+        q3: "How does Novyra make money?",
+        a3:
+          "Through TikTok's official LIVE partner structure — not by taking a cut of your diamonds or gifts. Our revenue comes from the partner programme, not from skimming your room earnings. Bonuses we run are funded separately and paid manually under clear qualification rules.",
+        q4: "Will management affect my account ownership?",
+        a4:
+          "No. Your TikTok account stays yours. We don't take passwords, transfer ownership, or control your profile. Agency support means coaching, programme access, and partner-backed guidance — you remain the account holder and decision-maker.",
+        q5: "Do I need targets or goals?",
+        a5:
+          "We use readable goals so growth isn't guesswork — monthly bonus tiers, optional push weeks, and coaching milestones. Targets exist so you know what \"good\" looks like and what unlocks extra support or rewards, not to trap you.",
+        q6: "Can I leave when I want?",
+        a6:
+          "Yes. There's no lock-in fee or penalty for leaving the roster. We'll explain exit steps through TikTok's partner programme so your account transitions cleanly — we'd rather part professionally than keep someone who isn't a fit."
+      },
+      rewards: {
+        title: "Rewards & opportunities",
+        subtitle: "Bonuses, TikFinity, TikTok events",
+        q1: "Are there rewards and bonuses?",
+        a1:
+          "Yes. Novyra runs a Monthly Bonus system with diamond tiers you can read before you stream. Qualification is manual and transparent — see our Bonus System page for current thresholds and how payouts work.",
+        q2: "TikFinity partner perks",
+        a2:
+          "As a TikFinity Full Partner, Novyra roster creators can access exclusive Pro pricing on TikFinity — overlays, gift alerts, text-to-speech, timers, and more. Perks are for active roster members; details live on our Partnerships page.",
+        q3: "TikTok events?",
+        a3:
+          "As an official TikTok LIVE partner agency, we sometimes get visibility into partner events, campaigns, and programme opportunities. Not every creator qualifies for every event — we route invites based on fit, activity, and TikTok's criteria."
+      },
+      value: {
+        title: "The value",
+        subtitle: "When an agency still makes sense",
+        q1: "I'm already making money — do I still need an agency?",
+        a1:
+          "Many roster creators were already earning before joining. What changes is structure: a manager, Creator Portal access, bonus clarity, ban/restriction support, and tooling perks — less guessing, more repeatable growth without reinventing the wheel alone.",
+        q2: "Ban or restriction help?",
+        a2:
+          "If you're restricted or banned by mistake, we help you appeal through TikTok's official channels with partner-aware context and realistic timelines. We don't sell instant-unban services — we follow the proper review path."
+      },
+      growth: {
+        title: "Growth & expectations",
+        subtitle: "Honest answers, no hype",
+        q1: "Do you guarantee viewers or income?",
+        a1:
+          "No — and we'll never promise otherwise. LIVE results depend on your content, consistency, audience, and platform dynamics. What we offer is honest systems, human support, and clarity around bonuses and expectations.",
+        q2: "Why Novyra over another agency?",
+        a2:
+          "Official TikTok LIVE partner positioning, no diamond cut, free to join, Creator Portal, manual bonus transparency, TikFinity Full Partner perks, Nordic/European operations with multilingual support, and a team that includes creators past 500k followers — built for serious LIVE operators, not hype."
+      },
+      fit: {
+        title: "The fit",
+        subtitle: "Requirements, style, joining",
+        q1: "Is Novyra only for battlers or gaming creators?",
+        a1:
+          "No. We work with creators across LIVE niches — battles, gaming, chat, music, comedy, and more. What matters is professionalism, consistency, and willingness to work within platform rules — not one specific format.",
+        q2: "Follower or diamond requirements?",
+        a2:
+          "Requirements vary by programme lane and current roster capacity. The member page outlines what we look for at intake — we care about LIVE trajectory and room quality as much as raw follower counts.",
+        q3: "Can I stay with my content style?",
+        a3:
+          "Yes. We don't force you into a single persona. Coaching sharpens what already works for you — pacing, retention, monetisation — not cloning someone else's show.",
+        q4: "How do I join?",
+        a4:
+          'Start on our <a href="/member/">Become a Member</a> page. Membership is invite-only and reviewed — you\'ll submit your details, we assess fit, and onboarding runs through TikTok\'s official partner path if accepted.',
+        q5: "What happens after I join?",
+        a5:
+          "You get Creator Portal access, a manager assignment, bonus and training resources, TikFinity perks when eligible, and OBS/LIVE Studio guidance where relevant. Early weeks focus on onboarding, room setup, and your first readable growth plan.",
+        q6: "Where is Novyra based?",
+        a6:
+          "Novyra is a Nordic-rooted, European-operated TikTok LIVE partner agency. Our team works across Northern Europe and beyond with multilingual support — for creators who want professional agency operations with European timezone sensibility."
+      },
+      ctaTitle: "Still have questions?",
+      ctaLead: "Read how membership works, explore TikFinity perks, or apply when you're ready.",
+      ctaMember: "Become a member",
+      ctaPartnerships: "Partnerships & TikFinity"
     },
     privacy: {
       heroTitleHtml: "Privacy <span>Policy</span>",

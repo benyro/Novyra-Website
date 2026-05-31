@@ -8,6 +8,7 @@
     { "source": "/training.html", "destination": "/training/", "permanent": true },
     { "source": "/about.html", "destination": "/about/", "permanent": true },
     { "source": "/partnerships.html", "destination": "/partnerships/", "permanent": true },
+    { "source": "/faqs.html", "destination": "/faqs/", "permanent": true },
     { "source": "/privacy.html", "destination": "/privacy/", "permanent": true },
     { "source": "/terms.html", "destination": "/terms/", "permanent": true }
   ]
