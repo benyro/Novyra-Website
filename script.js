@@ -27,22 +27,80 @@ document.querySelectorAll(".mobile-menu a, .mobile-menu .mobile-nav-group__panel
 });
 
 function initNavDropdowns() {
+  var desktopNavMq = "(min-width: 901px)";
+  var hoverCloseDelayMs = 180;
+
+  function isDesktopNav() {
+    return window.matchMedia(desktopNavMq).matches;
+  }
+
   document.querySelectorAll("[data-nav-dropdown]").forEach(function (dropdown) {
     var trigger = dropdown.querySelector("[data-nav-dropdown-trigger]");
     if (!trigger) return;
 
+    var closeTimer = null;
+
+    function openDropdown() {
+      if (closeTimer) {
+        clearTimeout(closeTimer);
+        closeTimer = null;
+      }
+      dropdown.classList.add("is-open");
+      trigger.setAttribute("aria-expanded", "true");
+    }
+
+    function closeDropdown() {
+      if (closeTimer) {
+        clearTimeout(closeTimer);
+        closeTimer = null;
+      }
+      dropdown.classList.remove("is-open");
+      trigger.setAttribute("aria-expanded", "false");
+    }
+
+    function scheduleClose() {
+      if (closeTimer) clearTimeout(closeTimer);
+      closeTimer = setTimeout(function () {
+        closeTimer = null;
+        closeDropdown();
+      }, hoverCloseDelayMs);
+    }
+
+    dropdown.addEventListener("mouseenter", function () {
+      if (!isDesktopNav()) return;
+      openDropdown();
+    });
+
+    dropdown.addEventListener("mouseleave", function () {
+      if (!isDesktopNav()) return;
+      scheduleClose();
+    });
+
     trigger.addEventListener("click", function (e) {
-      if (window.matchMedia("(min-width: 901px)").matches) return;
+      if (isDesktopNav()) {
+        e.preventDefault();
+        return;
+      }
       e.preventDefault();
-      var open = dropdown.classList.toggle("is-open");
-      trigger.setAttribute("aria-expanded", open ? "true" : "false");
+      if (dropdown.classList.contains("is-open")) closeDropdown();
+      else openDropdown();
     });
 
     dropdown.addEventListener("keydown", function (e) {
       if (e.key === "Escape") {
-        dropdown.classList.remove("is-open");
-        trigger.setAttribute("aria-expanded", "false");
+        closeDropdown();
         trigger.focus();
+      }
+    });
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!isDesktopNav()) return;
+    document.querySelectorAll("[data-nav-dropdown].is-open").forEach(function (dropdown) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove("is-open");
+        var trigger = dropdown.querySelector("[data-nav-dropdown-trigger]");
+        if (trigger) trigger.setAttribute("aria-expanded", "false");
       }
     });
   });

@@ -355,6 +355,7 @@ body.page-home {
 .nav-dropdown {
   position: relative;
   display: inline-flex;
+  align-items: center;
 }
 
 .nav-dropdown__trigger {
@@ -408,9 +409,9 @@ body.page-home {
 
 .nav-dropdown__panel {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 50%;
-  transform: translateX(-50%) translateY(6px);
+  transform: translateX(-50%) translateY(8px);
   min-width: 220px;
   padding: 8px;
   border-radius: 14px;
@@ -424,13 +425,23 @@ body.page-home {
   z-index: 1200;
 }
 
+/* Invisible bridge: keeps hover on .nav-dropdown while moving from trigger to panel */
+.nav-dropdown__panel::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  top: -14px;
+  height: 14px;
+}
+
 .nav-dropdown:hover .nav-dropdown__panel,
 .nav-dropdown:focus-within .nav-dropdown__panel,
 .nav-dropdown.is-open .nav-dropdown__panel {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(8px);
 }
 
 .nav-dropdown__link {
