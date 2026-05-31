@@ -200,6 +200,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "member.compareNovyra5": "Portaalitilastot, tavoitteet ja bonusten näkyvyys",
   "member.compareNovyra6": "Kampanjaohjaus kun mahdollisuudet sopivat",
   "member.compareNovyra7": "Timanttibonukset ja luettavat push-viikot",
+  "member.compareNovyra8": "OBS-strömmausavaimet ja LIVE Studio -tuki",
   "member.compareFooter": "Ei sitoutumissopimuksia. Säilytä itsenäisyytesi.",
   "member.festKicker": "LIVE Fest 2025",
   "member.festTitle": "Toimiston kohokohtakooste",

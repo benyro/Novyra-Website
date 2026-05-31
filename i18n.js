@@ -305,6 +305,7 @@ window.NOVYRA_I18N_MESSAGES = {
       compareNovyra5: "Portal stats, targets, and bonus visibility",
       compareNovyra6: "Campaign guidance when opportunities fit",
       compareNovyra7: "Diamond bonuses and readable push weeks",
+      compareNovyra8: "OBS stream keys & LIVE Studio support",
       compareFooter: "No lock-in contracts. Keep your autonomy.",
       festKicker: "LIVE Fest 2025",
       festTitle: "Agency highlight reel",
