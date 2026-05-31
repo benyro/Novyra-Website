@@ -57,7 +57,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Var är Novyra baserat?",
     "faqs.fit.a6": "Novyra är en nordiskt rotad, europeiskt driven TikTok LIVE-partnerbyrå. Vårt team arbetar över norra Europa och vidare med flerspråkigt stöd — för skapare som vill ha professionell byrådrift med europeisk tidszonskänsla.",
     "faqs.ctaTitle": "Har du fler frågor?",
-    "faqs.ctaLead": "Läs hur medlemskap fungerar, utforska TikFinity-förmåner eller ansök när du är redo.",
+    "faqs.ctaLead": "Vi hjälper gärna — mejla oss eller skicka ett TikTok-meddelande. Du kan också läsa om medlemskap och partnerskap nedan.",
+    "faqs.ctaEmail": "Mejla oss",
+    "faqs.ctaTiktok": "Meddela oss på TikTok",
     "faqs.ctaMember": "Bli medlem",
     "faqs.ctaPartnerships": "Partnerskap & TikFinity"
   },
@@ -118,7 +120,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Hvor er Novyra basert?",
     "faqs.fit.a6": "Novyra er en nordisk-forankret, europeisk drevet TikTok LIVE-partnerbyrå. Teamet vårt jobber over hele Nord-Europa og videre med flerspråklig støtte — for skapere som vil ha profesjonell byrådrift med europeisk tidssoneforståelse.",
     "faqs.ctaTitle": "Har du flere spørsmål?",
-    "faqs.ctaLead": "Les hvordan medlemskap fungerer, utforsk TikFinity-fordeler eller søk når du er klar.",
+    "faqs.ctaLead": "Vi hjelper gjerne — send e-post eller en TikTok-melding. Du kan også lese om medlemskap og partnerskap nedenfor.",
+    "faqs.ctaEmail": "Send e-post",
+    "faqs.ctaTiktok": "Send oss en TikTok-melding",
     "faqs.ctaMember": "Bli medlem",
     "faqs.ctaPartnerships": "Partnerskap & TikFinity"
   },
@@ -179,7 +183,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Hvar er Novyra staðsett?",
     "faqs.fit.a6": "Novyra er norrænt rótgróið, evrópskt rekinn TikTok LIVE-partnerstofnun. Teymið okkar starfar um Norður-Evrópu og víðar með fjöltyngdum stuðningi — fyrir skapendur sem vilja faglega stofnunarrekstur með evrópskum tímabeltiskennd.",
     "faqs.ctaTitle": "Ertu með fleiri spurningar?",
-    "faqs.ctaLead": "Lestu hvernig meðlimur virkar, kannaðu TikFinity-kosti eða sæktu um þegar þú ert tilbúinn.",
+    "faqs.ctaLead": "Við hjálpum með glöðu — sendu póst eða TikTok-skilaboð. Þú getur líka skoðað meðlimur og samstarf hér fyrir neðan.",
+    "faqs.ctaEmail": "Senda tölvupóst",
+    "faqs.ctaTiktok": "Skilaboð á TikTok",
     "faqs.ctaMember": "Gerast meðlimur",
     "faqs.ctaPartnerships": "Samstarf & TikFinity"
   },
@@ -240,7 +246,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Hvor er Novyra baseret?",
     "faqs.fit.a6": "Novyra er et nordisk forankret, europæisk drevet TikTok LIVE-partnerbureau. Vores team arbejder på tværs af Nordeuropa og videre med flersproget støtte — til skabere, der vil have professionel bureau drift med europæisk tidszoneforståelse.",
     "faqs.ctaTitle": "Har du flere spørgsmål?",
-    "faqs.ctaLead": "Læs, hvordan medlemskab fungerer, udforsk TikFinity-fordele, eller ansøg, når du er klar.",
+    "faqs.ctaLead": "Vi hjælper gerne — skriv til os på e-mail eller send en TikTok-besked. Du kan også læse om medlemskab og partnerskaber nedenfor.",
+    "faqs.ctaEmail": "Skriv til os",
+    "faqs.ctaTiktok": "Skriv til os på TikTok",
     "faqs.ctaMember": "Bliv medlem",
     "faqs.ctaPartnerships": "Partnerskaber & TikFinity"
   },
@@ -301,7 +309,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Missä Novyra sijaitsee?",
     "faqs.fit.a6": "Novyra on pohjoismaisjuurinen, eurooppalaisesti toimiva TikTok LIVE -kumppanitoimisto. Tiimimme työskentelee Pohjois-Euroopassa ja laajemmin monikielisellä tuella — tekijöille, jotka haluavat ammattimaisen toimiston eurooppalaisella aikavyöhyketajulla.",
     "faqs.ctaTitle": "Onko vielä kysyttävää?",
-    "faqs.ctaLead": "Lue jäsenyyden toiminta, tutustu TikFinity-etuihin tai hae, kun olet valmis.",
+    "faqs.ctaLead": "Autamme mielellämme — lähetä sähköpostia tai TikTok-viesti. Voit myös tutustua jäsenyyteen ja kumppanuuksiin alla.",
+    "faqs.ctaEmail": "Lähetä sähköpostia",
+    "faqs.ctaTiktok": "Viesti meille TikTokissa",
     "faqs.ctaMember": "Liity jäseneksi",
     "faqs.ctaPartnerships": "Kumppanuudet & TikFinity"
   },
@@ -362,7 +372,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "أين مقر Novyra؟",
     "faqs.fit.a6": "Novyra وكالة شريكة TikTok LIVE ذات جذور nordic وتعمل في أوروبا. فريقنا يعمل عبر شمال أوروبا وما beyond ذلك بدعم متعدد اللغات — لمبدعين يريدون عمل وكالة احترافيًا بحساسية المنطقة الزمنية الأوروبية.",
     "faqs.ctaTitle": "لا تزال لديك أسئلة؟",
-    "faqs.ctaLead": "اقرأ كيف تعمل العضوية، استكشف امتيازات TikFinity، أو قدّم عندما تكون جاهزًا.",
+    "faqs.ctaLead": "يسعدنا مساعدتك — راسلنا بالبريد أو عبر TikTok. يمكنك أيضًا الاطلاع على العضوية والشراكات أدناه.",
+    "faqs.ctaEmail": "راسلنا بالبريد",
+    "faqs.ctaTiktok": "راسلنا على TikTok",
     "faqs.ctaMember": "Become a member",
     "faqs.ctaPartnerships": "الشراكات & TikFinity"
   },
@@ -423,7 +435,9 @@ window.NOVYRA_LOCALE_PATCH_FAQS = {
     "faqs.fit.q6": "Novyra کجاست؟",
     "faqs.fit.a6": "Novyra آژانس شریک TikTok LIVE با ریشهٔ nordic و عملیات european است. تیم ما در شمال اروپا و فراتر با پشتیبانی چندزبانه کار می‌کند — برای سازندگانی که عملیات حرفه‌ای آژانس با حساسیت timezone اروپایی می‌خواهند.",
     "faqs.ctaTitle": "هنوز سؤال دارید؟",
-    "faqs.ctaLead": "نحوهٔ عضویت را بخوانید، مزایای TikFinity را ببینید یا وقتی آماده‌اید درخواست دهید.",
+    "faqs.ctaLead": "خوشحال می‌شویم کمک کنیم — ایمیل بزنید یا در TikTok پیام دهید. می‌توانید عضویت و شراکت‌ها را هم در پایین ببینید.",
+    "faqs.ctaEmail": "ایمیل به ما",
+    "faqs.ctaTiktok": "پیام در TikTok",
     "faqs.ctaMember": "عضو شوید",
     "faqs.ctaPartnerships": "شراکت‌ها و TikFinity"
   }
