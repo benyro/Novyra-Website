@@ -554,25 +554,25 @@ window.NOVYRA_I18N_MESSAGES = {
         "Straight answers about joining Novyra — fees, ownership, bonuses, TikFinity perks, and what life on the roster actually looks like.",
       finePrint: {
         title: "The fine print",
-        subtitle: "Terms, fees, ownership — plain answers",
-        q1: "Is there a contract?",
+        subtitle: "Terms, money, and your account — clear answers",
+        q1: "What am I actually agreeing to?",
         a1:
-          "We have terms of service — not a lock-in contract. They're straightforward and designed to protect both sides, not trap you. No lock-in periods, hidden fees, or complicated fine print. Accepting our terms confirms your place in the Novyra Creator Network and lets us support you through TikTok's official systems. You remain in full control of your account and your streaming career.",
-        q2: "Do I have to pay to join?",
+          "Novyra works on standard terms of service — the kind you read before joining, not a long-term lock-in. They set out what both sides can expect. No minimum commitment, no hidden fees buried in legalese.<br><br>When you accept, you confirm your place in the Novyra Creator Network. That lets us support you through TikTok's official partner tools. Your account stays yours, and your LIVE path stays yours to shape.",
+        q2: "Does joining cost anything?",
         a2:
-          "No. Joining Novyra is completely free. We don't charge membership fees, upfront costs, or any fee to apply or join. We also don't take a cut of your diamonds, gifts, or TikTok earnings — you keep 100% of what you earn through TikTok LIVE. If someone asks you to pay Novyra directly to get in, that isn't us — report it.",
-        q3: "How does Novyra make money?",
+          "No — membership is free. We don't charge to apply, onboard, or stay on the roster. There's no membership fee waiting in the background.<br><br>Your LIVE earnings are yours. Diamonds, gifts, and what TikTok pays you from streaming — we take no share. You keep 100%.<br><br>If anyone asks you to pay Novyra directly to get in, that isn't us. Please report it.",
+        q3: "How does Novyra earn revenue?",
         a3:
-          "TikTok pays Creator Networks like Novyra directly through their official partner programme — not from your earnings. Creators don't pay us, and we don't take a percentage of what you make on LIVE. Our role is to support, educate, and help you grow within the TikTok LIVE ecosystem.",
-        q4: "Will management affect my account ownership?",
+          "From TikTok's side, not yours. Creator Networks like Novyra are paid through TikTok's official partner programme. That relationship sits between TikTok and us.<br><br>Creators don't pay Novyra, and we take no cut of your LIVE revenue. Our income comes from the partnership structure — your diamonds and gifts stay with you.<br><br>What we provide is coaching, programme access, and support that's hard to build alone on the platform.",
+        q4: "Who owns my TikTok account?",
         a4:
-          "Your TikTok account is and always remains yours. We never ask for your password, take ownership of your profile, or control what you stream. Agency support means coaching, programme access, and partner-backed guidance — you make every decision about your account and your content.",
-        q5: "Do I need targets or goals?",
+          "You do — your account stays fully yours. We never request your password, claim your profile, or tell you what to stream.<br><br>Working with Novyra means a manager, Creator Portal access, and partner-backed guidance when you want it. You choose your content, your schedule, and every decision about your channel.",
+        q5: "Are there streaming targets?",
         a5:
-          "We use clear, optional goals to help you grow — things like bonus tiers, coaching milestones, and push weeks. They're there so you know what progress looks like and what unlocks extra support or rewards. They're guides, not traps — you're never locked into targets you can't meet.",
-        q6: "Can I leave when I want?",
+          "Nothing mandatory. We offer optional growth markers — bonus tiers, coaching checkpoints, push weeks — so you can see progress and know what unlocks extra support or rewards. They're there if you want structure, not as conditions you must hit to stay with us.<br><br>Novyra is built around support, not quotas.",
+        q6: "Can I leave Novyra anytime?",
         a6:
-          "Yes — anytime. There's no lock-in fee, penalty, or complicated exit process. We'll walk you through the steps via TikTok's partner programme so your account moves cleanly. We'd rather you leave on good terms than feel stuck with us."
+          "Yes. You can step away whenever it makes sense for you — no exit fee, no penalty clause.<br><br>We'll explain the steps through TikTok's partner programme so your account transitions cleanly. We'd rather part on good terms than have you feel tied to us when the fit isn't right."
       },
       rewards: {
         title: "Rewards & opportunities",
