@@ -189,7 +189,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "member.stat3Label": "Skaberstøtte og LIVE-vejledning",
   "member.trustedKicker": "Betroet af skabere",
   "member.trustedTitle": "År på platformen, ægte skala, én partnersti.",
-  "member.compareTitle": "At have os i ryggen gør en dag-og-nat-forskel",
+  "member.compareTitle": "Forskellen mellem at streame alene og at streame med Novyra",
   "member.compareSoloTitle": "På egen hånd",
   "member.compareSoloLead": "Gør det selv — uden støtte og uden strategi",
   "member.compareSolo1": "Trial and error uden playbook",
