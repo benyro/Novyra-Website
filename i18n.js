@@ -554,8 +554,8 @@ window.NOVYRA_I18N_MESSAGES = {
       heroLead:
         "Straight answers about joining Novyra — fees, ownership, bonuses, TikFinity perks, and what life on the roster actually looks like.",
       finePrint: {
-        title: "The fine print",
-        subtitle: "Terms, money, and your account — clear answers",
+        title: "Good to know",
+        subtitle: "Contracts, fees, and your freedom — in plain language",
         q1: "Is there a contract?",
         a1:
           "No — there is no contract. You join on our terms of service only: simple, readable, and not written to trap creators. No hidden fees, no minimum commitment.<br><br>Accepting confirms your place in the Novyra Creator Network so we can support you through TikTok's official partner tools. Your account stays fully yours.",
