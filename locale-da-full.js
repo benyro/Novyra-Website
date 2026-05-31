@@ -208,6 +208,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "member.compareNovyra6": "Kampagnevejledning når muligheder passer",
   "member.compareNovyra7": "Diamantbonusser og læsbare push-uger",
   "member.compareNovyra8": "OBS-streamnøgler og LIVE Studio-support",
+  "member.compareNovyra9": "Og flere fordele",
   "member.compareFooter": "Ingen binding. Behold din autonomi.",
   "member.festKicker": "LIVE Fest 2025",
   "member.festTitle": "Bureauets højdepunktsrulle",
