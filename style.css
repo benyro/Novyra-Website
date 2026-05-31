@@ -4588,6 +4588,16 @@ a.footer-brand:focus-visible {
   margin: 0 auto;
 }
 
+.home-compare {
+  padding: clamp(36px, 5vw, 56px) var(--novyra-page-gutter, 24px) clamp(28px, 4vw, 44px);
+  max-width: calc(var(--max) + 48px);
+  margin: 0 auto;
+}
+
+.home-compare .member-compare {
+  margin-top: 0;
+}
+
 .member-compare {
   margin-top: clamp(28px, 4vw, 44px);
 }
