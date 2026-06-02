@@ -745,7 +745,7 @@ window.NOVYRA_I18N_MESSAGES = {
       eliteLede: "Clear diamond steps with larger bonus amounts and more days and hours required.",
       qualTitle: "Qualification",
       eliQ1: "Minimum <strong>22</strong> days / month",
-      eliQ2: "Minimum <strong>80</strong> hours / month",
+      eliQ2: "Minimum <strong>60</strong> hours / month",
       recruitTitle: "Recruit & earn",
       recruitLead:
         "Help serious creators join NOVYRA and earn bonuses when referred creators become active members of the agency.",
@@ -769,7 +769,7 @@ window.NOVYRA_I18N_MESSAGES = {
       eliAmt1: "+2,150",
       eliAmt2: "+5,000",
       eliAmt3: "+10,000",
-      eliAmt4: "+25,000",
+      eliAmt4: "+26,000",
       eliAmt5: "+34,000",
       eliAmt6: "+45,000",
       eliAmt7: "+55,000",

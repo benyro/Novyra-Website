@@ -166,7 +166,7 @@
     "bonus.advQ1": "Minimum <strong>18</strong> dage / måned",
     "bonus.advQ2": "Minimum <strong>60</strong> timer / måned",
     "bonus.eliQ1": "Minimum <strong>22</strong> dage / måned",
-    "bonus.eliQ2": "Minimum <strong>80</strong> timer / måned",
+    "bonus.eliQ2": "Minimum <strong>60</strong> timer / måned",
     "bonus.pushLabel": "1M+ push",
     "bonus.pushMint": "Over 1M point → ekstra <strong>3%</strong>.",
     "bonus.pushViolet": "Over 1M point → ekstra <strong>5%</strong>.",
