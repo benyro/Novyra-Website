@@ -427,6 +427,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "bonus.recruitCard3Body": "Stærke skabere hjælper med at bygge stærkere skabercommunities.",
   "bonus.ctaBack": "Tilbage til forsiden",
   "bonus.ctaJoin": "Bliv med i NOVYRA",
+  "bonus.payoutScheduleLabel": "Udbetalingsplan",
   "bonus.payoutNote": "Bonusser betales af NOVYRA Agency, med udbetalinger mellem den 9. og den 15. hver måned, senest.",
   "terms.heroTitleHtml": "Service<span>vilkår</span>",
   "terms.heroLead": "Vilkårene der regulerer din brug af NOVYRA Agencys hjemmeside, ansøgninger og skaberstøttetjenester.",

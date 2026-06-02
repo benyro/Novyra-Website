@@ -5529,6 +5529,49 @@ html.novyra-hero-accent-motion [data-hero-accent] h1::after {
   color: var(--text-muted);
 }
 
+.bonus-payout-notice {
+  max-width: 520px;
+  margin: 28px auto 0;
+  padding: 18px 20px 20px;
+  text-align: center;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(45, 212, 191, 0.28);
+  background: var(--accent-soft);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.bonus-payout-notice__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.bonus-payout-notice__icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.bonus-payout-notice__label {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.bonus-payout-notice__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--text);
+  text-wrap: balance;
+}
+
 /* Bonus page — premium creator referral / ambassador block */
 .page-bonus .bonus-recruit-premium {
   position: relative;

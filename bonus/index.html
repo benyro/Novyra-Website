@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=189">
+<link rel="stylesheet" href="/style.css?v=190">
 <!-- novyra-sync-marker: hero-mosaic-20260213 — if you don’t see this in View Source, the server is not this folder’s index.html -->
 <script type="application/ld+json">
 {
@@ -117,7 +117,16 @@
 
 <section class="bonus-intro">
   <p data-i18n-html="bonus.intro">Diamond totals and payouts follow TikTok LIVE programme rules. Your manager confirms your monthly qualification details.</p>
-  <p data-i18n="bonus.payoutNote">Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest.</p>
+  <aside class="bonus-payout-notice" role="note" aria-labelledby="bonus-payout-notice-label">
+    <div class="bonus-payout-notice__head">
+      <svg class="bonus-payout-notice__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="3.5" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M2 7h14M6 2v3M12 2v3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <p class="bonus-payout-notice__label" id="bonus-payout-notice-label" data-i18n="bonus.payoutScheduleLabel">Payout schedule</p>
+    </div>
+    <p class="bonus-payout-notice__text" data-i18n="bonus.payoutNote">Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest.</p>
+  </aside>
 </section>
 
 <div class="bonus-tracks bonus-tracks--single">
@@ -207,12 +216,12 @@
   </div>
 </footer>
 
-<script src="/i18n.js?v=169"></script>
-<script src="/locale-faqs-full.js?v=169"></script>
-<script src="/locale-ar-fa-patches.js?v=169"></script>
-<script src="/locale-da-full.js?v=167"></script>
-<script src="/locale-fi-full.js?v=167"></script>
-<script src="/locale-bootstrap.js?v=169"></script>
+<script src="/i18n.js?v=170"></script>
+<script src="/locale-faqs-full.js?v=170"></script>
+<script src="/locale-ar-fa-patches.js?v=170"></script>
+<script src="/locale-da-full.js?v=168"></script>
+<script src="/locale-fi-full.js?v=168"></script>
+<script src="/locale-bootstrap.js?v=170"></script>
 <script src="/script.js?v=149"></script>
 </body>
 </html>

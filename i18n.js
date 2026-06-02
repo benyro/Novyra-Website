@@ -775,6 +775,7 @@ window.NOVYRA_I18N_MESSAGES = {
       eliAmt7: "+55,000",
       ctaBack: "Back to home",
       ctaJoin: "Join NOVYRA",
+      payoutScheduleLabel: "Payout schedule",
       payoutNote: "Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest."
     }
   }
