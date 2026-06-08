@@ -769,7 +769,7 @@ window.NOVYRA_I18N_MESSAGES = {
       eliAmt1: "+2,150",
       eliAmt2: "+5,000",
       eliAmt3: "+10,000",
-      eliAmt4: "+26,000",
+      eliAmt4: "+30,000",
       eliAmt5: "+34,000",
       eliAmt6: "+45,000",
       eliAmt7: "+55,000",

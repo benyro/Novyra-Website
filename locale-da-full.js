@@ -411,7 +411,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "bonus.eliAmt1": "+2.150",
   "bonus.eliAmt2": "+5.000",
   "bonus.eliAmt3": "+10.000",
-  "bonus.eliAmt4": "+26.000",
+  "bonus.eliAmt4": "+30.000",
   "bonus.eliAmt5": "+34.000",
   "bonus.eliAmt6": "+45.000",
   "bonus.eliAmt7": "+55.000",
