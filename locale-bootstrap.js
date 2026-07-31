@@ -60,6 +60,8 @@ var NOVYRA_LOCALE_FLATS = {
     "home.ctaHow": "Se medlemsstegen",
     "home.trustBadge": "Officiell TikTok LIVE-partnerbyrå",
     "home.heroPartnerPill": "OFFICIELL TIKTOK LIVE PARTNERBYRÅ",
+    "home.introBrand": "NOVYRA AGENCY",
+    "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Topp 2</span> på Community Fest 2026 i Norden",
     "home.featuresTitle": "Vad vi erbjuder",
     "home.featuresSub": "Coaching, incitament och system som växer med dig",
     "home.featuresLead":
@@ -602,6 +604,8 @@ var NOVYRA_LOCALE_FLATS = {
     "home.ctaHow": "Se medlemsstegene",
     "home.trustBadge": "Offisielt TikTok LIVE-partnerbyrå",
     "home.heroPartnerPill": "OFFISIELL TIKTOK LIVE PARTNERBYRÅ",
+    "home.introBrand": "NOVYRA AGENCY",
+    "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Topp 2</span> på Community Fest 2026 i Norden",
     "home.featuresTitle": "Hva vi tilbyr",
     "home.featuresSub": "Coaching, insentiver og systemer som vokser med deg",
     "home.featuresLead":

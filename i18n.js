@@ -95,6 +95,9 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaHow: "See membership steps",
       trustBadge: "Official TikTok LIVE partner agency",
       heroPartnerPill: "OFFICIAL TIKTOK LIVE PARTNER AGENCY",
+      introBrand: "NOVYRA AGENCY",
+      introAchievementHtml:
+        '<span class="intro-achievement__rank">Top 2</span> at Community Fest 2026 in the Nordics',
       brandPulse1: "Built for creators who want more than random streams.",
       brandPulse2: "Growth feels different with a real team behind you.",
       featuresTitle: "What we offer",

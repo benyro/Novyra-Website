@@ -120,6 +120,34 @@ body.page-home {
   pointer-events: none;
 }
 
+.intro-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+  max-width: min(94vw, 560px);
+}
+
+.intro-achievement {
+  margin: 22px 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(12px, 3vw, 16px);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.74);
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.intro-achievement__rank {
+  color: var(--accent-2);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 28px rgba(45, 212, 191, 0.42);
+}
+
 .intro-title {
   font-family: var(--font-body);
   font-size: clamp(36px, 9vw, 72px);

@@ -57,6 +57,8 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.ctaHow": "Katso jäsenyysaskeleet",
   "home.trustBadge": "Virallinen TikTok LIVE -kumppanitoimisto",
   "home.heroPartnerPill": "VIRALLINEN TIKTOK LIVE -KUMPPANITOIMISTO",
+  "home.introBrand": "NOVYRA AGENCY",
+  "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Top 2</span> Community Fest 2026 -tapahtumassa Pohjoismaissa",
   "home.featuresTitle": "Mitä tarjoamme",
   "home.featuresSub": "Valmennusta, kannustimia ja järjestelmiä jotka kasvavat mukana",
   "home.featuresLead":

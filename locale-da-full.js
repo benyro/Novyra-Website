@@ -65,6 +65,8 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "home.ctaHow": "Se medlemskabstrin",
   "home.trustBadge": "Officielt TikTok LIVE-partnerbureau",
   "home.heroPartnerPill": "OFFICIELT TIKTOK LIVE PARTNERBUREAU",
+  "home.introBrand": "NOVYRA AGENCY",
+  "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Top 2</span> ved Community Fest 2026 i Norden",
   "home.featuresTitle": "Hvad vi tilbyder",
   "home.featuresSub": "Coaching, incitamenter og systemer der vokser med dig",
   "home.featuresLead":

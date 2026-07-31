@@ -134,10 +134,14 @@ if (intro) {
   } else {
     gsap.set(intro, { opacity: 1 });
     var title = intro.querySelector(".intro-title");
-    gsap
-      .timeline()
-      .from(title, { scale: 0.88, opacity: 0, duration: 0.7, ease: "power2.out" })
-      .to({}, { duration: 0.5 })
+    var achievement = intro.querySelector(".intro-achievement");
+    var introTl = gsap.timeline();
+    introTl.from(title, { scale: 0.88, opacity: 0, duration: 0.7, ease: "power2.out" });
+    if (achievement) {
+      introTl.from(achievement, { y: 14, opacity: 0, duration: 0.55, ease: "power2.out" }, "-=0.12");
+    }
+    introTl
+      .to({}, { duration: 0.85 })
       .to(intro, { opacity: 0, duration: 0.6, ease: "power2.in", delay: 0.4 })
       .call(function () {
         intro.remove();
@@ -482,7 +486,7 @@ function initAboutDepthLeadMotion() {
    * Hero sits in the first viewport, so a section-style "top 88%" trigger does not fire when
    * scrolling down; time the reveal after the compact hero h1 + .hero-lead stagger instead. */
   var introStillHere = document.getElementById("intro") !== null;
-  var heroDelay = introStillHere ? 2.25 : 0.12;
+  var heroDelay = introStillHere ? 2.85 : 0.12;
   /* After compact hero: about page has h1 + .hero-lead only (stagger 0.1); reveal near end of lead. */
   var afterHeroLead = heroDelay + 0.1 + 0.45;
   gsap.fromTo(
@@ -559,7 +563,7 @@ if (!reduceMotion) {
   }
 
   var introStillHere = document.getElementById("intro") !== null;
-  var heroDelay = introStillHere ? 2.25 : 0.12;
+  var heroDelay = introStillHere ? 2.85 : 0.12;
 
   if (!isBonusPage) {
     document.querySelectorAll(".hero").forEach(function (hero) {
@@ -581,7 +585,7 @@ if (!reduceMotion) {
       if (ctaRow) parts.push(ctaRow);
       if (!parts.length) return;
       var isHomeGlass = hero.classList.contains("hero--home-cosmos") && lead && lead.classList.contains("hero-lead-pro");
-      var motionDelay = isHomeGlass ? (introStillHere ? 2.0 : 0.12) : heroDelay;
+      var motionDelay = isHomeGlass ? (introStillHere ? 2.6 : 0.12) : heroDelay;
       gsap.from(parts, {
         opacity: 0,
         y: isHomeGlass ? 16 : 30,
