@@ -66,8 +66,6 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "home.trustBadge": "Officielt TikTok LIVE-partnerbureau",
   "home.heroPartnerPill": "OFFICIELT TIKTOK LIVE PARTNERBUREAU",
   "home.introBrand": "NOVYRA AGENCY",
-  "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Top 2</span><span class=\"intro-achievement__sep\" aria-hidden=\"true\"></span><span class=\"intro-achievement__copy\">Community Fest 2026 · Norden</span>",
-  "home.heroFestBadgeHtml": "<span class=\"home-fest-badge__rank\">Top 2</span><span class=\"home-fest-badge__sep\" aria-hidden=\"true\"></span><span class=\"home-fest-badge__copy\">Community Fest 2026 · Norden</span>",
   "home.featuresTitle": "Hvad vi tilbyder",
   "home.featuresSub": "Coaching, incitamenter og systemer der vokser med dig",
   "home.featuresLead":

@@ -61,8 +61,6 @@ var NOVYRA_LOCALE_FLATS = {
     "home.trustBadge": "Officiell TikTok LIVE-partnerbyrå",
     "home.heroPartnerPill": "OFFICIELL TIKTOK LIVE PARTNERBYRÅ",
     "home.introBrand": "NOVYRA AGENCY",
-    "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Topp 2</span><span class=\"intro-achievement__sep\" aria-hidden=\"true\"></span><span class=\"intro-achievement__copy\">Community Fest 2026 · Norden</span>",
-    "home.heroFestBadgeHtml": "<span class=\"home-fest-badge__rank\">Topp 2</span><span class=\"home-fest-badge__sep\" aria-hidden=\"true\"></span><span class=\"home-fest-badge__copy\">Community Fest 2026 · Norden</span>",
     "home.featuresTitle": "Vad vi erbjuder",
     "home.featuresSub": "Coaching, incitament och system som växer med dig",
     "home.featuresLead":
@@ -606,8 +604,6 @@ var NOVYRA_LOCALE_FLATS = {
     "home.trustBadge": "Offisielt TikTok LIVE-partnerbyrå",
     "home.heroPartnerPill": "OFFISIELL TIKTOK LIVE PARTNERBYRÅ",
     "home.introBrand": "NOVYRA AGENCY",
-    "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Topp 2</span><span class=\"intro-achievement__sep\" aria-hidden=\"true\"></span><span class=\"intro-achievement__copy\">Community Fest 2026 · Norden</span>",
-    "home.heroFestBadgeHtml": "<span class=\"home-fest-badge__rank\">Topp 2</span><span class=\"home-fest-badge__sep\" aria-hidden=\"true\"></span><span class=\"home-fest-badge__copy\">Community Fest 2026 · Norden</span>",
     "home.featuresTitle": "Hva vi tilbyr",
     "home.featuresSub": "Coaching, insentiver og systemer som vokser med deg",
     "home.featuresLead":

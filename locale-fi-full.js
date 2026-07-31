@@ -58,8 +58,6 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.trustBadge": "Virallinen TikTok LIVE -kumppanitoimisto",
   "home.heroPartnerPill": "VIRALLINEN TIKTOK LIVE -KUMPPANITOIMISTO",
   "home.introBrand": "NOVYRA AGENCY",
-  "home.introAchievementHtml": "<span class=\"intro-achievement__rank\">Top 2</span><span class=\"intro-achievement__sep\" aria-hidden=\"true\"></span><span class=\"intro-achievement__copy\">Community Fest 2026 · Pohjoismaat</span>",
-  "home.heroFestBadgeHtml": "<span class=\"home-fest-badge__rank\">Top 2</span><span class=\"home-fest-badge__sep\" aria-hidden=\"true\"></span><span class=\"home-fest-badge__copy\">Community Fest 2026 · Pohjoismaat</span>",
   "home.featuresTitle": "Mitä tarjoamme",
   "home.featuresSub": "Valmennusta, kannustimia ja järjestelmiä jotka kasvavat mukana",
   "home.featuresLead":
