@@ -1054,6 +1054,9 @@ body.page-home {
   position: sticky;
   top: 0;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin: 0 0 6px;
   padding-bottom: 12px;
   background: linear-gradient(165deg, #14131c 0%, #08070c 100%);
@@ -1198,7 +1201,7 @@ body.page-home {
   box-shadow: 0 8px 22px var(--accent-glow);
 }
 
-.mobile-menu a:active:not(.mobile-join):not(.mobile-portal-link) {
+.mobile-menu a:active:not(.mobile-join):not(.mobile-portal-link):not(.mobile-app) {
   background: rgba(45, 212, 191, 0.12);
   border-color: rgba(45, 212, 191, 0.25);
 }
@@ -1206,7 +1209,55 @@ body.page-home {
 .mobile-menu-sticky .mobile-join,
 .mobile-menu-sticky button.mobile-join {
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.mobile-menu a.mobile-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 10px 14px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(124, 108, 255, 0.32);
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.mobile-menu a.mobile-app:hover {
+  color: #fff;
+  background: rgba(124, 108, 255, 0.14);
+  border-color: rgba(124, 108, 255, 0.48);
+}
+
+.mobile-menu a.mobile-app:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.92);
+  outline-offset: 2px;
+}
+
+.mobile-menu a.mobile-app:active {
+  background: rgba(124, 108, 255, 0.22);
+  border-color: rgba(124, 108, 255, 0.55);
+}
+
+.mobile-menu a.mobile-app.active {
+  color: var(--ink);
+  background: linear-gradient(120deg, rgba(124, 108, 255, 0.95), rgba(45, 212, 191, 0.88));
+  border-color: transparent;
+  box-shadow:
+    0 0 0 1px rgba(45, 212, 191, 0.45),
+    0 8px 22px rgba(45, 212, 191, 0.18);
 }
 
 .mobile-menu a.mobile-portal-link {
