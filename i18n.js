@@ -97,9 +97,9 @@ window.NOVYRA_I18N_MESSAGES = {
       heroPartnerPill: "OFFICIAL TIKTOK LIVE PARTNER AGENCY",
       introBrand: "NOVYRA AGENCY",
       introAchievementHtml:
-        '<span class="intro-achievement__rank">Top 2</span> at Community Fest 2026 in the Nordics',
+        '<span class="intro-achievement__rank">Top 2</span><span class="intro-achievement__sep" aria-hidden="true"></span><span class="intro-achievement__copy">Community Fest 2026 · Nordics</span>',
       heroFestBadgeHtml:
-        '<span class="home-fest-badge__rank">Top 2</span><span class="home-fest-badge__text">Community Fest 2026 · Nordics</span>',
+        '<span class="home-fest-badge__rank">Top 2</span><span class="home-fest-badge__sep" aria-hidden="true"></span><span class="home-fest-badge__copy">Community Fest 2026 · Nordics</span>',
       brandPulse1: "Built for creators who want more than random streams.",
       brandPulse2: "Growth feels different with a real team behind you.",
       featuresTitle: "What we offer",
