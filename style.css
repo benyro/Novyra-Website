@@ -7247,8 +7247,59 @@ html.novyra-motion .fade {
    Novyra App — launching soon page
    ============================================================================= */
 .page-app .app-hero {
-  text-align: center;
   padding-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.page-app .app-hero__inner {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.page-app .app-hero__grid {
+  display: grid;
+  gap: clamp(1.75rem, 4vw, 3rem);
+  align-items: center;
+}
+
+.page-app .app-hero__copy {
+  text-align: center;
+}
+
+.page-app .app-hero-image-wrap {
+  margin: 0;
+  order: -1;
+}
+
+.page-app .app-hero-image {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(212, 175, 55, 0.14),
+    0 8px 32px rgba(212, 175, 55, 0.08);
+}
+
+@media (min-width: 768px) {
+  .page-app .app-hero__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .page-app .app-hero__copy {
+    text-align: left;
+  }
+
+  .page-app .app-hero-image-wrap {
+    order: 1;
+  }
+
+  .page-app .app-hero-image {
+    max-width: none;
+    margin: 0;
+  }
 }
 
 .page-app .app-soon-pill {

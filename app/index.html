@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=195">
+<link rel="stylesheet" href="/style.css?v=196">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -105,16 +105,32 @@
 <div class="overlay" id="overlay" onclick="closeMenu()"></div>
 
 <section class="hero hero--compact app-hero" data-hero-accent aria-labelledby="app-hero-heading">
-  <p class="app-soon-pill" data-i18n="app.soonPill">Launching soon</p>
-  <h1 id="app-hero-heading" data-i18n-html="app.heroTitleHtml">NOVYRA <span>APP</span></h1>
-  <p class="hero-lead" data-i18n="app.heroLead">Our mobile app for roster creators is on the way — live stats, bonus tracking, and a direct line to your manager, all in one place.</p>
+  <div class="inner app-hero__inner">
+    <div class="app-hero__grid">
+      <div class="app-hero__copy">
+        <h1 id="app-hero-heading" data-i18n-html="app.heroTitleHtml">NOVYRA <span>APP</span></h1>
+        <p class="hero-lead" data-i18n="app.heroLead">Our mobile app for roster creators is on the way — live stats, bonus tracking, and a direct line to your manager, all in one place.</p>
+      </div>
+      <figure class="app-hero-image-wrap">
+        <img
+          src="/images/novyra-app-launching.png"
+          alt="Novyra Agency mobile app launching soon — promotional graphic with iPhone and Android app previews"
+          class="app-hero-image"
+          data-i18n-attr="alt|app.promoAlt"
+          width="1200"
+          height="675"
+          decoding="async"
+          fetchpriority="high"
+        >
+      </figure>
+    </div>
+  </div>
 </section>
 
 <section class="section app-section">
   <div class="inner inner--narrow">
     <div class="app-soon-card">
       <div class="app-soon-card__glow" aria-hidden="true"></div>
-      <p class="app-soon-card__status" data-i18n="app.statusLine">NOVYRA APP LAUNCHING SOON</p>
       <p class="app-soon-card__body" data-i18n="app.body">We are building the Novyra app for iOS and Android. Join the roster to be first in line when it goes live, or check back here for launch updates.</p>
       <div class="app-soon-card__actions">
         <a href="/member/" class="cta-btn" data-i18n="app.ctaJoin">Become a member</a>

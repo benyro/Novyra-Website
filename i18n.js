@@ -393,6 +393,9 @@ window.NOVYRA_I18N_MESSAGES = {
       joinHint: "Want to join <strong>under Cesco</strong> at NOVYRA? Use his {{iconTiktok}} apply link below. It routes your request to his line (not the general agency join).",
       ctaTiktok: "TikTok @cesco.novyra",
       ctaUnder: "Join under Cesco",
+      joinUnderBenyRooz: "Join under Beny Rooz",
+      joinUnderFelicia: "Join under Felicia",
+      joinUnderMeilynn: "Join under Meilynn",
       managersTitle: "Managers",
       managersBody: "Set weekly priorities, review clips and LIVE replays with you, and help you stay accountable without burning out.",
       supportTitle: "Support & moderation",
@@ -568,7 +571,9 @@ window.NOVYRA_I18N_MESSAGES = {
       body:
         "We are building the Novyra app for iOS and Android. Join the roster to be first in line when it goes live, or check back here for launch updates.",
       ctaJoin: "Become a member",
-      backHome: "Back to home"
+      backHome: "Back to home",
+      promoAlt:
+        "Novyra Agency mobile app launching soon — promotional graphic with iPhone and Android app previews"
     },
     faqs: {
       heroKicker: "Questions answered",
