@@ -94,7 +94,7 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaMember: "Become a Member",
       ctaHow: "See membership steps",
       heroFestHeading: "Winner of:",
-      heroFestCommunity: "Top 2 Community Fest 2026",
+      heroFestCommunity: "TOP 2 OF COMMUNITY FEST 2026",
       heroFestLive: "LIVE Fest 2025",
       trustBadge: "Official TikTok LIVE partner agency",
       heroPartnerPill: "OFFICIAL TIKTOK LIVE PARTNER AGENCY",

@@ -64,7 +64,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "home.ctaMember": "Bliv medlem",
   "home.ctaHow": "Se medlemskabstrin",
   "home.heroFestHeading": "Vinder af:",
-  "home.heroFestCommunity": "Top 2 Community Fest 2026",
+  "home.heroFestCommunity": "TOP 2 OF COMMUNITY FEST 2026",
   "home.heroFestLive": "LIVE Fest 2025",
   "home.trustBadge": "Officielt TikTok LIVE-partnerbureau",
   "home.heroPartnerPill": "OFFICIELT TIKTOK LIVE PARTNERBUREAU",
