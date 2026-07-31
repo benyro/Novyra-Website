@@ -2663,16 +2663,16 @@ body.page-home section.hero.hero--home-cosmos .hero-lead--home-glass .hero-lead-
   }
 }
 
-/* Home hero: partner pill leads the stack (directly under nav), then the brand lockup */
+/* Home hero: partner pill leads the stack (directly under nav), then fest badge, then brand lockup */
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-  margin-top: 0;
-  margin-bottom: clamp(8px, 1.2vw, 14px);
+  margin-top: clamp(6px, 0.8vw, 12px);
+  margin-bottom: clamp(12px, 1.6vw, 18px);
 }
 
 body.page-home section.hero.hero--home-cosmos .home-fest-badge--hero-top {
   flex: 0 0 auto;
   margin-top: 0;
-  margin-bottom: clamp(10px, 1.6vw, 18px);
+  margin-bottom: clamp(14px, 2vw, 22px);
 }
 
 body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon .trust-badge__plate {
@@ -6390,7 +6390,7 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
 
   /* Home: body.page-home has no padding-top — offset lockup with nav height (same as desktop). */
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: calc(var(--novyra-nav-h) + clamp(5px, 1.2vw, 14px));
+    padding-top: calc(var(--novyra-nav-h) + clamp(14px, 3.2vw, 22px));
     padding-bottom: clamp(26px, 5vw, 52px);
     padding-left: clamp(10px, 3.2vw, 22px);
     padding-right: clamp(10px, 3.2vw, 22px);
@@ -6404,7 +6404,12 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-bottom: clamp(0px, 0.35vw, 5px);
+    margin-top: clamp(4px, 1vw, 10px);
+    margin-bottom: clamp(10px, 2.4vw, 16px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .home-fest-badge--hero-top {
+    margin-bottom: clamp(12px, 2.8vw, 18px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-cosmos {
@@ -6632,14 +6637,19 @@ body.page-bonus .bonus-tracks--single .bonus-track--elite .bonus-track__head {
 
 @media (max-width: 480px) {
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: calc(var(--novyra-nav-h) + clamp(6px, 3vw, 14px));
+    padding-top: calc(var(--novyra-nav-h) + clamp(16px, 4vw, 24px));
     padding-bottom: clamp(18px, 5.5vw, 38px);
     padding-left: clamp(8px, 2.8vw, 16px);
     padding-right: clamp(8px, 2.8vw, 16px);
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-bottom: 0;
+    margin-top: clamp(6px, 1.5vw, 12px);
+    margin-bottom: clamp(10px, 2.6vw, 14px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .home-fest-badge--hero-top {
+    margin-bottom: clamp(12px, 3vw, 16px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack h1.hero-brand {
@@ -7059,7 +7069,7 @@ html.novyra-motion .fade {
 
 @media (max-width: 900px) {
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: var(--novyra-nav-h);
+    padding-top: calc(var(--novyra-nav-h) + clamp(14px, 3.2vw, 22px));
     padding-bottom: clamp(22px, 4.8vw, 50px);
   }
 
@@ -7100,7 +7110,11 @@ html.novyra-motion .fade {
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
     margin-top: clamp(6px, 1.2vw, 12px);
-    margin-bottom: clamp(4px, 0.85vw, 10px);
+    margin-bottom: clamp(10px, 2.2vw, 16px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .home-fest-badge--hero-top {
+    margin-bottom: clamp(12px, 2.6vw, 18px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero__stack {
@@ -7110,7 +7124,10 @@ html.novyra-motion .fade {
     row-gap: 0;
   }
 
-  body.page-home section.hero.hero--home-cosmos .hero__stack > :not(.trust-badge--hero-ribbon) {
+  body.page-home section.hero.hero--home-cosmos .hero__stack > h1.hero-brand,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-home-divider,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-lead-pro,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-actions {
     transform: translateY(-1.45rem);
   }
 
@@ -7301,15 +7318,23 @@ html.novyra-motion .fade {
 
 @media (max-width: 480px) {
   body.page-home section.hero.hero--home-cosmos {
-    padding-top: var(--novyra-nav-h);
+    padding-top: calc(var(--novyra-nav-h) + clamp(16px, 4vw, 24px));
   }
 
-  body.page-home section.hero.hero--home-cosmos .hero__stack > :not(.trust-badge--hero-ribbon) {
+  body.page-home section.hero.hero--home-cosmos .hero__stack > h1.hero-brand,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-home-divider,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-lead-pro,
+  body.page-home section.hero.hero--home-cosmos .hero__stack > .hero-actions {
     transform: translateY(-1.25rem);
   }
 
   body.page-home section.hero.hero--home-cosmos .trust-badge--hero-ribbon {
-    margin-bottom: clamp(4px, 0.75vw, 9px);
+    margin-top: clamp(6px, 1.5vw, 12px);
+    margin-bottom: clamp(10px, 2.4vw, 14px);
+  }
+
+  body.page-home section.hero.hero--home-cosmos .home-fest-badge--hero-top {
+    margin-bottom: clamp(12px, 3vw, 16px);
   }
 
   body.page-home section.hero.hero--home-cosmos .hero-home-divider {
