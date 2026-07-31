@@ -55,6 +55,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.heroLeadL4": " TikTok LIVE -toimistoista.",
   "home.ctaMember": "Liity jäseneksi",
   "home.ctaHow": "Katso jäsenyysaskeleet",
+  "home.heroFestNote": "Top 2 Community Fest 2026 - ja LIVE Fest 2025 -voittaja",
   "home.trustBadge": "Virallinen TikTok LIVE -kumppanitoimisto",
   "home.heroPartnerPill": "VIRALLINEN TIKTOK LIVE -KUMPPANITOIMISTO",
   "home.introBrand": "NOVYRA AGENCY",

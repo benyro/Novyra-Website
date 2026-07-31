@@ -1964,6 +1964,46 @@ body.page-home section.hero.hero--home-cosmos .hero-actions .cta-btn--ghost {
   z-index: 1;
 }
 
+body.page-home section.hero.hero--home-cosmos .hero-fest-note {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(10px, 2vw, 14px);
+  width: 100%;
+  max-width: min(34rem, 92vw);
+  margin: clamp(14px, 2.4vw, 20px) auto 0;
+  padding: 0;
+  text-align: center;
+}
+
+body.page-home section.hero.hero--home-cosmos .hero-fest-note__line {
+  display: block;
+  width: min(28%, 220px);
+  min-width: 5rem;
+  height: 1px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(186, 170, 255, 0.45) 35%,
+    rgba(45, 212, 191, 0.55) 65%,
+    transparent 100%
+  );
+  opacity: 0.85;
+}
+
+body.page-home section.hero.hero--home-cosmos .hero-fest-note__text {
+  margin: 0;
+  font-size: clamp(11px, 2.8vw, 13px);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: rgba(232, 228, 248, 0.84);
+}
+
 .hero-brand-lockup--stroke-fallback .hero-brand-masked-stack,
 .hero-brand-lockup--stroke-fallback .hero-brand-glass-veil {
   opacity: 0 !important;
