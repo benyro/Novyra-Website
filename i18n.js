@@ -18,7 +18,7 @@ window.NOVYRA_I18N_MESSAGES = {
       partnerships: "Partnerships",
       faqs: "FAQs",
       joinNow: "Join Now",
-      creatorPortal: "Creator Portal",
+      app: "APP",
       logoSub: "OFFICIAL TIKTOK LIVE PARTNER",
       openMenu: "Open menu"
     },
@@ -51,7 +51,7 @@ window.NOVYRA_I18N_MESSAGES = {
           "NOVYRA Agency is an official TikTok LIVE partner agency helping creators grow through professional support, strategy, and LIVE development."
       },
       member: { title: "Become a Member | NOVYRA Agency", metaDesc: "Apply to join NOVYRA Agency and get TikTok LIVE creator support, onboarding guidance, coaching, and a clear path for growing as a LIVE creator." },
-      team: { title: "Our Team | NOVYRA Agency", metaDesc: "Meet the NOVYRA Agency team behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
+      team: { title: "Our Team | NOVYRA Agency", metaDesc: "Meet the NOVYRA Agency managers behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
       training: { title: "Training & TikTok LIVE Tips | NOVYRA Agency", metaDesc: "Learn TikTok LIVE training tips from NOVYRA Agency, including content strategy, room energy, retention, safety, and creator growth guidance." },
       about: {
         title: "About Novyra Agency | Official TikTok LIVE Partner Agency",
@@ -76,6 +76,10 @@ window.NOVYRA_I18N_MESSAGES = {
       terms: {
         title: "Terms of Service | NOVYRA Agency",
         metaDesc: "Review the terms that govern use of the NOVYRA Agency website, applications, and related creator support services."
+      },
+      app: {
+        title: "Novyra App | NOVYRA Agency",
+        metaDesc: "The Novyra mobile app for TikTok LIVE roster creators is launching soon — stats, bonuses, and your manager in one place."
       }
     },
     home: {
@@ -111,9 +115,9 @@ window.NOVYRA_I18N_MESSAGES = {
       featBonusHint: "See how bonuses work →",
       featStrategy: "LIVE strategy sessions",
       featStrategyBody: "Openings that stop the scroll, run-of-show, PK nights, and retention beats, planned like a show instead of improvised chaos.",
-      featFunnel: "Novyra Creator Portal",
-      featFunnelBody: "Your creator hub at creator.novyraagency.com — live stats, bonus tracking, roster rankings, TikTok connect, and a direct line to your manager, so growth stays visible instead of scattered across DMs.",
-      featFunnelHint: "Open Creator Portal →",
+      featApp: "Novyra App",
+      featAppBody: "Our mobile app for roster creators — live stats, bonus tracking, roster rankings, and a direct line to your manager, launching soon on iOS and Android.",
+      featAppHint: "Learn about the app →",
       featRoadmap: "Earnings roadmap",
       featRoadmapBody: "Gift psychology, room goals, and weekly numbers that make sense, so “earn more” becomes a checklist instead of a vibe.",
       featManager: "Manager in your corner",
@@ -375,10 +379,16 @@ window.NOVYRA_I18N_MESSAGES = {
       heroTitle: "Our team",
       heroTitleHtml: "Our <span>team</span>",
       heroLead:
-        "Operators and leadership behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.",
-      label: "Leadership",
+        "Managers and operators behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.",
+      label: "Manager",
       name: "Cesco",
-      role: "Chief Executive Officer, NOVYRA Agency",
+      role: "Manager, NOVYRA Agency",
+      managerRole: "Manager, NOVYRA Agency",
+      managersGridTitle: "Our managers",
+      cescoAvatarAlt: "Cesco, Manager at NOVYRA Agency",
+      meilynnAvatarAlt: "Meilynn, Manager at NOVYRA Agency",
+      benyAvatarAlt: "Beny Rooz, Manager at NOVYRA Agency",
+      feliciaAvatarAlt: "Felicia, Manager at NOVYRA Agency",
       bio: "Sets direction for partnerships, creator experience, and how the agency scales alongside {{iconTiktok}} LIVE — with the same energy you see in the room with creators.",
       joinHint: "Want to join <strong>under Cesco</strong> at NOVYRA? Use his {{iconTiktok}} apply link below. It routes your request to his line (not the general agency join).",
       ctaTiktok: "TikTok @cesco.novyra",
@@ -389,7 +399,7 @@ window.NOVYRA_I18N_MESSAGES = {
       supportBody: "Handles day-to-day questions, onboarding tasks, and escalations so managers can focus on strategy.",
       trustHeading: "Clarity, partner alignment, human support",
       trustLead:
-        "Leadership with real LIVE floor time — aligned to the official TikTok LIVE partner path, with people in the loop when the room gets heavy.",
+        "Managers with real LIVE floor time — aligned to the official TikTok LIVE partner path, with people in the loop when the room gets heavy.",
       trustLi1: "Experienced operators scaling with creators, not hype cycles",
       trustLi2: "Guideline-first culture on the official TikTok LIVE partner path",
       trustLi3: "Human-led support and moderation so managers stay strategic",
@@ -549,6 +559,17 @@ window.NOVYRA_I18N_MESSAGES = {
         "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
       badgeAlt: "TikFinity Full Partner badge for NOVYRA Agency"
     },
+    app: {
+      soonPill: "Launching soon",
+      heroTitleHtml: "NOVYRA <span>APP</span>",
+      heroLead:
+        "Our mobile app for roster creators is on the way — live stats, bonus tracking, and a direct line to your manager, all in one place.",
+      statusLine: "NOVYRA APP LAUNCHING SOON",
+      body:
+        "We are building the Novyra app for iOS and Android. Join the roster to be first in line when it goes live, or check back here for launch updates.",
+      ctaJoin: "Become a member",
+      backHome: "Back to home"
+    },
     faqs: {
       heroKicker: "Questions answered",
       heroTitleHtml: "Creator <span>FAQs</span>",
@@ -568,7 +589,7 @@ window.NOVYRA_I18N_MESSAGES = {
           "From TikTok's side, not yours. Creator Networks like Novyra are paid through TikTok's official partner programme. That relationship sits between TikTok and us.<br><br>Creators don't pay Novyra, and we take no cut of your LIVE revenue. Our income comes from the partnership structure — your diamonds and gifts stay with you.<br><br>What we provide is coaching, programme access, and support that's hard to build alone on the platform.",
         q4: "Who owns my TikTok account?",
         a4:
-          "You do — your account stays fully yours. We never request your password, claim your profile, or tell you what to stream.<br><br>Working with Novyra means a manager, Creator Portal access, and partner-backed guidance when you want it. You choose your content, your schedule, and every decision about your channel.",
+          "You do — your account stays fully yours. We never request your password, claim your profile, or tell you what to stream.<br><br>Working with Novyra means a manager, the Novyra app, and partner-backed guidance when you want it. You choose your content, your schedule, and every decision about your channel.",
         q5: "Are there streaming targets?",
         a5:
           "Nothing mandatory. We offer optional growth markers — bonus tiers, coaching checkpoints, push weeks — so you can see progress and know what unlocks extra support or rewards. They're there if you want structure, not as conditions you must hit to stay with us.<br><br>Novyra is built around support, not quotas.",
@@ -594,7 +615,7 @@ window.NOVYRA_I18N_MESSAGES = {
         subtitle: "When an agency still makes sense",
         q1: "I'm already making money — do I still need an agency?",
         a1:
-          "Many roster creators were already earning before joining. What changes is structure: a manager, Creator Portal access, bonus clarity, ban/restriction support, and tooling perks — less guessing, more repeatable growth without reinventing the wheel alone.",
+          "Many roster creators were already earning before joining. What changes is structure: a manager, the Novyra app, bonus clarity, ban/restriction support, and tooling perks — less guessing, more repeatable growth without reinventing the wheel alone.",
         q2: "Ban or restriction help?",
         a2:
           "If you're restricted or banned by mistake, we help you appeal through TikTok's official channels with partner-aware context and realistic timelines. We don't sell instant-unban services — we follow the proper review path."
@@ -607,7 +628,7 @@ window.NOVYRA_I18N_MESSAGES = {
           "No — and we'll never promise otherwise. LIVE results depend on your content, consistency, audience, and platform dynamics. What we offer is honest systems, human support, and clarity around bonuses and expectations.",
         q2: "Why Novyra over another agency?",
         a2:
-          "Official TikTok LIVE partner positioning, no diamond cut, free to join, Creator Portal, manual bonus transparency, TikFinity Full Partner perks, Nordic/European operations with multilingual support, and a team that includes creators past 500k followers — built for serious LIVE operators, not hype."
+          "Official TikTok LIVE partner positioning, no diamond cut, free to join, the Novyra app, manual bonus transparency, TikFinity Full Partner perks, Nordic/European operations with multilingual support, and a team that includes creators past 500k followers — built for serious LIVE operators, not hype."
       },
       fit: {
         title: "The fit",
@@ -626,7 +647,7 @@ window.NOVYRA_I18N_MESSAGES = {
           'Start on our <a href="/member/">Become a Member</a> page. Membership is invite-only and reviewed — you\'ll submit your details, we assess fit, and onboarding runs through TikTok\'s official partner path if accepted.',
         q5: "What happens after I join?",
         a5:
-          "You get Creator Portal access, a manager assignment, bonus and training resources, TikFinity perks when eligible, and OBS/LIVE Studio guidance where relevant. Early weeks focus on onboarding, room setup, and your first readable growth plan.",
+          "You get the Novyra app, a manager assignment, bonus and training resources, TikFinity perks when eligible, and OBS/LIVE Studio guidance where relevant. Early weeks focus on onboarding, room setup, and your first readable growth plan.",
         q6: "Where is Novyra based?",
         a6:
           "Novyra is a Nordic-rooted, European-operated TikTok LIVE partner agency. Our team works across Northern Europe and beyond with multilingual support — for creators who want professional agency operations with European timezone sensibility."

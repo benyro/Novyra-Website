@@ -5222,9 +5222,102 @@ a.footer-brand:focus-visible {
 }
 
 /* ========================= */
-/* TEAM: CEO spotlight */
+/* TEAM: managers grid */
 /* ========================= */
 
+.team-managers {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px 56px;
+}
+
+.team-managers__inner {
+  width: 100%;
+}
+
+.team-managers__heading {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-align: center;
+  margin: 0 0 28px;
+}
+
+.team-managers__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.team-manager-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.32);
+}
+
+.team-manager-card__figure {
+  margin: 0;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.team-manager-card__figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.team-manager-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: clamp(18px, 3vw, 24px);
+  text-align: center;
+}
+
+.team-manager-card__name {
+  font-family: var(--font-body);
+  font-size: clamp(22px, 2.8vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin: 0 0 6px;
+}
+
+.team-manager-card__role {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c4b5fd;
+  margin: 0 0 18px;
+}
+
+.team-manager-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: auto;
+}
+
+@media (max-width: 720px) {
+  .team-managers__grid {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+
+/* Legacy CEO spotlight (unused; kept for reference) */
 .team-ceo {
   max-width: 1000px;
   margin: 0 auto;
@@ -7148,4 +7241,88 @@ html.novyra-motion .fade {
   body.page-member .member-hero-premium__ambient {
     display: none;
   }
+}
+
+/* =============================================================================
+   Novyra App — launching soon page
+   ============================================================================= */
+.page-app .app-hero {
+  text-align: center;
+  padding-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.page-app .app-soon-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7af8e8;
+  border: 1px solid rgba(45, 212, 191, 0.35);
+  background: rgba(45, 212, 191, 0.08);
+  box-shadow: 0 0 24px rgba(45, 212, 191, 0.12);
+}
+
+.page-app .app-hero h1 span {
+  color: #2dd4bf;
+  text-shadow: 0 0 32px rgba(45, 212, 191, 0.35);
+}
+
+.page-app .app-section {
+  padding-top: 0;
+  padding-bottom: clamp(4rem, 10vw, 6rem);
+}
+
+.page-app .app-soon-card {
+  position: relative;
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: clamp(2rem, 5vw, 3rem);
+  border-radius: 1.25rem;
+  text-align: center;
+  border: 1px solid rgba(45, 212, 191, 0.18);
+  background: linear-gradient(165deg, rgba(12, 18, 28, 0.92), rgba(5, 8, 14, 0.96));
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  overflow: hidden;
+}
+
+.page-app .app-soon-card__glow {
+  position: absolute;
+  inset: -40% auto auto 50%;
+  width: 120%;
+  height: 60%;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(45, 212, 191, 0.16) 0%, transparent 68%);
+  pointer-events: none;
+}
+
+.page-app .app-soon-card__status {
+  position: relative;
+  margin: 0 0 1rem;
+  font-family: var(--font-display, "Syne", sans-serif);
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #fff;
+}
+
+.page-app .app-soon-card__body {
+  position: relative;
+  margin: 0 auto 1.75rem;
+  max-width: 34rem;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.65;
+}
+
+.page-app .app-soon-card__actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
 }

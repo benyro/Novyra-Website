@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Our Team | NOVYRA Agency</title>
-<meta name="description" data-i18n-desc="pages.team.metaDesc" content="Meet the NOVYRA Agency team behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers.">
+<meta name="description" data-i18n-desc="pages.team.metaDesc" content="Meet the NOVYRA Agency managers behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers.">
 <meta name="keywords" content="NOVYRA Agency, TikTok LIVE agency, TikTok creator support, TikTok partner agency, LIVE streaming agency, creator management">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://novyraagency.com/team/">
@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=189">
+<link rel="stylesheet" href="/style.css?v=196">
 <!-- novyra-sync-marker: hero-mosaic-20260213 — if you don’t see this in View Source, the server is not this folder’s index.html -->
 <script type="application/ld+json">
 {
@@ -64,6 +64,7 @@
     <a href="/team/" class="active" data-i18n="nav.team">Our Team</a>
     <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
     <a href="/training/" data-i18n="nav.training">Training</a>
+    <a href="/app/" data-i18n="nav.app">APP</a>
     <div class="nav-dropdown" data-nav-dropdown>
       <button type="button" class="nav-dropdown__trigger" aria-expanded="false" aria-haspopup="true" data-nav-dropdown-trigger>
         <span data-i18n="nav.aboutUs">About Us</span>
@@ -78,7 +79,6 @@
   </div>
   <div class="nav-right">
     <div class="lang-switcher" data-lang-switcher></div>
-    <a href="https://creator.novyraagency.com" target="_blank" rel="noopener noreferrer" class="nav-portal-link" data-i18n="nav.creatorPortal">Creator Portal</a>
     <button type="button" class="nav-btn" data-join-open data-i18n="nav.joinNow">Join Now</button>
     <button type="button" class="menu-btn" data-i18n-attr="aria-label|nav.openMenu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
   </div>
@@ -87,13 +87,13 @@
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-sticky">
     <button type="button" class="mobile-join" data-join-open><span data-i18n="mobile.joinTikTok">Join Now</span></button>
-    <a href="https://creator.novyraagency.com" target="_blank" rel="noopener noreferrer" class="mobile-portal-link" data-i18n="nav.creatorPortal">Creator Portal</a>
   </div>
   <a href="/" data-i18n="nav.home">Home</a>
   <a href="/member/" data-i18n="nav.member">Become a Member</a>
   <a href="/team/" class="active" data-i18n="nav.team">Our Team</a>
   <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
   <a href="/training/" data-i18n="nav.training">Training</a>
+    <a href="/app/" data-i18n="nav.app">APP</a>
   <div class="mobile-nav-group" data-mobile-nav-group>
     <button type="button" class="mobile-nav-group__trigger" aria-expanded="false" data-mobile-nav-trigger>
       <span data-i18n="nav.aboutUs">About Us</span>
@@ -111,24 +111,62 @@
 
 <section class="hero hero--compact" data-hero-accent>
   <h1 data-i18n-html="team.heroTitleHtml">Our <span>team</span></h1>
-  <p class="hero-lead" data-i18n="team.heroLead">Operators and leadership behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.</p>
+  <p class="hero-lead" data-i18n="team.heroLead">Managers and operators behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.</p>
 </section>
 
-<section class="team-ceo">
-  <div class="team-ceo__card">
-    <figure class="team-ceo__figure">
-      <img src="/images/ceo-cesco.png" width="640" height="800" alt="Cesco, CEO of NOVYRA Agency" loading="eager" decoding="async">
-    </figure>
-    <div class="team-ceo__content">
-      <h2 class="team-ceo__label" data-i18n="team.label">Leadership</h2>
-      <h3 class="team-ceo__name" data-i18n="team.name">Cesco</h3>
-      <p class="team-ceo__role" data-i18n="team.role">Chief Executive Officer, NOVYRA Agency</p>
-      <p class="team-ceo__bio" data-i18n-html="team.bio">Sets direction for partnerships, creator experience, and how the agency scales alongside {{iconTiktok}} LIVE — with the same energy you see in the room with creators.</p>
-      <p class="team-ceo__join-hint" data-i18n-html="team.joinHint">Want to join <strong>under Cesco</strong> at NOVYRA? Use his {{iconTiktok}} apply link below. It routes your request to his line (not the general agency join).</p>
-      <div class="team-ceo__actions">
-        <a href="https://www.tiktok.com/@cesco.novyra?lang=en" class="cta-btn" target="_blank" rel="noopener noreferrer"><span data-i18n="team.ctaTiktok">TikTok @cesco.novyra</span></a>
-        <a href="https://www.tiktok.com/t/ZSuMHYxyF/" class="cta-btn cta-btn--ghost" target="_blank" rel="noopener noreferrer"><span data-i18n="team.ctaUnder">Join under Cesco</span></a>
-      </div>
+<section class="team-managers" aria-labelledby="team-managers-title">
+  <div class="team-managers__inner">
+    <h2 id="team-managers-title" class="team-managers__heading" data-i18n="team.managersGridTitle">Our managers</h2>
+    <div class="team-managers__grid">
+      <article class="team-manager-card">
+        <figure class="team-manager-card__figure">
+          <img src="/images/ceo-cesco.png" width="640" height="800" alt="Cesco, Manager at NOVYRA Agency" loading="eager" decoding="async" data-i18n-attr="alt|team.cescoAvatarAlt">
+        </figure>
+        <div class="team-manager-card__body">
+          <h3 class="team-manager-card__name">Cesco</h3>
+          <p class="team-manager-card__role" data-i18n="team.managerRole">Manager, NOVYRA Agency</p>
+          <div class="team-manager-card__actions">
+            <a href="https://www.tiktok.com/@cesco.novyra?lang=en" class="cta-btn" target="_blank" rel="noopener noreferrer"><span data-i18n="team.ctaTiktok">TikTok @cesco.novyra</span></a>
+            <a href="https://www.tiktok.com/t/ZSuMHYxyF/" class="cta-btn cta-btn--ghost" target="_blank" rel="noopener noreferrer"><span data-i18n="team.ctaUnder">Join under Cesco</span></a>
+          </div>
+        </div>
+      </article>
+      <article class="team-manager-card">
+        <figure class="team-manager-card__figure">
+          <img src="/images/team-avatar-placeholder.svg" width="640" height="800" alt="Meilynn, Manager at NOVYRA Agency" loading="lazy" decoding="async" data-i18n-attr="alt|team.meilynnAvatarAlt">
+        </figure>
+        <div class="team-manager-card__body">
+          <h3 class="team-manager-card__name">Meilynn</h3>
+          <p class="team-manager-card__role" data-i18n="team.managerRole">Manager, NOVYRA Agency</p>
+          <div class="team-manager-card__actions">
+            <a href="https://www.tiktok.com/@meilynn.kim" class="cta-btn" target="_blank" rel="noopener noreferrer">TikTok @meilynn.kim</a>
+          </div>
+        </div>
+      </article>
+      <article class="team-manager-card">
+        <figure class="team-manager-card__figure">
+          <img src="/images/team-avatar-placeholder.svg" width="640" height="800" alt="Beny Rooz, Manager at NOVYRA Agency" loading="lazy" decoding="async" data-i18n-attr="alt|team.benyAvatarAlt">
+        </figure>
+        <div class="team-manager-card__body">
+          <h3 class="team-manager-card__name">Beny Rooz</h3>
+          <p class="team-manager-card__role" data-i18n="team.managerRole">Manager, NOVYRA Agency</p>
+          <div class="team-manager-card__actions">
+            <a href="https://www.tiktok.com/@benyrooz" class="cta-btn" target="_blank" rel="noopener noreferrer">TikTok @benyrooz</a>
+          </div>
+        </div>
+      </article>
+      <article class="team-manager-card">
+        <figure class="team-manager-card__figure">
+          <img src="/images/team-avatar-placeholder.svg" width="640" height="800" alt="Felicia, Manager at NOVYRA Agency" loading="lazy" decoding="async" data-i18n-attr="alt|team.feliciaAvatarAlt">
+        </figure>
+        <div class="team-manager-card__body">
+          <h3 class="team-manager-card__name">Felicia</h3>
+          <p class="team-manager-card__role" data-i18n="team.managerRole">Manager, NOVYRA Agency</p>
+          <div class="team-manager-card__actions">
+            <a href="https://www.tiktok.com/@feliciajoh" class="cta-btn" target="_blank" rel="noopener noreferrer">TikTok @feliciajoh</a>
+          </div>
+        </div>
+      </article>
     </div>
   </div>
 </section>

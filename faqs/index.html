@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=194">
+<link rel="stylesheet" href="/style.css?v=195">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -58,6 +58,7 @@
     <a href="/team/" data-i18n="nav.team">Our Team</a>
     <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
     <a href="/training/" data-i18n="nav.training">Training</a>
+    <a href="/app/" data-i18n="nav.app">APP</a>
     <div class="nav-dropdown active" data-nav-dropdown>
       <button type="button" class="nav-dropdown__trigger" aria-expanded="false" aria-haspopup="true" data-nav-dropdown-trigger>
         <span data-i18n="nav.aboutUs">About Us</span>
@@ -72,7 +73,6 @@
   </div>
   <div class="nav-right">
     <div class="lang-switcher" data-lang-switcher></div>
-    <a href="https://creator.novyraagency.com" target="_blank" rel="noopener noreferrer" class="nav-portal-link" data-i18n="nav.creatorPortal">Creator Portal</a>
     <button type="button" class="nav-btn" data-join-open data-i18n="nav.joinNow">Join Now</button>
     <button type="button" class="menu-btn" data-i18n-attr="aria-label|nav.openMenu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
   </div>
@@ -81,13 +81,13 @@
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-sticky">
     <button type="button" class="mobile-join" data-join-open><span data-i18n="mobile.joinTikTok">Join Now</span></button>
-    <a href="https://creator.novyraagency.com" target="_blank" rel="noopener noreferrer" class="mobile-portal-link" data-i18n="nav.creatorPortal">Creator Portal</a>
   </div>
   <a href="/" data-i18n="nav.home">Home</a>
   <a href="/member/" data-i18n="nav.member">Become a Member</a>
   <a href="/team/" data-i18n="nav.team">Our Team</a>
   <a href="/bonus/" data-i18n="nav.bonus">Bonus System</a>
   <a href="/training/" data-i18n="nav.training">Training</a>
+    <a href="/app/" data-i18n="nav.app">APP</a>
   <div class="mobile-nav-group active is-open" data-mobile-nav-group>
     <button type="button" class="mobile-nav-group__trigger" aria-expanded="true" data-mobile-nav-trigger>
       <span data-i18n="nav.aboutUs">About Us</span>
@@ -136,7 +136,7 @@
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.finePrint.q4">Who owns my TikTok account?</summary>
-          <p data-i18n-html="faqs.finePrint.a4">You do — your account stays fully yours. We never request your password, claim your profile, or tell you what to stream.<br><br>Working with Novyra means a manager, Creator Portal access, and partner-backed guidance when you want it. You choose your content, your schedule, and every decision about your channel.</p>
+          <p data-i18n-html="faqs.finePrint.a4">You do — your account stays fully yours. We never request your password, claim your profile, or tell you what to stream.<br><br>Working with Novyra means a manager, the Novyra app, and partner-backed guidance when you want it. You choose your content, your schedule, and every decision about your channel.</p>
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.finePrint.q5">Are there streaming targets?</summary>
@@ -192,7 +192,7 @@
       <div class="faqs-accordion">
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.value.q1">I'm already making money — do I still need an agency?</summary>
-          <p data-i18n="faqs.value.a1">Many roster creators were already earning before joining. What changes is structure: a manager, Creator Portal access, bonus clarity, ban/restriction support, and tooling perks — less guessing, more repeatable growth without reinventing the wheel alone.</p>
+          <p data-i18n="faqs.value.a1">Many roster creators were already earning before joining. What changes is structure: a manager, the Novyra app, bonus clarity, ban/restriction support, and tooling perks — less guessing, more repeatable growth without reinventing the wheel alone.</p>
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.value.q2">Ban or restriction help?</summary>
@@ -220,7 +220,7 @@
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.growth.q2">Why Novyra over another agency?</summary>
-          <p data-i18n="faqs.growth.a2">Official TikTok LIVE partner positioning, no diamond cut, free to join, Creator Portal, manual bonus transparency, TikFinity Full Partner perks, Nordic/European operations with multilingual support, and a team that includes creators past 500k followers — built for serious LIVE operators, not hype.</p>
+          <p data-i18n="faqs.growth.a2">Official TikTok LIVE partner positioning, no diamond cut, free to join, the Novyra app, manual bonus transparency, TikFinity Full Partner perks, Nordic/European operations with multilingual support, and a team that includes creators past 500k followers — built for serious LIVE operators, not hype.</p>
         </details>
       </div>
     </div>
@@ -256,7 +256,7 @@
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.fit.q5">What happens after I join?</summary>
-          <p data-i18n="faqs.fit.a5">You get Creator Portal access, a manager assignment, bonus and training resources, TikFinity perks when eligible, and OBS/LIVE Studio guidance where relevant. Early weeks focus on onboarding, room setup, and your first readable growth plan.</p>
+          <p data-i18n="faqs.fit.a5">You get the Novyra app, a manager assignment, bonus and training resources, TikFinity perks when eligible, and OBS/LIVE Studio guidance where relevant. Early weeks focus on onboarding, room setup, and your first readable growth plan.</p>
         </details>
         <details class="faqs-accordion__item">
           <summary data-i18n="faqs.fit.q6">Where is Novyra based?</summary>
