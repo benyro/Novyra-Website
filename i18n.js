@@ -14,7 +14,7 @@ window.NOVYRA_I18N_MESSAGES = {
       training: "Training",
       about: "About",
       aboutUs: "About Us",
-      aboutAgency: "About Novyra Agency",
+      aboutAgency: "About NOVYRA AGENCY",
       partnerships: "Partnerships",
       faqs: "FAQs",
       joinNow: "Join Now",
@@ -46,39 +46,39 @@ window.NOVYRA_I18N_MESSAGES = {
     mobile: { joinTikTok: "Join Now" },
     pages: {
       home: {
-        title: "NOVYRA Agency | Official TikTok LIVE Partner Agency",
+        title: "NOVYRA AGENCY | Official TikTok LIVE Partner Agency",
         metaDesc:
-          "NOVYRA Agency is an official TikTok LIVE partner agency helping creators grow through professional support, strategy, and LIVE development."
+          "NOVYRA AGENCY is an official TikTok LIVE partner agency helping creators grow through professional support, strategy, and LIVE development."
       },
-      member: { title: "Become a Member | NOVYRA Agency", metaDesc: "Apply to join NOVYRA Agency and get TikTok LIVE creator support, onboarding guidance, coaching, and a clear path for growing as a LIVE creator." },
-      team: { title: "Our Team | NOVYRA Agency", metaDesc: "Meet the NOVYRA Agency managers behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
-      training: { title: "Training & TikTok LIVE Tips | NOVYRA Agency", metaDesc: "Learn TikTok LIVE training tips from NOVYRA Agency, including content strategy, room energy, retention, safety, and creator growth guidance." },
+      member: { title: "Become a Member | NOVYRA AGENCY", metaDesc: "Apply to join NOVYRA AGENCY and get TikTok LIVE creator support, onboarding guidance, coaching, and a clear path for growing as a LIVE creator." },
+      team: { title: "Our Team | NOVYRA AGENCY", metaDesc: "Meet the NOVYRA AGENCY managers behind creator support, TikTok LIVE strategy, partnerships, and professional guidance for streamers." },
+      training: { title: "Training & TikTok LIVE Tips | NOVYRA AGENCY", metaDesc: "Learn TikTok LIVE training tips from NOVYRA AGENCY, including content strategy, room energy, retention, safety, and creator growth guidance." },
       about: {
-        title: "About Novyra Agency | Official TikTok LIVE Partner Agency",
+        title: "About NOVYRA AGENCY | Official TikTok LIVE Partner Agency",
         metaDesc:
-          "Learn about NOVYRA Agency, an official TikTok LIVE partner agency built around creator support, professional operations, coaching, and LIVE growth."
+          "Learn about NOVYRA AGENCY, an official TikTok LIVE partner agency built around creator support, professional operations, coaching, and LIVE growth."
       },
       partnerships: {
-        title: "Partnerships | NOVYRA Agency",
+        title: "Partnerships | NOVYRA AGENCY",
         metaDesc:
-          "NOVYRA Agency is a verified TikFinity Full Partner offering exclusive Pro pricing and LIVE tooling perks for roster creators."
+          "NOVYRA AGENCY is a verified TikFinity Full Partner offering exclusive Pro pricing and LIVE tooling perks for roster creators."
       },
       faqs: {
-        title: "FAQs | NOVYRA Agency",
+        title: "FAQs | NOVYRA AGENCY",
         metaDesc:
-          "Answers about joining NOVYRA Agency — contracts, fees, bonuses, TikFinity perks, account ownership, and how our official TikTok LIVE partner roster works."
+          "Answers about joining NOVYRA AGENCY — contracts, fees, bonuses, TikFinity perks, account ownership, and how our official TikTok LIVE partner roster works."
       },
-      bonus: { title: "Bonus System | NOVYRA Agency", metaDesc: "Explore the NOVYRA Agency Monthly Bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
+      bonus: { title: "Bonus System | NOVYRA AGENCY", metaDesc: "Explore the NOVYRA AGENCY Monthly Bonus system for TikTok LIVE creators, including diamond targets and monthly qualification rules." },
       privacy: {
-        title: "Privacy Policy | NOVYRA Agency",
-        metaDesc: "Read how NOVYRA Agency collects, uses, and protects personal information when you visit our site or apply for creator support."
+        title: "Privacy Policy | NOVYRA AGENCY",
+        metaDesc: "Read how NOVYRA AGENCY collects, uses, and protects personal information when you visit our site or apply for creator support."
       },
       terms: {
-        title: "Terms of Service | NOVYRA Agency",
-        metaDesc: "Review the terms that govern use of the NOVYRA Agency website, applications, and related creator support services."
+        title: "Terms of Service | NOVYRA AGENCY",
+        metaDesc: "Review the terms that govern use of the NOVYRA AGENCY website, applications, and related creator support services."
       },
       app: {
-        title: "Novyra App | NOVYRA Agency",
+        title: "Novyra App | NOVYRA AGENCY",
         metaDesc: "The Novyra mobile app for TikTok LIVE roster creators is launching soon — stats, bonuses, and your manager in one place."
       }
     },
@@ -151,8 +151,8 @@ window.NOVYRA_I18N_MESSAGES = {
       tikfinityCtaDiscount: "Claim your exclusive discount",
       tikfinityCtaJoin: "Join Novyra",
       tikfinityDisclaimer:
-        "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
-      tikfinityBadgeAlt: "TikFinity Full Partner badge for NOVYRA Agency",
+        "NOVYRA AGENCY is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
+      tikfinityBadgeAlt: "TikFinity Full Partner badge for NOVYRA AGENCY",
       tikfinityTeaserKicker: "Creator tools partnership",
       tikfinityTeaserTitle: "Novyra × TikFinity",
       tikfinityTeaserDesc:
@@ -309,7 +309,7 @@ window.NOVYRA_I18N_MESSAGES = {
       compareSolo5: "No bonus ladder or payout visibility",
       compareSolo6: "No dedicated coach when the room gets heavy",
       compareRecommended: "RECOMMENDED",
-      compareNovyraTitle: "With Novyra Agency",
+      compareNovyraTitle: "With NOVYRA AGENCY",
       compareNovyra1: "1-on-1 coaching with your manager",
       compareNovyra2: "Wrongful-ban support on TikTok's official path",
       compareNovyra3: "Proven LIVE strategies from replay reviews",
@@ -382,13 +382,13 @@ window.NOVYRA_I18N_MESSAGES = {
         "Managers and operators behind NOVYRA—the team building a serious LIVE home for creators, not a flyer farm.",
       label: "Manager",
       name: "Cesco",
-      role: "Manager, NOVYRA Agency",
-      managerRole: "Manager, NOVYRA Agency",
+      role: "Manager, NOVYRA AGENCY",
+      managerRole: "Manager, NOVYRA AGENCY",
       managersGridTitle: "Our managers",
-      cescoAvatarAlt: "Cesco, Manager at NOVYRA Agency",
-      meilynnAvatarAlt: "Meilynn, Manager at NOVYRA Agency",
-      benyAvatarAlt: "Beny Rooz, Manager at NOVYRA Agency",
-      feliciaAvatarAlt: "Felicia, Manager at NOVYRA Agency",
+      cescoAvatarAlt: "Cesco, Manager at NOVYRA AGENCY",
+      meilynnAvatarAlt: "Meilynn, Manager at NOVYRA AGENCY",
+      benyAvatarAlt: "Beny Rooz, Manager at NOVYRA AGENCY",
+      feliciaAvatarAlt: "Felicia, Manager at NOVYRA AGENCY",
       bio: "Sets direction for partnerships, creator experience, and how the agency scales alongside {{iconTiktok}} LIVE — with the same energy you see in the room with creators.",
       joinHint: "Want to join <strong>under Cesco</strong> at NOVYRA? Use his {{iconTiktok}} apply link below. It routes your request to his line (not the general agency join).",
       ctaTiktok: "TikTok @cesco.novyra",
@@ -489,8 +489,8 @@ window.NOVYRA_I18N_MESSAGES = {
         "This page explains how we think about training. Membership has its own steps, requirements, and review—start there if you want to join the roster."
     },
     about: {
-      heroTitle: "About Novyra Agency",
-      heroTitleHtml: "About <span>NovyRA</span> Agency",
+      heroTitle: "About NOVYRA AGENCY",
+      heroTitleHtml: "About <span>NOVYRA</span> AGENCY",
       heroLead:
         "Official TikTok LIVE partner agency for serious creators: clear systems, human support, and guidance from people who know TikTok LIVE from the inside.",
       statLine:
@@ -559,8 +559,8 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaDiscount: "Claim your exclusive discount",
       ctaJoin: "Join Novyra",
       disclaimer:
-        "NOVYRA Agency is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
-      badgeAlt: "TikFinity Full Partner badge for NOVYRA Agency"
+        "NOVYRA AGENCY is a verified TikFinity Full Partner. TikFinity is an independent third-party platform — we do not speak for TikFinity, and nothing here constitutes an endorsement by TikFinity. Discounts and perks are offered through our partnership and apply only to eligible Novyra creators.",
+      badgeAlt: "TikFinity Full Partner badge for NOVYRA AGENCY"
     },
     app: {
       soonPill: "Launching soon",
@@ -573,7 +573,7 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaJoin: "Become a member",
       backHome: "Back to home",
       promoAlt:
-        "Novyra Agency mobile app launching soon — promotional graphic with iPhone and Android app previews"
+        "NOVYRA AGENCY mobile app launching soon — promotional graphic with iPhone and Android app previews"
     },
     faqs: {
       heroKicker: "Questions answered",
@@ -664,12 +664,12 @@ window.NOVYRA_I18N_MESSAGES = {
     },
     privacy: {
       heroTitleHtml: "Privacy <span>Policy</span>",
-      heroLead: "How NOVYRA Agency handles your personal data when you visit our website, contact us, or apply for creator support.",
+      heroLead: "How NOVYRA AGENCY handles your personal data when you visit our website, contact us, or apply for creator support.",
       updated: "Last updated: May 2026",
       s1Title: "1. Introduction",
-      s1Body: "This Privacy Policy explains how NOVYRA Agency (\u201cwe\u201d, \u201cus\u201d, \u201cour\u201d) collects, uses, stores, and protects personal data when you visit novyraagency.com, contact us, or apply for creator support. It applies to all visitors, applicants, and members who interact with our website and services. We are committed to transparency and to protecting your privacy in accordance with the EU General Data Protection Regulation (GDPR) and applicable Swedish data protection law.",
+      s1Body: "This Privacy Policy explains how NOVYRA AGENCY (\u201cwe\u201d, \u201cus\u201d, \u201cour\u201d) collects, uses, stores, and protects personal data when you visit novyraagency.com, contact us, or apply for creator support. It applies to all visitors, applicants, and members who interact with our website and services. We are committed to transparency and to protecting your privacy in accordance with the EU General Data Protection Regulation (GDPR) and applicable Swedish data protection law.",
       s2Title: "2. Who we are",
-      s2Body: "NOVYRA Agency is an official TikTok LIVE partner agency based in Sweden. We support creators through coaching, bonus programmes, and professional LIVE development. We charge no membership fees and take no revenue cuts from creators \u2014 our compensation comes from TikTok as part of the official partner programme. For data protection purposes, NOVYRA Agency is the data controller for the personal data described in this policy.",
+      s2Body: "NOVYRA AGENCY is an official TikTok LIVE partner agency based in Sweden. We support creators through coaching, bonus programmes, and professional LIVE development. We charge no membership fees and take no revenue cuts from creators \u2014 our compensation comes from TikTok as part of the official partner programme. For data protection purposes, NOVYRA AGENCY is the data controller for the personal data described in this policy.",
       s2Contact: "Contact: contact@novyraagency.com",
       s3Title: "3. What data we collect",
       s3Intro: "We collect personal data only when necessary for our legitimate operations. Depending on how you interact with us, we may process:",
@@ -728,34 +728,34 @@ window.NOVYRA_I18N_MESSAGES = {
     },
     terms: {
       heroTitleHtml: "Terms of <span>Service</span>",
-      heroLead: "The terms governing your use of the NOVYRA Agency website, applications, and creator support services.",
+      heroLead: "The terms governing your use of the NOVYRA AGENCY website, applications, and creator support services.",
       updated: "Last updated: June 2, 2026",
       introTitle: "1. Introduction & Acceptance of Terms",
-      introBody: "These Terms of Service (\u201CTerms\u201D) govern your access to and use of the NOVYRA Agency website (novyraagency.com), as well as any applications, communications, and creator support services we provide. By accessing our website or submitting an application to join NOVYRA Agency, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, please refrain from using our website or services.",
-      aboutTitle: "2. About NOVYRA Agency",
-      aboutBody: "NOVYRA Agency is an official TikTok LIVE partner agency based in Sweden (European Union). We support creators on the TikTok LIVE platform through structured coaching, performance-based incentives, and operational guidance. Joining NOVYRA is entirely free of charge\u2014we do not collect membership fees or take a share of your earnings. As an official partner agency, NOVYRA is compensated directly by TikTok, ensuring our interests remain aligned with your growth.",
+      introBody: "These Terms of Service (\u201CTerms\u201D) govern your access to and use of the NOVYRA AGENCY website (novyraagency.com), as well as any applications, communications, and creator support services we provide. By accessing our website or submitting an application to join NOVYRA AGENCY, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, please refrain from using our website or services.",
+      aboutTitle: "2. About NOVYRA AGENCY",
+      aboutBody: "NOVYRA AGENCY is an official TikTok LIVE partner agency based in Sweden (European Union). We support creators on the TikTok LIVE platform through structured coaching, performance-based incentives, and operational guidance. Joining NOVYRA is entirely free of charge\u2014we do not collect membership fees or take a share of your earnings. As an official partner agency, NOVYRA is compensated directly by TikTok, ensuring our interests remain aligned with your growth.",
       eligibilityTitle: "3. Eligibility",
-      eligibilityBody: "To join NOVYRA Agency, you must be at least eighteen (18) years of age and maintain an active TikTok account in good standing. You must comply with TikTok\u2019s Community Guidelines, Terms of Service, and LIVE-specific policies at all times. NOVYRA reserves the right to decline any application or discontinue a creator relationship at its discretion, including if eligibility requirements are no longer met.",
+      eligibilityBody: "To join NOVYRA AGENCY, you must be at least eighteen (18) years of age and maintain an active TikTok account in good standing. You must comply with TikTok\u2019s Community Guidelines, Terms of Service, and LIVE-specific policies at all times. NOVYRA reserves the right to decline any application or discontinue a creator relationship at its discretion, including if eligibility requirements are no longer met.",
       membershipTitle: "4. Membership & Onboarding",
-      membershipBody: "Applications to NOVYRA Agency are submitted through TikTok\u2019s official partner application system. There are no fees, contracts, or financial obligations required to apply or maintain membership. Upon acceptance, creators undergo a structured onboarding process covering goals, scheduling, content guidelines, and production fundamentals. Membership does not guarantee specific outcomes, earnings, or platform privileges.",
+      membershipBody: "Applications to NOVYRA AGENCY are submitted through TikTok\u2019s official partner application system. There are no fees, contracts, or financial obligations required to apply or maintain membership. Upon acceptance, creators undergo a structured onboarding process covering goals, scheduling, content guidelines, and production fundamentals. Membership does not guarantee specific outcomes, earnings, or platform privileges.",
       responsibilitiesTitle: "5. Creator Responsibilities",
       responsibilitiesBody: "As a NOVYRA creator, you agree to comply with TikTok\u2019s Community Guidelines, LIVE policies, and all applicable platform rules. You are expected to maintain professional conduct during streams, uphold content standards aligned with platform safety requirements, and engage with your audience respectfully. Violation of platform rules, harmful behaviour, or conduct that jeopardises the agency\u2019s standing may result in removal from the programme.",
       bonusesTitle: "6. Bonuses & Rewards",
-      bonusesBody: "NOVYRA\u2019s bonus structures are indicative and performance-based. Bonus amounts, tiers, and qualification criteria are based on the TikTok partner programme framework and may be adjusted as programme conditions evolve. Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest. While we strive to keep published bonus information accurate, all figures are subject to updates and should be treated as guidance rather than guaranteed commitments.",
+      bonusesBody: "NOVYRA\u2019s bonus structures are indicative and performance-based. Bonus amounts, tiers, and qualification criteria are based on the TikTok partner programme framework and may be adjusted as programme conditions evolve. Bonuses are paid by NOVYRA AGENCY, with payouts issued between the 9th and the 15th of each month at the latest. While we strive to keep published bonus information accurate, all figures are subject to updates and should be treated as guidance rather than guaranteed commitments.",
       trainingTitle: "7. Training & Coaching",
       trainingBody: "NOVYRA provides coaching, training resources, and strategic guidance to support your development as a TikTok LIVE creator. This may include replay-based feedback, performance reviews, content strategy sessions, and operational advice. Creators are expected to participate in coaching in good faith and to apply guidance constructively. Training does not guarantee specific performance improvements or earnings outcomes.",
       supportTitle: "8. Support & Communication",
       supportBody: "Our primary support channels are email (contact@novyraagency.com) and TikTok messaging. We aim to respond to inquiries within 48 hours during business days, though response times may vary depending on volume and urgency. Serious escalations are prioritised and routed through partner-aware processes. Creators are encouraged to use designated support channels for the fastest resolution.",
       terminationTitle: "9. Account Termination",
-      terminationBody: "Creators may leave NOVYRA Agency at any time by notifying us through official channels. NOVYRA may also end a creator relationship if a creator becomes inactive, violates these Terms, breaches TikTok\u2019s policies, or engages in conduct that damages the agency\u2019s reputation or operations. Upon termination, any pending platform-level processes (such as bonus qualification periods) will follow TikTok\u2019s standard procedures.",
+      terminationBody: "Creators may leave NOVYRA AGENCY at any time by notifying us through official channels. NOVYRA may also end a creator relationship if a creator becomes inactive, violates these Terms, breaches TikTok\u2019s policies, or engages in conduct that damages the agency\u2019s reputation or operations. Upon termination, any pending platform-level processes (such as bonus qualification periods) will follow TikTok\u2019s standard procedures.",
       ipTitle: "10. Intellectual Property",
-      ipBody: "All NOVYRA Agency branding, logos, website content, training materials, and proprietary resources remain the exclusive property of NOVYRA Agency. Creators retain full ownership of their own original content, streams, and creative work. You may not use NOVYRA\u2019s branding or materials for purposes unrelated to your membership without prior written consent.",
+      ipBody: "All NOVYRA AGENCY branding, logos, website content, training materials, and proprietary resources remain the exclusive property of NOVYRA AGENCY. Creators retain full ownership of their own original content, streams, and creative work. You may not use NOVYRA\u2019s branding or materials for purposes unrelated to your membership without prior written consent.",
       liabilityTitle: "11. Limitation of Liability",
-      liabilityBody: "NOVYRA Agency serves as a facilitator between creators and the TikTok platform. We do not control TikTok\u2019s platform operations, algorithms, payment systems, or enforcement decisions. To the fullest extent permitted by applicable law, NOVYRA Agency shall not be held liable for indirect, incidental, or consequential damages arising from your use of our services, reliance on published information, or any actions taken by TikTok or other third parties. Our services are provided on an \u201Cas-is\u201D basis without warranties of any kind.",
+      liabilityBody: "NOVYRA AGENCY serves as a facilitator between creators and the TikTok platform. We do not control TikTok\u2019s platform operations, algorithms, payment systems, or enforcement decisions. To the fullest extent permitted by applicable law, NOVYRA AGENCY shall not be held liable for indirect, incidental, or consequential damages arising from your use of our services, reliance on published information, or any actions taken by TikTok or other third parties. Our services are provided on an \u201Cas-is\u201D basis without warranties of any kind.",
       lawTitle: "12. Governing Law",
       lawBody: "These Terms are governed by the laws of Sweden and applicable European Union regulations. Any disputes arising from or in connection with these Terms shall be subject to the jurisdiction of the competent courts in Sweden, without prejudice to any mandatory consumer protection provisions that may apply in your country of residence.",
       changesTitle: "13. Changes to These Terms",
-      changesBody: "NOVYRA Agency reserves the right to update or modify these Terms at any time. Changes will be announced on our website, and material changes may be communicated via email to active creators. Continued use of our services after changes are published constitutes acceptance of the revised Terms. We encourage you to review this page periodically.",
+      changesBody: "NOVYRA AGENCY reserves the right to update or modify these Terms at any time. Changes will be announced on our website, and material changes may be communicated via email to active creators. Continued use of our services after changes are published constitutes acceptance of the revised Terms. We encourage you to review this page periodically.",
       contactTitle: "14. Contact",
       contactBody: "If you have questions about these Terms or need to reach us regarding your membership, please contact us at contact@novyraagency.com. For formal correspondence or registered entity details, use the email above and we will route your request to the appropriate operator."
     },
@@ -802,7 +802,7 @@ window.NOVYRA_I18N_MESSAGES = {
       ctaBack: "Back to home",
       ctaJoin: "Join NOVYRA",
       payoutScheduleLabel: "Payout schedule",
-      payoutNote: "Bonuses are paid by NOVYRA Agency, with payouts issued between the 9th and the 15th of each month at the latest."
+      payoutNote: "Bonuses are paid by NOVYRA AGENCY, with payouts issued between the 9th and the 15th of each month at the latest."
     }
   }
 };
