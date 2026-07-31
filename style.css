@@ -3500,6 +3500,10 @@ cite.testi-cite img.testi-cite__avatar {
   background: transparent;
 }
 
+cite.testi-cite img.testi-cite__avatar--felicia {
+  object-position: center 40%;
+}
+
 cite.testi-cite .testi-cite__handle {
   font-size: 14px;
   font-weight: 700;
