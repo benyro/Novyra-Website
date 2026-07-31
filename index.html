@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=199">
+<link rel="stylesheet" href="style.css?v=200">
 <!-- novyra-live-build: 2026-05-20-footer-legal -->
 <!-- VSCode-disk-check: 2026-05-20 file=novyra-website/index.html (must include footer-legal nav; if missing in View Source, wrong Live Server root/port) -->
 <!-- novyra-sync-marker: footer-legal-20260520 — Privacy Policy + Terms above email; missing = wrong folder or stale Live Server -->
@@ -125,8 +125,10 @@
 
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-sticky">
-    <a href="https://www.tiktok.com/t/ZMBdXtxLH/" target="_blank" rel="noopener noreferrer" class="mobile-join"><span data-i18n="mobile.joinTikTok">Join Now</span></a>
-    <a href="/app/" class="mobile-app" data-i18n="nav.app">APP</a>
+    <div class="mobile-menu-actions">
+      <a href="https://www.tiktok.com/t/ZMBdXtxLH/" target="_blank" rel="noopener noreferrer" class="mobile-join"><span data-i18n="mobile.joinTikTok">Join Now</span></a>
+      <a href="/app/" class="mobile-app"><svg class="mobile-app__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2.5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="18.5" r="0.85" fill="currentColor"/></svg><span data-i18n="nav.app">APP</span></a>
+    </div>
   </div>
   <a href="/" class="active" data-i18n="nav.home">Home</a>
   <a href="/member" data-i18n="nav.member">Become a Member</a>
