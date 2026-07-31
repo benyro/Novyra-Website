@@ -148,6 +148,50 @@ body.page-home {
   text-shadow: 0 0 28px rgba(45, 212, 191, 0.42);
 }
 
+/* Home hero: Community Fest achievement */
+.home-fest-badge {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 14px;
+  margin: 18px auto 0;
+  padding: 10px 20px;
+  max-width: min(100%, calc(100vw - 40px));
+  border-radius: 999px;
+  border: 1px solid rgba(45, 212, 191, 0.35);
+  background: linear-gradient(
+    135deg,
+    rgba(45, 212, 191, 0.14) 0%,
+    rgba(124, 108, 255, 0.1) 55%,
+    rgba(212, 184, 122, 0.08) 100%
+  );
+  box-shadow:
+    0 0 32px rgba(45, 212, 191, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.home-fest-badge__rank {
+  font-family: var(--font-display);
+  font-size: clamp(13px, 3.2vw, 15px);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  text-shadow: 0 0 20px rgba(45, 212, 191, 0.45);
+}
+
+.home-fest-badge__text {
+  font-family: var(--font-body);
+  font-size: clamp(11px, 2.8vw, 13px);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+}
+
 .intro-title {
   font-family: var(--font-body);
   font-size: clamp(36px, 9vw, 72px);
