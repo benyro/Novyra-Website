@@ -106,9 +106,10 @@ window.NOVYRA_I18N_MESSAGES = {
       featuresLead:
         "Turn consistency into momentum—readable bonus ladders, repeatable show structures, and humans who answer when you are mid-stream and stuck.",
       featuresMore: "and a lot more",
-      featAi: "Personal AI coach",
-      featAiBody:
-        "Our in-house NOVYRA AI coach works beside your manager—tuned to your goals and how you go LIVE, without replacing human judgment.",
+      featTikfinity: "TikFinity partnership",
+      featTikfinityBody:
+        "Verified Full Partner agency with exclusive TikFinity Pro pricing for active roster creators.",
+      featTikfinityHint: "Explore our partnership →",
       featLivePartner: "Official LIVE partner path",
       featLivePartnerBody:
         "Onboarding through TikTok's official partner programme, with clear rules, safer workflows, and no sketchy shortcuts that put your account at risk.",

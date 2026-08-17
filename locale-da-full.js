@@ -73,9 +73,10 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "home.featuresSub": "Coaching, incitamenter og systemer der vokser med dig",
   "home.featuresLead":
     "Fra onboarding til dit næste niveau: læsbare bonusstiger, gentagelige showstrukturer og mennesker der svarer når du sidder midt i stream og sidder fast.",
-  "home.featAi": "Personlig AI-coach",
-  "home.featAiBody":
-    "Vores interne NOVYRA AI-coach arbejder ved siden af din manager—tilpasset dine mål og måden du går LIVE på, uden at erstatte menneskelig dømmekraft.",
+  "home.featTikfinity": "TikFinity-partnerskab",
+  "home.featTikfinityBody":
+    "Verificeret Full Partner-bureau med eksklusiv TikFinity Pro-prissætning for aktive roster-skabere.",
+  "home.featTikfinityHint": "Udforsk vores partnerskab →",
   "home.featVisualEdits": "Billedredigering til profil og PK",
   "home.featVisualEditsBody": "Vi retoucherer eller omarbejder profilbilleder og kampklar grafik til PK'er, så du ser skarp ud dér, hvor det tæller.",
   "home.featuresMore": "og meget mere",

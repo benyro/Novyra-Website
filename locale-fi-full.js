@@ -65,9 +65,10 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.featuresSub": "Valmennusta, kannustimia ja järjestelmiä jotka kasvavat mukana",
   "home.featuresLead":
     "Perehdytyksestä seuraavaan tasoon: luettavat bonusportaat, toistettavat show-rakenteet ja ihmiset jotka vastaavat kun jäät jumiin kesken striimin.",
-  "home.featAi": "Henkilökohtainen tekoälyvalmentaja",
-  "home.featAiBody":
-    "Sisäinen NOVYRA AI -valmentajamme toimii managerisi rinnalla—räätälöity tavoitteisiisi ja siihen miten käyt LIVEä, ihmisen harkintaa korvaamatta.",
+  "home.featTikfinity": "TikFinity-kumppanuus",
+  "home.featTikfinityBody":
+    "Vahvistettu Full Partner -toimisto eksklusiivisella TikFinity Pro -hinnoittelulla aktiivisille rosterin luojille.",
+  "home.featTikfinityHint": "Tutustu kumppanuuteemme →",
   "home.featLivePartner": "Virallinen LIVE-kumppanipolku",
   "home.featLivePartnerBody": "Perehdytys {{iconTiktok}}in virallisen kumppanuusohjelman kautta — selkeät säännöt, turvallisemmat työnkulut eikä epäilyttäviä oikoteitä, jotka vaarantavat tilisi.",
   "home.featBan": "Tuki virheellisen porttikiellon tilanteessa",

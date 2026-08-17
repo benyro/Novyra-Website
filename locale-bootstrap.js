@@ -68,9 +68,10 @@ var NOVYRA_LOCALE_FLATS = {
     "home.featuresSub": "Coaching, incitament och system som växer med dig",
     "home.featuresLead":
       "Från onboarding till nästa nivå: läsbara bonusstegar, återanvändbara showstrukturer och människor som svarar när du sitter mitt i en stream och kör fast.",
-    "home.featAi": "Personlig AI-coach",
-    "home.featAiBody":
-      "Vår interna NOVYRA AI-coach jobbar bredvid din manager — trimmad efter dina mål och hur du går live, utan att ersätta mänsklig bedömning.",
+    "home.featTikfinity": "TikFinity-partnerskap",
+    "home.featTikfinityBody":
+      "Verifierad Full Partner-byrå med exklusiv TikFinity Pro-prissättning för aktiva roster-kreatörer.",
+    "home.featTikfinityHint": "Utforska vårt partnerskap →",
     "home.featLivePartner": "Officiell LIVE-partnerväg",
     "home.featLivePartnerBody": "Onboarding genom TikToks officiella partnerprogram — tydliga regler, säkrare arbetsflöden och inga skumma genvägar som riskerar ditt konto.",
     "home.featBan": "Stöd vid felaktig bannlysning",
@@ -614,9 +615,10 @@ var NOVYRA_LOCALE_FLATS = {
     "home.featuresSub": "Coaching, insentiver og systemer som vokser med deg",
     "home.featuresLead":
       "Fra onboarding til neste nivå: lesbare bonusstiger, gjentakbare showstrukturer og folk som svarer når du sitter midt i en stream og kjører fast.",
-    "home.featAi": "Personlig KI-coach",
-    "home.featAiBody":
-      "Vår interne NOVYRA KI-coach jobber ved siden av manageren din — tilpasset målene dine og hvordan du går LIVE, uten å erstatte menneskelig skjønn.",
+    "home.featTikfinity": "TikFinity-partnerskap",
+    "home.featTikfinityBody":
+      "Verifisert Full Partner-byrå med eksklusiv TikFinity Pro-prising for aktive roster-skaper.",
+    "home.featTikfinityHint": "Utforsk partnerskapet vårt →",
     "home.featLivePartner": "Offisiell LIVE-partnerrute",
     "home.featLivePartnerBody": "Onboarding gjennom {{iconTiktok}}s offisielle partnerprogram — tydelige regler, tryggere arbeidsflyt og ingen shady snarveier som utsetter kontoen din.",
     "home.featBan": "Støtte ved feilaktig utestengelse",
@@ -1128,6 +1130,10 @@ var NOVYRA_LOCALE_PATCH_IS = {
   "home.heroFestHeading": "Sigurvegari í:",
   "home.heroFestCommunity": "TOP 2 OF COMMUNITY FEST 2026",
   "home.heroFestLive": "LIVE Fest 2025",
+  "home.featTikfinity": "TikFinity-samstarf",
+  "home.featTikfinityBody":
+    "Staðfest Full Partner stofnun með sérstakri TikFinity Pro-verðlagningu fyrir virka skapendur á lista.",
+  "home.featTikfinityHint": "Kynntu þér samstarfið →",
   "member.heroTitle": "Gerast meðlimur",
   "member.compareTitle": "Munurinn á milli þess að streyma einn og að streyma með Novyra",
   "member.compareSoloTitle": "Einn",
