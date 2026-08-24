@@ -414,7 +414,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "bonus.eliteLede": "Selkeät timanttitasot, suuremmat summat sekä enemmän päiviä ja tunteja vaaditaan.",
   "bonus.qualTitle": "Kvalifikaatio",
   "bonus.eliQ1": "Vähintään <strong>22</strong> päivää / kuukausi",
-  "bonus.eliQ2": "Vähintään <strong>60</strong> tuntia / kuukausi",
+  "bonus.eliQ2": "Vähintään <strong>80</strong> tuntia / kuukausi",
   "bonus.pushLabel": "1M+ push",
   "bonus.pushViolet": "Yli 1M pistettä → ylimääräinen <strong>5%</strong>.",
   "bonus.tierGems100k": "100 000 timanttia",

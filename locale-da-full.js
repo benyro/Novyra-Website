@@ -420,7 +420,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "bonus.eliteLede": "Tydelige diamanttrin med større beløb og flere dage og timer som kræves.",
   "bonus.qualTitle": "Kvalifikation",
   "bonus.eliQ1": "Minimum <strong>22</strong> dage / måned",
-  "bonus.eliQ2": "Minimum <strong>60</strong> timer / måned",
+  "bonus.eliQ2": "Minimum <strong>80</strong> timer / måned",
   "bonus.pushLabel": "1M+ push",
   "bonus.pushViolet": "Over 1 mio. point → ekstra <strong>5%</strong>.",
   "bonus.eliteLadderAria": "Liste over månedlige bonusniveauer",

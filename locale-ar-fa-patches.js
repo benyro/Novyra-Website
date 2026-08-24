@@ -88,7 +88,7 @@
   "bonus.eliteLadderAria": "قائمة مستويات المكافأة الشهرية",
   "bonus.qualTitle": "مؤهل",
   "bonus.eliQ1": "الحد الأدنى <strong>22</strong> يومًا / شهر",
-  "bonus.eliQ2": "الحد الأدنى <strong>60</strong> ساعة / شهر",
+  "bonus.eliQ2": "الحد الأدنى <strong>80</strong> ساعة / شهر",
   "bonus.recruitTitle": "ادعُ واربح",
   "bonus.recruitLead":
     "ساعد المبدعين الجادين على الانضمام إلى NOVYRA واكسب مكافآت عندما يصبح المبدعون الذين أوصيت بهم أعضاء فعالين في الوكالة.",
@@ -602,7 +602,7 @@
   "bonus.eliteLadderAria": "فهرست سطوح پاداش ماهانه",
   "bonus.qualTitle": "صلاحیت",
   "bonus.eliQ1": "حداقل <strong>22</strong> روز / ماه",
-  "bonus.eliQ2": "حداقل <strong>60</strong> ساعت / ماه",
+  "bonus.eliQ2": "حداقل <strong>80</strong> ساعت / ماه",
   "bonus.recruitTitle": "معرفی کن و درآمد بگیر",
   "bonus.recruitLead":
     "به خالقان جدی کمک کنید به NOVYRA بپیوندند و وقتی خالقانی که معرفی کرده‌اید عضو فعال آژانس می‌شوند، پاداش بگیرید.",
