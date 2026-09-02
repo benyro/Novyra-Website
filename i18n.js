@@ -543,7 +543,7 @@ window.NOVYRA_I18N_MESSAGES = {
       legalNote:
         "For registered entity details or formal correspondence, use the email in the footer and we will route your request to the right operator.",
       ctaTitle: "Next steps",
-      ctaLead: "Review membership, skim practical LIVE training, or read how bonuses are structured before you apply.",
+      ctaLead: "Review membership and skim practical LIVE training before you apply.",
       ctaMember: "Membership overview",
       ctaTraining: "Training & tips",
       ctaBonus: "Bonus framework"
