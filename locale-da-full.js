@@ -363,6 +363,13 @@ window.NOVYRA_LOCALE_PATCH_DA = {
     "Officielt TikTok LIVE-partnerbureau for seriøse skabere: klare systemer, menneskelig støtte og vejledning fra folk, der arbejder tæt på TikTok LIVE hver dag.",
   "about.statLine":
     "Dybde, der vises i rummet: skabere forbi 500k følgere, plus specialister med 10+ år på TikTok og sociale medier — mønstergenkendelse for, hvordan algoritmer og trends plejer at bevæge sig.",
+  "about.festKicker": "Festivalresultater",
+  "about.festTitle": "Placeringer på TikTok LIVE-festivaler",
+  "about.festLead": "Officielle placeringer vundet af NOVYRA-skabere.",
+  "about.festLivePlace": "Vinder",
+  "about.festLiveTitle": "LIVE Fest 2025",
+  "about.festCommunityPlace": "Top 2",
+  "about.festCommunityTitle": "Community Fest 2026",
   "about.whyKicker": "Partnerdrift",
   "about.whyTitle": "Hvorfor NOVYRA",
   "about.whyLead":

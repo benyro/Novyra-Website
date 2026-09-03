@@ -11,6 +11,13 @@
   "about.heroTitleHtml": "عن <span>NOVYRA</span> AGENCY",
   "about.statLine":
     "عمق يظهر في الغرفة: منشئو محتوى تجاوزوا 500 ألف متابع، ومتخصصون بخبرة تزيد عن 10 أعوام على تيك توك ووسائل التواصل — تمييز للأنماط في سلوك الخوارزميات والاتجاهات.",
+  "about.festKicker": "نتائج المهرجانات",
+  "about.festTitle": "مراكز مهرجانات TikTok LIVE",
+  "about.festLead": "مراكز رسمية حققها منشئو NOVYRA.",
+  "about.festLivePlace": "الفائز",
+  "about.festLiveTitle": "LIVE Fest 2025",
+  "about.festCommunityPlace": "المركز الثاني",
+  "about.festCommunityTitle": "Community Fest 2026",
   "about.whyKicker": "عمليات الشراكة",
   "about.whyTitle": "لماذا نوفيرا",
   "about.whyLead":
@@ -525,6 +532,13 @@
   "about.heroTitleHtml": "درباره <span>NOVYRA</span> AGENCY",
   "about.statLine":
     "عمقی که در اتاق دیده می‌شود: سازندگان بالای ۵۰۰ هزار دنبال‌کننده و متخصصان با بیش از ۱۰ سال در تیک‌تاک و شبکه‌های اجتماعی — تشخیص الگو برای رفتار معمول الگوریتم‌ها و ترندها.",
+  "about.festKicker": "نتایج جشنواره",
+  "about.festTitle": "جایگاه‌های جشنواره TikTok LIVE",
+  "about.festLead": "جایگاه‌های رسمی که سازندگان NOVYRA کسب کرده‌اند.",
+  "about.festLivePlace": "برنده",
+  "about.festLiveTitle": "LIVE Fest 2025",
+  "about.festCommunityPlace": "رتبه ۲",
+  "about.festCommunityTitle": "Community Fest 2026",
   "about.whyKicker": "عملیات شریک",
   "about.whyTitle": "چرا NOVYRA",
   "about.whyLead":

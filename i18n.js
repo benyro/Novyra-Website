@@ -500,6 +500,13 @@ window.NOVYRA_I18N_MESSAGES = {
         "Official TikTok LIVE partner agency for serious creators: clear systems, human support, and guidance from people who know TikTok LIVE from the inside.",
       statLine:
         "Depth that shows up in the room: creators past 500k followers, plus specialists with 10+ years on TikTok and social—pattern recognition for how algorithms and trends tend to shift.",
+      festKicker: "Festival results",
+      festTitle: "TikTok LIVE festival placements",
+      festLead: "Official placements earned by NOVYRA creators.",
+      festLivePlace: "Winner",
+      festLiveTitle: "LIVE Fest 2025",
+      festCommunityPlace: "Top 2",
+      festCommunityTitle: "Community Fest 2026",
       whyKicker: "Partner operations",
       whyTitle: "Why NOVYRA",
       whyLead:

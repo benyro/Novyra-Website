@@ -356,6 +356,13 @@ window.NOVYRA_LOCALE_PATCH_FI = {
     "Virallinen TikTok LIVE -kumppanitoimisto vakaville tekijöille: selkeät järjestelmät, ihmistuki ja ohjaus ihmisiltä, jotka tuntevat TikTok LIVE:n sisältä päin.",
   "about.statLine":
     "Syvyyttä, joka näkyy huoneessa: yli 500k seuraajaa kasvattaneet tekijät sekä asiantuntijat, joilla on 10+ vuotta TikTokissa ja somessa — mallintunnistusta sille, miten algoritmit ja trendit yleensä liikkuvat.",
+  "about.festKicker": "Festivaalitulokset",
+  "about.festTitle": "Sijoitukset TikTok LIVE -festivaaleilla",
+  "about.festLead": "NOVYRA-tekijöiden viralliset sijoitukset.",
+  "about.festLivePlace": "Voittaja",
+  "about.festLiveTitle": "LIVE Fest 2025",
+  "about.festCommunityPlace": "Top 2",
+  "about.festCommunityTitle": "Community Fest 2026",
   "about.whyKicker": "Kumppanuustoiminta",
   "about.whyTitle": "Miksi NOVYRA",
   "about.whyLead":

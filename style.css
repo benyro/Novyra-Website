@@ -4194,6 +4194,117 @@ cite.testi-cite a.testi-cite__link:focus-visible {
   text-align: left;
 }
 
+.page-about .about-section--fest {
+  padding-top: clamp(8px, 2vw, 16px);
+  padding-bottom: clamp(28px, 5vw, 48px);
+}
+
+.page-about .about-fest__lead {
+  margin: 10px auto 0;
+  max-width: 38rem;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.page-about .about-fest__grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 2.4vw, 18px);
+  max-width: 720px;
+  margin: clamp(22px, 3.5vw, 32px) auto 0;
+  padding: 0;
+}
+
+.page-about .about-fest-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 148px;
+  padding: 22px 18px;
+  text-align: center;
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    158deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(22, 20, 32, 0.82) 100%
+  );
+  border: 1px solid rgba(186, 170, 255, 0.24);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 12px 32px rgba(0, 0, 0, 0.28);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  backdrop-filter: blur(14px) saturate(1.15);
+}
+
+.page-about .about-fest-card--gold {
+  border-color: rgba(212, 184, 122, 0.36);
+  background: linear-gradient(
+    158deg,
+    rgba(212, 184, 122, 0.14) 0%,
+    rgba(22, 20, 32, 0.86) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 248, 235, 0.08),
+    0 12px 32px rgba(0, 0, 0, 0.28),
+    0 0 28px rgba(212, 184, 122, 0.1);
+}
+
+.page-about .about-fest-card__icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 2px;
+  color: rgba(186, 170, 255, 0.92);
+}
+
+.page-about .about-fest-card__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.page-about .about-fest-card--gold .about-fest-card__icon {
+  color: rgba(232, 207, 150, 0.96);
+}
+
+.page-about .about-fest-card__place {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(186, 170, 255, 0.82);
+}
+
+.page-about .about-fest-card--gold .about-fest-card__place {
+  color: rgba(232, 207, 150, 0.9);
+}
+
+.page-about .about-fest-card__title {
+  margin: 0;
+  font-family: Syne, "DM Sans", sans-serif;
+  font-size: clamp(16px, 2.4vw, 20px);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .page-about .about-fest__grid {
+    grid-template-columns: 1fr;
+    max-width: 22rem;
+  }
+
+  .page-about .about-fest-card {
+    min-height: 128px;
+  }
+}
+
 .page-about .section-head--about .section-kicker {
   display: inline-block;
   padding: 6px 14px;
