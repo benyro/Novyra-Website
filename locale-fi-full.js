@@ -55,7 +55,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.heroLeadL4": " TikTok LIVE -toimistoista.",
   "home.heroFreeLine": "Ilmainen liittyminen · TikTok maksaa",
   "home.ctaMember": "Liity jäseneksi",
-  "home.ctaHow": "Katso jäsenyysaskeleet",
+  "home.ctaHow": "Ota yhteyttä",
   "home.heroFestHeading": "Voittaja:",
   "home.heroFestCommunity": "TOP 2 OF COMMUNITY FEST 2026",
   "home.heroFestLive": "LIVE Fest 2025",

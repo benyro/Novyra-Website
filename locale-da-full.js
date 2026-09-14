@@ -63,7 +63,7 @@ window.NOVYRA_LOCALE_PATCH_DA = {
   "home.heroLead":
     "NOVYRA er et officielt TikTok LIVE-partnerbureau — struktur til dine streams, tydelige mål og mennesker, der svarer, når du har brug for hjælp.",
   "home.ctaMember": "Bliv medlem",
-  "home.ctaHow": "Se medlemskabstrin",
+  "home.ctaHow": "Kontakt",
   "home.heroFestHeading": "Vinder af:",
   "home.heroFestCommunity": "TOP 2 OF COMMUNITY FEST 2026",
   "home.heroFestLive": "LIVE Fest 2025",

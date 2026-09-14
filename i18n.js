@@ -93,7 +93,7 @@ window.NOVYRA_I18N_MESSAGES = {
       heroLeadL4: " TikTok LIVE agencies worldwide.",
       heroFreeLine: "Free to join · Paid by TikTok",
       ctaMember: "Become a Member",
-      ctaHow: "See membership steps",
+      ctaHow: "Contact",
       heroFestHeading: "Winner of:",
       heroFestCommunity: "TOP 2 OF COMMUNITY FEST 2026",
       heroFestLive: "LIVE Fest 2025",
