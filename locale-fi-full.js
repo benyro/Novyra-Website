@@ -201,7 +201,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "member.stat3Label": "Luojatuki ja LIVE-ohjaus",
   "member.trustedKicker": "Luojien luottama",
   "member.trustedTitle": "Vuodet alustalla, oikea mittakaava, yksi kumppanipolku.",
-  "member.compareTitle": "Ero yksin striimaamisen ja Novyran kanssa striimaamisen välillä",
+  "member.compareTitle": "Ero striimaamisen ilman Novyra Agencya ja Novyran kanssa striimaamisen välillä",
   "member.compareSoloTitle": "ILMAN NOVYRA AGENCY",
   "member.compareSoloLead": "DIY-striimaus ilman tukikanavaa ja ilman oikeaa strategiaa",
   "member.compareSolo1": "Kokeilu ja erehdykset ilman pelikirjaa",

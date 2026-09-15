@@ -307,7 +307,7 @@ window.NOVYRA_I18N_MESSAGES = {
       stat3Label: "Creator support and LIVE guidance",
       trustedKicker: "Trusted by creators",
       trustedTitle: "Years on platform, real creator scale, one partner lane.",
-      compareTitle: "The difference between streaming alone and streaming with Novyra",
+      compareTitle: "The difference between streaming without Novyra Agency and streaming with Novyra",
       compareSoloTitle: "WITHOUT NOVYRA AGENCY",
       compareSoloLead: "DIY streaming with no support lane and no real strategy",
       compareSolo1: "Trial and error without a playbook",

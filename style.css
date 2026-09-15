@@ -110,9 +110,7 @@ body.page-home {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at 40% 40%, rgba(143, 112, 51, 0.2), transparent 55%),
-    radial-gradient(circle at 60% 60%, rgba(196, 163, 90, 0.12), transparent 50%),
-    var(--ink);
+  background: #050505;
   pointer-events: none;
 }
 
@@ -5144,10 +5142,6 @@ body.page-home .home-ticker__track {
   display: flex;
   width: max-content;
   animation: home-ticker-scroll 36s linear infinite;
-}
-
-body.page-home .home-ticker:hover .home-ticker__track {
-  animation-play-state: paused;
 }
 
 body.page-home .home-ticker__group {
