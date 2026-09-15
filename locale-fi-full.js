@@ -56,7 +56,7 @@ window.NOVYRA_LOCALE_PATCH_FI = {
   "home.heroFreeLine": "Ilmainen liittyminen · Ei toimistomaksuja",
   "home.tickerLive": "LIVE Fest 2025 -voittaja",
   "home.tickerCommunity": "Top 2 Community Fest 2026",
-  "home.ctaMember": "HAE NYT",
+  "home.ctaMember": "Liity nyt",
   "home.ctaHow": "Ota yhteyttä",
   "home.heroFestHeading": "Voittaja:",
   "home.heroFestCommunity": "TOP 2 OF COMMUNITY FEST 2026",

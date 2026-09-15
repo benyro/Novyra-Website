@@ -94,7 +94,7 @@ window.NOVYRA_I18N_MESSAGES = {
       heroFreeLine: "Free to join · No agency fees",
       tickerLive: "LIVE Fest 2025 Winner",
       tickerCommunity: "Top 2 of Community Fest 2026",
-      ctaMember: "APPLY NOW",
+      ctaMember: "Join Now",
       ctaHow: "Contact",
       heroFestHeading: "Winner of:",
       heroFestCommunity: "TOP 2 OF COMMUNITY FEST 2026",
